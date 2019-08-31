@@ -37,7 +37,7 @@ View::composer(['*'], function ($view){
 
     /* Retourne toutes les datas */
     $products = Product::all();
-    $categories = Category::all();
+    $categories = Category::pluck('name', 'id');
     $type_categories = CategoryType::all();
 
     /* Retourne les datas spécifiques */
