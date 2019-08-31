@@ -29,7 +29,8 @@
                     <div class="icon">
                         <i class="icofont-space-shuttle"></i>
                     </div>
-                    <span>4</span>
+                    <div class="text-engagement">Nos délais sont optimum et toujours respectés
+                    </div>
                 </div>
                 <div class="engagement green">
                     <div class="icon">

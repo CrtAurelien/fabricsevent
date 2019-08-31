@@ -67,6 +67,9 @@
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 title-client" align="center">NOS CLIENT</div>
+    </div>
+    <div class="row">
         <div class="col-lg-8 col-lg-offset-2" id="clients">
             <clients></clients>
         </div>

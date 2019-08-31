@@ -161,12 +161,18 @@ video.video-stream.html5-main-video {
   left:0 !important;
 }
 
+.title-client {
+  padding-top:15px;
+  font-weight: bold;
+  font-size:25px;
+}
+
 .custom-footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  text-align: center;
+  margin-top:25px;
   line-height: 60px;
+  text-align: center;
   background-color: #285A53;
 }
