@@ -51954,8 +51954,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\fabricsgit\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\fabricsgit\resources\sass\fabrics.scss */"./resources/sass/fabrics.scss");
+__webpack_require__(/*! C:\wamp64\www\fabricsevent\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\fabricsevent\resources\sass\fabrics.scss */"./resources/sass/fabrics.scss");
 
 
 /***/ })
