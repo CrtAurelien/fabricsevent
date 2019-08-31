@@ -1,0 +1,108 @@
+<template>
+    <div class="engagements">
+        <div class="container-engagements">
+            <div class="engagements-top">
+                <div class="engagement ">
+                    <div class="icon">
+                        <i class="icofont-law"></i>
+                    </div>
+                    <div class="text-engagement">
+                        Nous nous engageons à vous proposer des
+                        tarifs abordables et compétitifs.
+                    </div>
+                </div>
+                <div class="engagement">
+                    <div class="icon">
+                        <i class="icofont-badge"></i>
+                    </div>
+                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
+                </div>
+                <div class="engagement green">
+                    <div class="icon">
+                        <i class="icofont-chart-histogram-alt"></i>
+                    </div>
+                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
+                </div>
+            </div>
+            <div class="engagements-bottom">
+                <div class="engagement">
+                    <div class="icon">
+                        <i class="icofont-space-shuttle"></i>
+                    </div>
+                    <span>4</span>
+                </div>
+                <div class="engagement green">
+                    <div class="icon">
+                        <i class="icofont-business-man"></i>
+                    </div>
+                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
+                </div>
+                <div class="engagement">
+                    <div class="icon">
+                        <i class="icofont-business-man"></i>
+                    </div>
+                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>
+
+<style>
+
+    .engagements {
+        padding-top:25px;
+    }
+
+    .text-engagement{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .container-engagements {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .engagements-top, .engagements-bottom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .engagements-top + .engagements-bottom {
+        margin-top:15px;
+    }
+
+    .engagement {
+        flex:1;
+        background: white;
+        padding: 15px;
+    }
+
+    .engagement + .engagement {
+        margin-left:15px;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .trending-icon {
+        font-size:40px;
+    }
+
+</style>
+
+<script>
+    export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
+</script>
