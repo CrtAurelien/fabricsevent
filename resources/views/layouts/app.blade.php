@@ -81,6 +81,9 @@
     </div>
 </div>
 
+<footer class="footer custom-footer" id="bottomFabrics">
+    <bottom-fabrics></bottom-fabrics>
+</footer>
 
 <div></div>
 
