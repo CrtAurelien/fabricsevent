@@ -25,6 +25,7 @@ Vue.component('contact', require('./components/Contact.vue').default);
 Vue.component('print-methods', require('./components/PrintMethod.vue').default);
 Vue.component('clients', require('./components/Client.vue').default);
 Vue.component('engagements', require('./components/Engagements.vue').default);
+Vue.component('bottom-fabrics', require('./components/BottomFabrics.vue').default);
 
  /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -55,4 +56,9 @@ const clients = new Vue({
 const engagements = new Vue({
     el: '#engagements',
 });
+
+const bottomFabrics = new Vue({
+    el: '#bottomFabrics',
+});
+
 
