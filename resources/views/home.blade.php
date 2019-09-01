@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box bg-teal hover-expand-effect">
-                        <a href="">
+                        <a href="{{route('new-color')}}">
                             <div class="icon">
                                 <i class="material-icons">
                                     add_circle_outline
@@ -107,7 +107,9 @@
                                         </a>
                                     </span>
                                     <span class="pull-right">
-                                        <i class="material-icons md-18">edit</i>
+                                        <a href="{{route('edit-category', ['id' => $category->id])}}">
+                                            <i class="material-icons md-18">edit</i>
+                                        </a>
                                     </span>
                                 </li>
                                 @endforeach
@@ -124,58 +126,26 @@
                         <div class="body bg-teal">
                             <div class="font-bold m-b--35">DERNIERES COULEURS AJOUTÉES</div>
                             <ul class="dashboard-stat-list">
-                                <li>&nbsp;
-                                    VERT
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                    </span>
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                    </span>
-                                    <span class="label bg-green pull-left">&nbsp;</span>
-                                </li>
-                                <li>&nbsp;
-                                    ROUGE
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                    </span>
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                    </span>
-                                    <span class="label bg-red pull-left">&nbsp;</span>
-                                </li>
-                                <li>&nbsp;
-                                    BLEU
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                    </span>
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                    </span>
-                                    <span class="label bg-blue pull-left">&nbsp;</span>
-                                </li>
-                                <li>&nbsp;
-                                    JAUNE
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                    </span>
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                    </span>
-                                    <span class="label bg-yellow pull-left">&nbsp;</span>
-                                </li>
-                                <li>&nbsp;
-                                    ORANGE
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                    </span>
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                    </span>
-                                    <span class="label bg-orange pull-left">&nbsp;</span>
-                                </li>
+                                @foreach($colors as $color)
+                                    <li>&nbsp;
+                                        {{$color->colorname}}
+                                        <span class="pull-right">&nbsp;
+                                            <a href="{{route('delete-color', ['id' => $color->id])}}">
+                                                <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
+                                            </a>
+                                        </span>
+                                        <span class="pull-right">
+                                            <a href="{{route('edit-color', ['id' => $color->id])}}">&nbsp;
+                                                <i class="material-icons md-18" title="Editer">edit</i>
+                                            </a>
+                                        </span>
+                                        <span class="label pull-left" title="{{$color->hexaCode}}" style="background-color:{{$color->hexaCode}} !important;">&nbsp;</span>
+                                    </li>
+                                @endforeach
                                 <hr>
-                                <div class="font-bold" style="text-align: center">TOUTES LES COULEURS</div>
+                                <div class="font-bold" style="text-align: center">
+                                    <a href="{{route('colors')}}">TOUTES LES COULEURS</a>
+                                </div>
                             </ul>
                         </div>
                     </div>

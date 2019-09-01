@@ -27,7 +27,7 @@ class CategoriesController extends Controller
             'type' => $type,
         ]);
 
-        return redirect()->to('home')->with('status', 'Nouvelle catégorie enregistrée !' );
+        return redirect()->to('home')->with('status', 'Nouvelle catégorie ajoutée !' );
     }
 
     public function delete($id){

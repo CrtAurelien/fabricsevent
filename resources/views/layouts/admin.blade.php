@@ -260,7 +260,8 @@
 
 <!-- Morris Plugin Js -->
 <script src="{{asset('plugins/raphael/raphael.min.js')}}"></script>
-<script src="{{asset('plugins/morrisjs/morris.js')}}"></script>
+<script src="{{asset('plugins/morrisjs/morris.min.js')}}"></script>
+<script src="{{asset('plugins/nouislider/nouislider.min.js')}}"></script>
 
 <!-- ChartJs -->
 <script src="{{asset('plugins/chartjs/Chart.bundle.js')}}"></script>
@@ -280,7 +281,6 @@
 <script src="{{asset('js/admin.js')}}"></script>
 
 <!-- Demo Js -->
-<script src="{{asset('js/demo.js')}}"></script>
 <script src="{{asset('js/pages/forms/advanced-form-elements.js')}}"></script>
 <script src="{{asset('js/pages/forms/basic-form-elements.js')}}"></script>
 <script src="{{asset('js/pages/forms/form-validation.js')}}"></script>

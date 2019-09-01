@@ -4,37 +4,13 @@
         <div class="container-fluid">
             <ol class="breadcrumb breadcrumb-bg-green">
                 <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
-                <li class="active"><i class="material-icons">shop</i> Ajouter un nouveau produit</li>
+                <li class="active"><i class="material-icons">color_lens</i> Ajouter une nouvelle couleur</li>
             </ol>
             <div class="row clearfix">
-                {!! Form::open(['action' => 'ProductsController@store', 'method' => 'POST']) !!}
+                {!! Form::open(['action' => 'ColorsController@store', 'method' => 'POST']) !!}
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="body">
-                            <div class="row clearfix">
-                                <div class="col-md-6">
-                                    <p>
-                                        <i class="material-icons label-icon">
-                                            shop
-                                        </i>
-                                        <b>Produit</b>
-                                    </p>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            {{ Form::text('name', null,['placeholder' => 'Nom du produit', 'required' => 'required', 'class' => 'form-control']) }}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>
-                                        <i class="material-icons label-icon">
-                                            category
-                                        </i>
-                                        <b>Catégorie</b>
-                                    </p>
-                                    {!! Form::select('id_category', $allcategories, null, ['class' => 'form-control']) !!}
-                                </div>
-                            </div>
                             <div class="row clearfix">
                                 <div class="col-md-6">
                                     <p>

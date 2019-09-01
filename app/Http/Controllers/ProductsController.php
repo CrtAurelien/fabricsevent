@@ -6,6 +6,7 @@ use App\Category;
 use App\Color;
 use App\Product;
 use App\ProductColor;
+use Dotenv\Validator;
 use Illuminate\Http\Request;
 
 class ProductsController extends Controller
@@ -41,7 +42,7 @@ class ProductsController extends Controller
             'id_products' => $data->id,
         ]);
 
-        return redirect()->to('/home')->with('status', 'Nouveau produit enregistré !' );
+        return redirect()->to('/home')->with('status', 'Nouveau produit ajouté !' );
     }
 
     public function edit($id){
