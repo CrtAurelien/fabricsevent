@@ -27,7 +27,23 @@ class CategoriesController extends Controller
             'type' => $type,
         ]);
 
-        return redirect()->to('home')->with('status', 'Nouvelle catégorie ajoutée !' );
+        return redirect()->to('home')->with('status', "Catégorie {$name} ajoutée !" );
+    }
+
+    public function edit($id){
+
+        $category = Category::findOrFail($id);
+        return view('categories.edit', ['category' => $category]);
+
+    }
+
+    public function update(Request $request, $id){
+
+        $name = $request->name;
+        $type = $request->type;
+        Category::where('id', $id)->update(['name' => $name, 'type' => $type]);
+
+        return redirect()->to('home')->with('status', "Catégorie {$name} editée !" );
     }
 
     public function delete($id){
@@ -35,6 +51,7 @@ class CategoriesController extends Controller
         $category = Category::findOrFail($id);
         $category->delete();
 
-        return redirect()->to('home')->with('status', 'Catégorie supprimée !' );;
+        return redirect()->to('home')->with('status', "Catégorie {$category->name} supprimée !" );;
     }
+
 }

@@ -42,7 +42,7 @@ class ProductsController extends Controller
             'id_products' => $data->id,
         ]);
 
-        return redirect()->to('/home')->with('status', 'Nouveau produit ajouté !' );
+        return redirect()->to('/home')->with('status', "Produit {$name} ajouté !" );
     }
 
     public function edit($id){
@@ -59,7 +59,7 @@ class ProductsController extends Controller
         $category = $request->id_category;
         Product::where('id', $id)->update(['name' => $name, 'id_category' => $category]);
 
-        return redirect()->to('home')->with('status', 'Produit edité !' );
+        return redirect()->to('home')->with('status', "Produit {$name} edité !" );
     }
 
     public function delete($id){
@@ -67,6 +67,6 @@ class ProductsController extends Controller
         $product = Product::findOrFail($id);
         $product->delete();
 
-        return redirect()->to('home')->with('status', 'Produit supprimé !' );;
+        return redirect()->to('home')->with('status', "Produit {$product->name} supprimé !" );;
     }
 }

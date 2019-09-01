@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <ol class="breadcrumb breadcrumb-bg-green">
                 <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
-                <li class="active"><i class="material-icons">shop</i> Edition du produit : <b>{{$product->name}}</b></li>
+                <li class="active"><i class="material-icons">shop</i> Édition du produit : <b>{{$product->name}}</b></li>
             </ol>
             <div class="row clearfix">
                 {!! Form::open(['route' => ['update-product', $product->id], 'method' => 'POST', 'files' => true, 'enctype'=>'multipart/form-data']) !!}
