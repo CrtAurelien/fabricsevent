@@ -114,6 +114,9 @@
                 </li>
                 @foreach($featuredCategories->slice(0,5) as $category)
                     <li>
+                        {{--<a href="#" style="width: fit-content">
+                            <i class="icofont-eye-alt" style="width: fit-content"></i>
+                        </a>--}}
                         <a href="javascript:void(0);" class="menu-toggle">
                             <span>{{$category->name}}</span>
                         </a>

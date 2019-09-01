@@ -4,24 +4,25 @@
         <div class="container-fluid">
             @if (session('status'))
                 <div class="col-lg-offset-4 alert alert-success alert-dismissible fade in">
-                    <button aria-label="Close" data-dismiss="alert" class="close fade" type="button"><span aria-hidden="true">×</span></button>
-                        <i class="icofont-check-circled"></i>
+                    <button aria-label="Close" data-dismiss="alert" class="close fade" type="button"><span
+                                aria-hidden="true">×</span></button>
+                    <i class="icofont-check-circled"></i>
                     {{ session('status') }}
                 </div>
             @endif
-                <ol class="breadcrumb breadcrumb-bg-green">
-                    <li><a href="#"><i class="material-icons">home</i> Tableau de bord</a></li>
-                </ol>
+            <ol class="breadcrumb breadcrumb-bg-green">
+                <li><a href="#"><i class="material-icons">home</i> Tableau de bord</a></li>
+            </ol>
             <!-- Widgets -->
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box bg-pink hover-expand-effect">
                         <a href="{{route('new-product')}}">
-                        <div class="icon">
-                            <i class="material-icons">
-                                add_circle_outline
-                            </i>
-                        </div>
+                            <div class="icon">
+                                <i class="material-icons">
+                                    add_circle_outline
+                                </i>
+                            </div>
                         </a>
                         <div class="content">
                             <div class="text add-thing">
@@ -55,9 +56,9 @@
                         </a>
                         <div class="content">
                             <div class="text">AJOUTER UNE NOUVELLE COULEUR</div>
-{{--
-                            <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20"></div>
---}}
+                            {{--
+                                                        <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20"></div>
+                            --}}
                         </div>
                     </div>
                 </div>
@@ -71,19 +72,21 @@
                             <div class="m-b--35 font-bold">DERNIERS PRODUITS AJOUTÉS</div>
                             <ul class="dashboard-stat-list">
                                 @foreach($products as $product)
-                                <li>
-                                    {{$product->name}}
-                                    <span class="pull-right">
-                                        <a href="{{route('delete-product', ['id' => $product->id])}}">&nbsp;
-                                            <i class="material-icons md-18" title="Supprimer">delete</i>
-                                        </a>
+                                    @if($loop->index < 10)
+                                        <li>
+                                            {{$product->name}}
+                                            <span class="pull-right">
+                                            <a href="{{route('delete-product', ['id' => $product->id])}}">&nbsp;
+                                                 <i class="material-icons md-18" title="Supprimer">delete</i>
+                                            </a>
+                                        </span>
+                                            <span class="pull-right">
+                                             <a href="{{route('edit-product', ['id' => $product->id])}}">&nbsp;
+                                                 <i class="material-icons md-18">edit</i>
+                                             </a>
                                     </span>
-                                    <span class="pull-right">
-                                         <a href="{{route('edit-product', ['id' => $product->id])}}">&nbsp;
-                                        <i class="material-icons md-18">edit</i>
-                                         </a>
-                                    </span>
-                                </li>
+                                        </li>
+                                    @endif
                                 @endforeach
                                 <hr>
                                 <div class="font-bold" style="text-align: center">
@@ -101,19 +104,21 @@
                             <div class="m-b--35 font-bold">DERNIERES CATÉGORIES AJOUTÉES</div>
                             <ul class="dashboard-stat-list">
                                 @foreach($categories as $category)
-                                <li>
-                                    {{$category->name}}
-                                    <span class="pull-right">&nbsp;
+                                    @if($loop->index < 10)
+                                        <li>
+                                            {{$category->name}}
+                                            <span class="pull-right">&nbsp;
                                         <a href="{{route('delete-category', ['id' => $category->id])}}">
                                             <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
                                         </a>
                                     </span>
-                                    <span class="pull-right">
+                                            <span class="pull-right">
                                         <a href="{{route('edit-category', ['id' => $category->id])}}">
                                             <i class="material-icons md-18">edit</i>
                                         </a>
                                     </span>
-                                </li>
+                                        </li>
+                                    @endif
                                 @endforeach
                                 <hr>
                                 <div class="font-bold" style="text-align: center">
@@ -132,18 +137,23 @@
                             <ul class="dashboard-stat-list">
                                 @foreach($colors as $color)
                                     <li>&nbsp;
-                                        {{$color->colorname}}
-                                        <span class="pull-right">&nbsp;
-                                            <a href="{{route('delete-color', ['id' => $color->id])}}">
-                                                <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
-                                            </a>
-                                        </span>
-                                        <span class="pull-right">
-                                            <a href="{{route('edit-color', ['id' => $color->id])}}">&nbsp;
-                                                <i class="material-icons md-18" title="Editer">edit</i>
-                                            </a>
-                                        </span>
-                                        <span class="label pull-left" title="{{$color->hexaCode}}" style="background-color:{{$color->hexaCode}} !important;">&nbsp;</span>
+                                        @if($loop->index < 10)
+                                            {{$color->colorname}}
+                                            <span class="pull-right">&nbsp;
+                                                <a href="{{route('delete-color', ['id' => $color->id])}}">
+                                                    <i class="material-icons md-18 remove-icon"
+                                                       title="Supprimer">delete</i>
+                                                </a>
+                                            </span>
+                                            <span class="pull-right">
+                                                <a href="{{route('edit-color', ['id' => $color->id])}}">&nbsp;
+                                                    <i class="material-icons md-18" title="Editer">edit</i>
+                                                </a>
+                                            </span>
+                                            <span class="label pull-left" title="{{$color->hexaCode}}"
+                                                  style="background-color:{{$color->hexaCode}} !important;">&nbsp;
+                                            </span>
+                                        @endif
                                     </li>
                                 @endforeach
                                 <hr>
