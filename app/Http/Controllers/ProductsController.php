@@ -15,8 +15,8 @@ class ProductsController extends Controller
     }
 
     public function create(){
-        $categories = Category::pluck('name', 'id');
-        return view('products.add', ['categories' => $categories]);
+        $allcategories = Category::pluck('name', 'id');
+        return view('products.add', ['allcategories' => $allcategories]);
     }
 
     public function store(Request $request)
@@ -41,6 +41,31 @@ class ProductsController extends Controller
             'id_products' => $data->id,
         ]);
 
-        return redirect()->url('/home')->with('status', 'Nouveau produit enregistré !' );
+        return redirect()->to('/home')->with('status', 'Nouveau produit enregistré !' );
+    }
+
+    public function edit($id){
+
+        $product = Product::findOrFail($id);
+        $color = Color::where('id', '=', $product->color[0]->id_colors)->get();
+        return view('products.edit', ['product' => $product, 'color' => $color]);
+
+    }
+
+    public function update(Request $request, $id){
+
+        $name = $request->name;
+        $category = $request->id_category;
+        Product::where('id', $id)->update(['name' => $name, 'id_category' => $category]);
+
+        return redirect()->to('home')->with('status', 'Produit edité !' );
+    }
+
+    public function delete($id){
+
+        $product = Product::findOrFail($id);
+        $product->delete();
+
+        return redirect()->to('home')->with('status', 'Produit supprimé !' );;
     }
 }

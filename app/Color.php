@@ -10,6 +10,6 @@ class Color extends Model
     protected $fillable = ['id', 'colorname', 'hexaCode'];
 
     public function product(){
-
+        return $this->belongsToMany('App\Product');
     }
 }

@@ -3136,7 +3136,9 @@ section.content {
   vertical-align: baseline !important; }
 .info-box .content {
   display: inline-block;
-  padding: 7px 10px; }
+  padding: 20px;
+  width: 100%;
+}
 .info-box .content .text {
   font-size: 13px;
   margin-top: 11px;
@@ -3455,7 +3457,11 @@ li.info-box-devis.hover-expand-effect {
   font-weight: bold; }
 
 .alert-success {
-  background-color: #2b982b; }
+  background-color: #008477;
+  border: 3px solid #285a53;
+  width: fit-content;
+  text-align: center;
+}
 
 .alert-info {
   background-color: #00b0e4; }
@@ -5438,7 +5444,9 @@ fieldset[disabled] .form-control {
   font-weight: bold; }
 
 .breadcrumb-bg-green {
-  background-color: #4CAF50 !important; }
+  background-color: #4ba593 !important;
+  width: fit-content;
+}
 .breadcrumb-bg-green li {
   color: #fff !important; }
 .breadcrumb-bg-green li a {

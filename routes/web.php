@@ -16,7 +16,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/products', 'ProductsController@index')->name('products');
     Route::get('/product/new', 'ProductsController@create')->name('new-product');
     Route::post('/products/new', 'ProductsController@store')->name('store-product');
-    Route::post('/products/delete/{id}', 'ProductsController@delete')->name('delete-product');
+    Route::get('/product/edit/{id}', 'ProductsController@edit')->name('edit-product');
+    Route::post('/product/edit/{id}', 'ProductsController@update')->name('update-product');
+    Route::get('/products/delete/{id}', 'ProductsController@delete')->name('delete-product');
 
     /* CATEGORIES */
     Route::get('/categories', 'CategoriesController@index')->name('categories');
@@ -37,13 +39,14 @@ View::composer(['*'], function ($view){
 
     /* Retourne toutes les datas */
     $products = Product::all();
-    $categories = Category::pluck('name', 'id');
+    $categories = Category::all();
     $type_categories = CategoryType::all();
+    $allcategories = Category::pluck('name', 'id');
 
     /* Retourne les datas spécifiques */
     $typecategories = CategoryType::pluck('name','id'); /* utilisée dans categories.add */
     $featuredCategories = Category::where('type', '=', 1)->get();
     $otherCategories = Category::where('type', '=', 2)->get();
 
-    $view->with(compact('products', 'type_categories','featuredCategories', 'otherCategories', 'categories', 'typecategories'));
+    $view->with(compact('products', 'type_categories','featuredCategories', 'otherCategories', 'categories', 'typecategories', 'allcategories'));
 });

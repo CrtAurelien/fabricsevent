@@ -27,7 +27,7 @@ class CategoriesController extends Controller
             'type' => $type,
         ]);
 
-        return redirect()->route('home')->with('status', 'Nouvelle catégorie enregistrée !' );
+        return redirect()->to('home')->with('status', 'Nouvelle catégorie enregistrée !' );
     }
 
     public function delete($id){
@@ -35,6 +35,6 @@ class CategoriesController extends Controller
         $category = Category::findOrFail($id);
         $category->delete();
 
-        return redirect()->route('home');
+        return redirect()->to('home')->with('status', 'Catégorie supprimée !' );;
     }
 }

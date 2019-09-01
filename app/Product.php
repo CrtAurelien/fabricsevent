@@ -10,6 +10,11 @@ class Product extends Model
     protected $fillable = ['id', 'name', 'id_category'];
 
     public function category(){
-        return $this->hasOne('App\Category');
+        return $this->belongsTo('App\Category', 'id_category');
     }
+
+    public function color(){
+        return $this->hasMany('App\ProductColor','id_products');
+    }
+
 }

@@ -4,10 +4,10 @@
         <div class="container-fluid">
             <ol class="breadcrumb breadcrumb-bg-green">
                 <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
-                <li class="active"><i class="material-icons">shop</i> Ajouter un nouveau produit</li>
+                <li class="active"><i class="material-icons">shop</i> Edition du produit : <b>{{$product->name}}</b></li>
             </ol>
             <div class="row clearfix">
-                {!! Form::open(['action' => 'ProductsController@store', 'method' => 'POST']) !!}
+                {!! Form::open(['route' => ['update-product', $product->id], 'method' => 'POST', 'files' => true, 'enctype'=>'multipart/form-data']) !!}
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="body">
@@ -21,7 +21,7 @@
                                     </p>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            {{ Form::text('name', null,['placeholder' => 'Nom du produit', 'required' => 'required', 'class' => 'form-control']) }}
+                                            {!!  Form::text('name', $product->name, ['class' => 'form-control input-sm'])!!}
                                         </div>
                                     </div>
                                 </div>
@@ -30,9 +30,9 @@
                                         <i class="material-icons label-icon">
                                             category
                                         </i>
-                                        <b>Catégorie</b>
+                                        <b>Catégorie</b><span class="label bg-green actual-label pull-right">Catégorie actuelle : {{$product->category->name}}</span>
                                     </p>
-                                    {!! Form::select('id_category', $allcategories, null, ['class' => 'form-control']) !!}
+                                    {!! Form::select('id_category', $allcategories, ['class' => 'form-control']) !!}
                                 </div>
                             </div>
                             <div class="row clearfix">
@@ -45,12 +45,13 @@
                                     </p>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            {{ Form::text('colorname', null,['placeholder' => 'Nom de la couleur', 'required' => 'required', 'class' => 'form-control']) }}
+                                            {!!  Form::text('colorname', $color[0]->colorname, ['class' => 'form-control input-sm'])!!}
                                         </div>
                                     </div>
                                     <div class="input-group colorpicker colorpicker-element">
                                         <div class="form-line">
-                                            {{ Form::text('hexaCode', null,['placeholder' => 'Couleur', 'required' => 'required', 'class' => 'form-control']) }}                                        </div>
+                                            {!!  Form::text('hexaCode', $color[0]->hexaCode, ['class' => 'form-control input-sm'])!!}
+                                        </div>
                                         <span class="input-group-addon">
                                             <i style="background-color: rgb(0, 170, 187);"></i>
                                         </span>
@@ -103,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    {{ Form::button('Ajouter', ['type' => 'submit', 'class' => 'todo-send btn-add col-lg-8 col-lg-offset-2 info-box-devis hover-expand-effect addButton btn-primary btn-md  btn notika-add-todo waves-effect']) }}
+                    {{ Form::button('Modifier', ['type' => 'submit', 'class' => 'todo-send btn-add col-lg-8 col-lg-offset-2 info-box-devis hover-expand-effect addButton btn-primary btn-md  btn notika-add-todo waves-effect']) }}
                 </div>
                 {!! Form::close() !!}
             </div>

@@ -2,10 +2,16 @@
 @section('content')
     <section class="content">
         <div class="container-fluid">
-            <div class="block-header">
-                <h2>TABLEAU DE BORD</h2>
-            </div>
-
+            @if (session('status'))
+                <div class="col-lg-offset-4 alert alert-success alert-dismissible fade in">
+                    <button aria-label="Close" data-dismiss="alert" class="close fade" type="button"><span aria-hidden="true">×</span></button>
+                        <i class="icofont-check-circled"></i>
+                    {{ session('status') }}
+                </div>
+            @endif
+                <ol class="breadcrumb breadcrumb-bg-green">
+                    <li><a href="#"><i class="material-icons">home</i> Tableau de bord</a></li>
+                </ol>
             <!-- Widgets -->
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
@@ -67,11 +73,15 @@
                                 @foreach($products as $product)
                                 <li>
                                     {{$product->name}}
-                                    <span class="pull-right">&nbsp;
-                                        <i class="material-icons md-18" title="Supprimer">delete</i>
+                                    <span class="pull-right">
+                                        <a href="{{route('delete-product', ['id' => $product->id])}}">&nbsp;
+                                            <i class="material-icons md-18" title="Supprimer">delete</i>
+                                        </a>
                                     </span>
                                     <span class="pull-right">
+                                         <a href="{{route('edit-product', ['id' => $product->id])}}">&nbsp;
                                         <i class="material-icons md-18">edit</i>
+                                         </a>
                                     </span>
                                 </li>
                                 @endforeach
@@ -93,7 +103,7 @@
                                     {{$category->name}}
                                     <span class="pull-right">&nbsp;
                                         <a href="{{route('delete-category', ['id' => $category->id])}}">
-                                        <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
+                                            <i class="material-icons md-18 remove-icon" title="Supprimer">delete</i>
                                         </a>
                                     </span>
                                     <span class="pull-right">

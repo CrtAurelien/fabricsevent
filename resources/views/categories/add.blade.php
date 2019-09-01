@@ -2,9 +2,10 @@
 @section('content')
     <section class="content">
         <div class="container-fluid">
-            <div class="block-header">
-                <h2>AJOUTER UNE NOUVELLE CATÉGORIE</h2>
-            </div>
+            <ol class="breadcrumb breadcrumb-bg-green">
+                <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
+                <li class="active"><i class="material-icons">category</i> Ajouter une nouvelle catégorie</li>
+            </ol>
             <div class="row clearfix">
                 {!! Form::open(['action' => 'CategoriesController@store', 'method' => 'POST']) !!}
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

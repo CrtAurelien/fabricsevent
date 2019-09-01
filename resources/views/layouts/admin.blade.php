@@ -33,6 +33,7 @@
     <!-- Custom Css -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link href="{{asset('css/fabrics.css')}}" rel="stylesheet">
+    <link href="{{asset('css/icofont.css')}}" rel="stylesheet">
 
     <link href="{{asset('plugins/bootstrap-select/css/bootstrap-select.css')}}" rel="stylesheet"/>
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
@@ -129,9 +130,14 @@
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Level - 2</span>
+                                    <span>Produits</span>
                                 </a>
                                 <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <span>Level 2</span>
+                                        </a>
+                                    </li>
                                     <li>
                                         <a href="javascript:void(0);">
                                             <span>Menu Item</span>
