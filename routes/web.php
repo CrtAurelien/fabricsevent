@@ -55,15 +55,16 @@ View::composer(['*'], function ($view){
     $products = Product::all();
     $categories = Category::all();
     $type_categories = CategoryType::all();
-    $allcategories = Category::pluck('name', 'id');
     $colors = Color::all();
 
     /* Retourne les datas spécifiques */
+    $allcategories = Category::pluck('name', 'id');
+    $allcolors = Color::pluck('colorname', 'id');
     $typecategories = CategoryType::pluck('name','id'); /* utilisée dans categories.add */
     $featuredCategories = Category::where('type', '=', 1)->get();
     $otherCategories = Category::where('type', '=', 2)->get();
 
     $view->with(compact(
         'products', 'type_categories', 'featuredCategories', 'otherCategories',
-        'categories', 'typecategories', 'allcategories', 'colors'));
+        'categories', 'typecategories', 'allcategories', 'colors', 'allcolors'));
 });

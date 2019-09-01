@@ -16,8 +16,9 @@ class ProductsController extends Controller
     }
 
     public function create(){
+        $allcolors = Color::pluck('colorname', 'id');
         $allcategories = Category::pluck('name', 'id');
-        return view('products.add', ['allcategories' => $allcategories]);
+        return view('products.add', ['allcategories' => $allcategories, 'allcolors' => $allcolors]);
     }
 
     public function store(Request $request)

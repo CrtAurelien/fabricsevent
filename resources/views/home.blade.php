@@ -86,7 +86,9 @@
                                 </li>
                                 @endforeach
                                 <hr>
-                                <div class="font-bold" style="text-align: center">TOUS LES PRODUITS</div>
+                                <div class="font-bold" style="text-align: center">
+                                    <a href="{{route('products')}}">TOUS LES PRODUITS</a>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -114,7 +116,9 @@
                                 </li>
                                 @endforeach
                                 <hr>
-                                <div class="font-bold" style="text-align: center">TOUTES LES CATEGORIES</div>
+                                <div class="font-bold" style="text-align: center">
+                                    <a href="{{route('categories')}}">TOUTES LES CATEGORIES</a>
+                                </div>
                             </ul>
                         </div>
                     </div>

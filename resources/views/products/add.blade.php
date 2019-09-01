@@ -45,12 +45,13 @@
                                     </p>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            {{ Form::text('colorname', null,['placeholder' => 'Nom de la couleur', 'required' => 'required', 'class' => 'form-control']) }}
+                                            {{ Form::text('colorname', null,['placeholder' => 'Nom de la couleur', 'class' => 'form-control']) }}
                                         </div>
                                     </div>
                                     <div class="input-group colorpicker colorpicker-element">
                                         <div class="form-line">
-                                            {{ Form::text('hexaCode', null,['placeholder' => 'Couleur', 'required' => 'required', 'class' => 'form-control']) }}                                        </div>
+                                            {{ Form::text('hexaCode', null,['placeholder' => 'Couleur', 'class' => 'form-control']) }}
+                                        </div>
                                         <span class="input-group-addon">
                                             <i style="background-color: rgb(0, 170, 187);"></i>
                                         </span>
