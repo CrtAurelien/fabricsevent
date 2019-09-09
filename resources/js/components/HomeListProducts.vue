@@ -2,7 +2,7 @@
     <div class="content">
         <div class="test-container">
             <div class="demo un pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
-                <figure class="imghvr-shutter-out-diag-2"><img :src="'./images/fabrics-img/tee-shirt.jpg'" alt="example-image">
+                <figure class="imghvr-shutter-out-diag-2"><img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                     <figcaption>
                         <h3>Hello World</h3>
                         <p>Life is too important to be taken seriously!</p>

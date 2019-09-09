@@ -38768,7 +38768,7 @@ var render = function() {
           _c("figure", { staticClass: "imghvr-shutter-out-diag-2" }, [
             _c("img", {
               attrs: {
-                src: "./images/fabrics-img/tee-shirt.jpg",
+                src: "./images/fabrics-img/tee-shirt-fabrics.jpg",
                 alt: "example-image"
               }
             }),
