@@ -38756,62 +38756,75 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "content" }, [
+    _c("div", { staticClass: "test-container" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "demo un pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4"
+        },
+        [
+          _c("figure", { staticClass: "imghvr-shutter-out-diag-2" }, [
+            _c("img", {
+              attrs: {
+                src: "./images/fabrics-img/tee-shirt.jpg",
+                alt: "example-image"
+              }
+            }),
+            _vm._v(" "),
+            _vm._m(0),
+            _c("a", { attrs: { href: "javascript:;" } })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _vm._m(2)
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "content" }, [
-      _c("div", { staticClass: "test-container" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "demo un pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4"
-          },
-          [
-            _c("figure", { staticClass: "imghvr-shutter-out-diag-2" }, [
-              _c("img", { attrs: { src: "", alt: "example-image" } }),
-              _vm._v(" "),
-              _c("figcaption", [
-                _c("h3", [_vm._v("Hello World")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Life is too important to be taken seriously!")
-                ])
-              ]),
-              _c("a", { attrs: { href: "javascript:;" } })
-            ])
-          ]
-        ),
+    return _c("figcaption", [
+      _c("h3", [_vm._v("Hello World")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Life is too important to be taken seriously!")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "deux" }, [
+      _c("div", { staticClass: "deuxA" }, [
+        _c("div", { staticClass: "deuxAUn" }, [_c("span", [_vm._v("Tasses")])]),
         _vm._v(" "),
-        _c("div", { staticClass: "deux" }, [
-          _c("div", { staticClass: "deuxA" }, [
-            _c("div", { staticClass: "deuxAUn" }, [
-              _c("span", [_vm._v("Tasses")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "deuxADeux" }, [
-              _c("span", [_vm._v("Bloc 3")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "deuxB" }, [
-            _c("div", { staticClass: "deuxBUn" }, [
-              _c("span", [_vm._v("Bonnets")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "deuxBDeux" }, [
-              _c("span", [_vm._v("bloc 5")])
-            ])
-          ])
+        _c("div", { staticClass: "deuxADeux" }, [
+          _c("span", [_vm._v("Bloc 3")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "deuxB" }, [
+        _c("div", { staticClass: "deuxBUn" }, [
+          _c("span", [_vm._v("Bonnets")])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "trois" }, [_c("span", [_vm._v("bloc 6")])])
+        _c("div", { staticClass: "deuxBDeux" }, [
+          _c("span", [_vm._v("bloc 5")])
+        ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "trois" }, [_c("span", [_vm._v("bloc 6")])])
   }
 ]
 render._withStripped = true
