@@ -11,6 +11,16 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
+    // PARTIE API PUBLIC //
+
+    public function allCategories(){
+        $categories = Category::all();
+        return response()->json($categories);
+    }
+
+
+    // PARTIE ADMIN //
+
     public function index(){
         return view('products.index');
     }
