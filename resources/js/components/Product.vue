@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row main_wrapper">
-            {{this.$route.params.id}}
+
         </div>
     </div>
 </template>

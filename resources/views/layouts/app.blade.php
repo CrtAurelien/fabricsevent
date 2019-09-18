@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>FabricsEvent</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -59,7 +60,7 @@
 <div id="app">
     <navbar></navbar>
     <router-view></router-view>
-    <router-view name="products"></router-view>
+    <router-view name="productslist"></router-view>
     <router-view name="methods"></router-view>
     <router-view name="clients"></router-view>
     <router-view name="engagements"></router-view>

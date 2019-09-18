@@ -10,6 +10,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('api/categories', ['uses' => 'ProductsController@allCategories']);
+
 Route::group(['middleware' => ['auth']], function () {
     /* ------ PARTIE ADMIN ------ */
 
