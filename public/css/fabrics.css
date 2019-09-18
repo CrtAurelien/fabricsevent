@@ -3,7 +3,6 @@
 .un {
   display: flex;
   justify-content: center;
-  border: 5px solid #FFF8A0;
 }
 
 .un span {
@@ -21,7 +20,7 @@
 .deuxAUn {
   display: flex;
   justify-content: center;
-  border: 5px solid #E8A3C0;
+  background: #E8A3C0;
 }
 
 .deuxAUn span {
@@ -36,7 +35,7 @@
 .deuxADeux {
   display: flex;
   justify-content: center;
-  border: 5px solid #8DDDF6;
+  background: #8CEFCA;
 }
 
 .deuxADeux span {
@@ -51,7 +50,7 @@
 .deuxBUn {
   display: flex;
   justify-content: center;
-  border: 5px solid #E6F858;
+  background: #8DDDF6;
 }
 
 .deuxBUn span {
@@ -66,7 +65,7 @@
 .deuxBDeux {
   display: flex;
   justify-content: center;
-  border: 5px solid #5FF7A0;
+  background: #F75857;
 }
 
 .deuxBDeux span {
@@ -81,7 +80,7 @@
 .trois {
   display: flex;
   justify-content: center;
-  border:5px solid #f7a64d;
+  background: #F6A54C;
 }
 
 .trois span {
