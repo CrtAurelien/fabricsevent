@@ -1,68 +1,81 @@
 <template>
-    <div class="engagements">
-        <div class="container-engagements">
-            <div class="engagements-top">
-                <div class="engagement ">
-                    <div class="icon">
-                        <i class="icofont-law"></i>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" id="engagements">
+                <div class="engagements">
+                    <div class="container-engagements">
+                        <div class="engagements-top">
+                            <div class="engagement ">
+                                <div class="icon">
+                                    <i class="icofont-law"></i>
+                                </div>
+                                <div class="text-engagement">
+                                    Nous nous engageons à vous proposer des
+                                    tarifs abordables et compétitifs.
+                                </div>
+                            </div>
+                            <div class="engagement">
+                                <div class="icon">
+                                    <i class="icofont-badge"></i>
+                                </div>
+                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                    réalisé.
+                                </div>
+                            </div>
+                            <div class="engagement green">
+                                <div class="icon">
+                                    <i class="icofont-chart-histogram-alt"></i>
+                                </div>
+                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                    réalisé.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="engagements-bottom">
+                            <div class="engagement">
+                                <div class="icon">
+                                    <i class="icofont-space-shuttle"></i>
+                                </div>
+                                <div class="text-engagement">Nos délais sont optimum et toujours respectés
+                                </div>
+                            </div>
+                            <div class="engagement green">
+                                <div class="icon">
+                                    <i class="icofont-business-man"></i>
+                                </div>
+                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                    réalisé.
+                                </div>
+                            </div>
+                            <div class="engagement">
+                                <div class="icon">
+                                    <i class="icofont-business-man"></i>
+                                </div>
+                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                    réalisé.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-engagement">
-                        Nous nous engageons à vous proposer des
-                        tarifs abordables et compétitifs.
-                    </div>
-                </div>
-                <div class="engagement">
-                    <div class="icon">
-                        <i class="icofont-badge"></i>
-                    </div>
-                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
-                </div>
-                <div class="engagement green">
-                    <div class="icon">
-                        <i class="icofont-chart-histogram-alt"></i>
-                    </div>
-                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
-                </div>
-            </div>
-            <div class="engagements-bottom">
-                <div class="engagement">
-                    <div class="icon">
-                        <i class="icofont-space-shuttle"></i>
-                    </div>
-                    <div class="text-engagement">Nos délais sont optimum et toujours respectés
-                    </div>
-                </div>
-                <div class="engagement green">
-                    <div class="icon">
-                        <i class="icofont-business-man"></i>
-                    </div>
-                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
-                </div>
-                <div class="engagement">
-                    <div class="icon">
-                        <i class="icofont-business-man"></i>
-                    </div>
-                    <div class="text-engagement">Nous garantissons que notre travail sera parfaitement réalisé.</div>
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
 <style>
 
     .engagements {
-        padding-top:25px;
+        padding-top: 25px;
     }
 
-    .text-engagement{
+    .text-engagement {
         padding-top: 10px;
         text-align: center;
     }
 
     .container-engagements {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
@@ -72,17 +85,17 @@
     }
 
     .engagements-top + .engagements-bottom {
-        margin-top:15px;
+        margin-top: 15px;
     }
 
     .engagement {
-        flex:1;
+        flex: 1;
         background: white;
         padding: 15px;
     }
 
     .engagement + .engagement {
-        margin-left:15px;
+        margin-left: 15px;
     }
 
     .icon {
@@ -95,7 +108,7 @@
     }
 
     .trending-icon {
-        font-size:40px;
+        font-size: 40px;
     }
 
 </style>

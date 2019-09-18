@@ -1,7 +1,9 @@
 <template>
-    <div class="container">
-        <span class="">Place sticky footer content here.</span>
-    </div>
+    <footer id="bottomFabrics" class="footer custom-footer">
+        <div class="container">
+            <span class="">Place sticky footer content here.</span>
+        </div>
+    </footer>
 </template>
 
 

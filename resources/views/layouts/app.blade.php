@@ -10,128 +10,68 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
+          type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
     <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
-    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+    <link href="plugins/node-waves/waves.css" rel="stylesheet"/>
 
     <!-- Animation Css -->
-    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="plugins/animate-css/animate.css" rel="stylesheet"/>
 
     <!-- Morris Chart Css-->
-    <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
-    <link href="css/imagehover.css" rel="stylesheet" />
-    <link href="css/icofont.css" rel="stylesheet" />
-    <link href="css/fontello.css" rel="stylesheet" />
+    <link href="plugins/morrisjs/morris.css" rel="stylesheet"/>
+    <link href="css/imagehover.css" rel="stylesheet"/>
+    <link href="css/icofont.css" rel="stylesheet"/>
+    <link href="css/fontello.css" rel="stylesheet"/>
 
     <!-- Custom Css -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/fabrics.css" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/fabrics.css')}}" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="css/themes/all-themes.css" rel="stylesheet" />
+    <link href="css/themes/all-themes.css" rel="stylesheet"/>
 </head>
 
 <body class="theme-green">
-@yield('content')
-
-<div class="container-fluid">
-    <div class="row main_wrapper">
-        <div class="col-lg-8 col-lg-offset-2" id="homeListProducts">
-            <home-list-products></home-list-products>
-        </div>
-        <div class="col-lg-2" id="howItWorks">
-            <div id="howItWorks">
-                <how-it-works></how-it-works>
-            </div>
-            <div id="contact">
-                <contact></contact>
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <div class="preloader">
+            <div class="spinner-layer pl-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
             </div>
         </div>
+        <p>Ça charge... !</p>
     </div>
 </div>
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2" id="printMethods">
-            <print-methods></print-methods>
-        </div>
-    </div>
+<!-- #END# Page Loader -->
+<!-- Overlay For Sidebars -->
+<a class="overlay"></a>
+<div id="app">
+    <navbar></navbar>
+    <router-view></router-view>
+    <router-view name="products"></router-view>
+    <router-view name="methods"></router-view>
+    <router-view name="clients"></router-view>
+    <router-view name="engagements"></router-view>
+    <footer-site></footer-site>
 </div>
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 title-client" align="center">NOS CLIENTS</div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2" id="clients">
-            <clients></clients>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2" id="engagements">
-            <engagements></engagements>
-        </div>
-    </div>
-</div>
-
-<footer class="footer custom-footer" id="bottomFabrics">
-    <bottom-fabrics></bottom-fabrics>
-</footer>
-
-<div></div>
 
 <script src="{{asset('js/app.js')}}"></script>
-<!-- Jquery Core Js -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<script src="./js/multislider.js"></script>
-<!-- Bootstrap Core Js -->
-<script src="plugins/bootstrap/js/bootstrap.js"></script>
+<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('js/multislider.js')}}"></script>
+<script src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{asset('plugins/node-waves/waves.js')}}"></script>
+<script src="{{asset('js/admin.js')}}"></script>
 
-<!-- Select Plugin Js -->
-<script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
-
-<!-- Slimscroll Plugin Js -->
-<script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
-
-<!-- Waves Effect Plugin Js -->
-<script src="plugins/node-waves/waves.js"></script>
-
-<!-- Morris Plugin Js -->
-<script src="plugins/raphael/raphael.min.js"></script>
-<script src="plugins/morrisjs/morris.js"></script>
-
-<!-- ChartJs -->
-<script src="plugins/chartjs/Chart.bundle.js"></script>
-<script src="./js/gulpfile.js"></script>
-
-<!-- Flot Charts Plugin Js -->
-<script src="plugins/flot-charts/jquery.flot.js"></script>
-<script src="plugins/flot-charts/jquery.flot.resize.js"></script>
-<script src="plugins/flot-charts/jquery.flot.pie.js"></script>
-<script src="plugins/flot-charts/jquery.flot.categories.js"></script>
-<script src="plugins/flot-charts/jquery.flot.time.js"></script>
-
-<!-- Sparkline Chart Plugin Js -->
-<script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
-<script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
-
-<!-- Custom Js -->
-<script src="js/admin.js"></script>
-
-<!-- VueJS -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-<!-- Demo Js -->
-<script src="js/demo.js"></script>
 </body>
 </html>
