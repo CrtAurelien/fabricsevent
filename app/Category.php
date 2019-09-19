@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     protected $table = 'categories';
-    protected $fillable = ['id', 'type', 'name'];
+    protected $fillable = ['id', 'type', 'name', 'color'];
 
     public function product(){
         return $this->hasMany('App\Product');
