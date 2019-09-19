@@ -5,8 +5,8 @@
                 <div class="content">
                     <div class="test-container">
                         <div class="un">
-                            <figure class="imghvr-shutter-out-diag-2"><img
-                                    :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
+                            <figure class="imghvr-shutter-out-diag-2">
+                                <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                                 <figcaption>
                                     <h3>Hello World</h3>
                                 </figcaption>
@@ -67,6 +67,7 @@
                     </div>
                 </div>
             </div>
+            <howitworks></howitworks>
         </div>
     </div>
 </template>
@@ -129,9 +130,11 @@
 </style>
 
 <script>
+    import HowItWorks from "./HowItWorks";
+
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        },
+        components:{
+          howitworks: HowItWorks,
+        }
     }
 </script>

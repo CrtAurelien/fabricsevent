@@ -1,6 +1,6 @@
 require('./bootstrap');
-
 window.Vue = require('vue');
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
@@ -16,6 +16,7 @@ import Clients from './components/Clients';
 import Engagements from "./components/Engagements";
 import FooterSite from "./components/FooterSite";
 import Products from "./components/Products";
+import HowItWorks from "./components/HowItWorks";
 
 
 const router = new VueRouter({
@@ -42,6 +43,7 @@ const router = new VueRouter({
 const app = new Vue({
     el: '#app',
     components: {
+        HowItWorks,
         Navbar,
         FooterSite
     },

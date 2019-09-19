@@ -3,8 +3,9 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="bars"></a>
-                <router-link :to="{name: 'home'}" class="navbar-brand"><img src="https://fabricsevent.fr/images/logo.jpg" alt=""
-                                                              class="logo"></router-link>
+                <router-link :to="{name: 'home'}" class="navbar-brand">
+                    <img src="https://fabricsevent.fr/images/logo.jpg" alt="" class="logo">
+                </router-link>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
