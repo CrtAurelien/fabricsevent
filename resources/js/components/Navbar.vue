@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
                     <li v-for="category in categories">
-                        <router-link :to="{name: 'products', params: {id: category.name}}" class="js-right-sidebar" data-close="true">{{category.name}}
+                        <router-link :to="{name: 'products', params: {id: category.id}}" class="js-right-sidebar" data-close="true">{{category.name}}
                         </router-link>
                     </li>
                 </ul>
@@ -42,6 +42,8 @@
             axios.get('http://localhost/fabricsevent/public/api/categories/')
                 .then((response) => this.categories = response.data)
                 .catch((error) => console.log(error));
-        }
+        },
+
+
     }
 </script>

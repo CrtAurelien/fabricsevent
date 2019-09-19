@@ -5,6 +5,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter)
 
@@ -15,7 +16,6 @@ import Clients from './components/Clients';
 import Engagements from "./components/Engagements";
 import FooterSite from "./components/FooterSite";
 import Products from "./components/Products";
-
 
 
 const router = new VueRouter({
@@ -34,11 +34,10 @@ const router = new VueRouter({
             path: '/produits/:id',
             name: 'products',
             component: Products,
+            props: true
         }
     ],
 });
-
-
 
 const app = new Vue({
     el: '#app',
@@ -50,7 +49,8 @@ const app = new Vue({
 });
 
 export default {
-    router
+    router,
+
 }
 
 

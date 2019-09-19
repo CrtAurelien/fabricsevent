@@ -11,6 +11,9 @@ Route::get('/', function () {
 });
 
 Route::get('api/categories', ['uses' => 'ProductsController@allCategories']);
+Route::get('api/category/{id}', ['uses' => 'ProductsController@getCategory']);
+Route::get('api/products/', ['uses' => 'ProductsController@allProducts']);
+Route::get('api/product/{id}', ['uses' => 'ProductsController@getProduct']);
 
 Route::group(['middleware' => ['auth']], function () {
     /* ------ PARTIE ADMIN ------ */

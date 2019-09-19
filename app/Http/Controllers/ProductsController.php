@@ -18,6 +18,23 @@ class ProductsController extends Controller
         return response()->json($categories);
     }
 
+    public function getCategory($id){
+        $category = Category::findOrFail($id);
+        return response()->json($category);
+    }
+
+    public function allProducts(){
+        $products = Product::all();
+        return response()->json($products);
+    }
+
+    public function getProduct($id){
+        $category = Category::findOrFail($id);
+        $product = Product::where('id_category', '=', $category->id)->get();
+        return response()->json($product);
+    }
+
+
 
     // PARTIE ADMIN //
 
