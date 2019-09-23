@@ -26,6 +26,7 @@
             </div>
         </div>
     </nav>
+
 </template>
 
 
@@ -33,6 +34,7 @@
 </style>
 
 <script>
+    import HowItWorks from "./HowItWorks";
     export default {
         data() {
             return {
