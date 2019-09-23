@@ -17,10 +17,14 @@ import Engagements from "./components/Engagements";
 import FooterSite from "./components/FooterSite";
 import Products from "./components/Products";
 import HowItWorks from "./components/HowItWorks";
-
+import OrderSummary from "./components/OrderSummary";
 
 const router = new VueRouter({
     routes: [
+        {
+            path: '*',
+            redirect: '/',
+        },
         {
             path: '/',
             name: 'home',
@@ -43,12 +47,14 @@ const router = new VueRouter({
 const app = new Vue({
     el: '#app',
     components: {
+        OrderSummary,
         HowItWorks,
         Navbar,
         FooterSite
     },
     router,
 });
+
 
 export default {
     router,
