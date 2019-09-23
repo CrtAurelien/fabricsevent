@@ -59,6 +59,7 @@
 <a class="overlay"></a>
 <div id="app">
     <navbar></navbar>
+
     <router-view :key="$route.fullPath"></router-view>
     <router-view name="productslist"></router-view>
     <router-view name="methods"></router-view>

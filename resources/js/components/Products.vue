@@ -1,9 +1,8 @@
 <template>
     <div class="container-fluid">
-        <div class="row main_wrapper"></div>
-        <ordersummary></ordersummary>
-        <div class="container">
-            <div class="row">
+        <div class="row main_wrapper">
+            <ordersummary v-bind:listproduct="productlist"></ordersummary>
+            <div class="col-lg-8">
                 <ol class="breadcrumb breadcrumb-bg-green">
                     <li>
                         <router-link :to="{name: 'home'}">Accueil</router-link>
@@ -18,11 +17,8 @@
                     </router-link>
                 </div>
                 <hr class="separator">
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 product" v-for="products in product" :key="products.id" v-on:click="addProduct(products);">
+                <div class="col-lg-3 product" v-for="products in product" :key="products.id"
+                     v-on:click="addProduct(products);">
                     <figure class="productimg" v-bind:id="products.id" v-on:click="selectedItem()">
                         <img :src="'./images/fabrics-img/sweat-fabrics.png'"
                              :class="{highlight:products.selectproduct}"
@@ -44,6 +40,7 @@
                     </div>
                 </div>
             </div>
+            <howitworks></howitworks>
         </div>
         <div class="modal fade" id="modal-colors" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
              aria-hidden="true">
@@ -142,10 +139,12 @@
 
 <script>
     import OrderSummary from "./OrderSummary";
+    import HowItWorks from "./HowItWorks";
+
     export default {
         data() {
             return {
-                productlist:[{}],
+                productlist: [],
                 selectedProduct: [{name: ''}],
                 isActive: false,
                 category: {},
@@ -156,7 +155,7 @@
             }
         },
         methods: {
-            addProduct: function(product) {
+            addProduct: function (product) {
                 this.selectedProduct = product;
                 this.productlist.push(product);
             },
@@ -186,8 +185,9 @@
                 }));
         },
         props: ["id", "name"],
-        components:{
-            ordersummary: OrderSummary
+        components: {
+            ordersummary: OrderSummary,
+            howitworks: HowItWorks
         }
     }
 </script>

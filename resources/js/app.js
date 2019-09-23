@@ -5,9 +5,12 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import Vuex from 'vuex'
 
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter)
+Vue.use(Vuex)
+
 
 import HomeListProducts from "./components/HomeListProducts";
 import Navbar from './components/Navbar';
@@ -43,6 +46,17 @@ const router = new VueRouter({
         }
     ],
 });
+
+const store = new Vuex.Store({
+    state: {
+        count: 0
+    },
+    mutations: {
+        increment (state){
+            state.count++
+        }
+    }
+})
 
 const app = new Vue({
     el: '#app',
