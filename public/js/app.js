@@ -2342,6 +2342,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     removeProduct: function removeProduct(index) {
@@ -7152,7 +7171,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.recap-products{\n\n    background: #4ba593;\n    width: 210px;\n}\n.recap-title{\n    background: #4ba593;\n    width: 210px;\n    margin:0 ;\n    padding: 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "\n.recap-products{\n    box-shadow: 0px 0px 6px -2px #000000b5, inset 0px 0px 9px 0px rgb(40, 90, 83);\n    background: #4ba593;\n    width: 210px;\n    border: 5px solid #ffffff;\n    color: white;\n    position: relative;\n    text-align:center;\n    padding: 10px 0;\n}\n.recap-title{\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 0;\n    padding: 40px 0 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-products > i{\n    line-height: 18px;\n    right:10px;\n    position: absolute;\n    color:#de2a2a;\n}\ni{\n    cursor: pointer;\n}\n", ""]);
 
 // exports
 
@@ -39553,7 +39572,9 @@ var render = function() {
     "div",
     { staticClass: "recap col-lg-2" },
     [
-      _c("h3", { staticClass: "recap-title" }, [_vm._v("Recapitulatif")]),
+      _vm.listproduct.length > 0
+        ? _c("h3", { staticClass: "recap-title" }, [_vm._v("Recapitulatif")])
+        : _vm._e(),
       _vm._v(" "),
       _vm._l(_vm.listproduct, function(selectedProduct, index) {
         return _c("div", { staticClass: "recap-products" }, [
