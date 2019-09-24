@@ -2460,6 +2460,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -35322,7 +35327,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.quantity{\n    width: 45px;\n    border: none;\n    text-align:right;\n    background: none;\n    float: right;\n    height: 20px;\n    border-bottom: 1px solid white;\n    border-radius: 0;\n    color:white;\n    box-shadow: none;\n    padding:0;\n}\n.custom-range{\n    margin-top:5px;\n}\n.form-control:focus{\n    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.12);\n    border-color:inherit;\n}\ninput[type=\"range\"] {\n    display: inline-block;\n    width: 80%;\n}\n.recap-products{\n    box-shadow: 0px 0px 6px -2px #000000b5, inset 0px 0px 9px 0px rgb(40, 90, 83);\n    background: #4ba593;\n    width: 210px;\n    border: 5px solid #ffffff;\n    color: white;\n    position: relative;\n    padding: 10px 8px;\n}\n.recap-title{\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 0;\n    padding: 40px 0 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-products > i{\n    line-height: 28px;\n    right:10px;\n    position: absolute;\n    color:#de2a2a;\n}\ni{\n    cursor: pointer;\n}\n", ""]);
+exports.push([module.i, "\n.colors{\n    padding-top:5px;\n    display:block;\n}\n.quantity{\n    width: 45px;\n    border: none;\n    text-align:right;\n    background: none;\n    float: right;\n    height: 20px;\n    border-bottom: 1px solid white;\n    border-radius: 0;\n    color:white;\n    box-shadow: none;\n    padding:0;\n}\n.custom-range{\n    margin-top:5px;\n}\n.form-control:focus{\n    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.12);\n    border-color:inherit;\n}\ninput[type=\"range\"] {\n    display: inline-block;\n    width: 80%;\n}\n.recap-products{\n    box-shadow: 0px 0px 6px -2px #000000b5, inset 0px 0px 9px 0px rgb(40, 90, 83);\n    background: #4ba593;\n    width: 210px;\n    border: 5px solid #ffffff;\n    color: white;\n    position: relative;\n    padding: 10px 8px;\n}\n.recap-title{\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 0;\n    padding: 40px 0 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-products > i{\n    line-height: 28px;\n    right:10px;\n    position: absolute;\n    color:#de2a2a;\n}\ni{\n    cursor: pointer;\n}\n", ""]);
 
 // exports
 
@@ -68490,7 +68495,8 @@ var render = function() {
           "div",
           { staticClass: "recap-products" },
           [
-            _vm._v("\n        " + _vm._s(selectedProduct.name) + " "),
+            _c("span", { staticClass: "badge" }, [_vm._v(" ")]),
+            _vm._v(" " + _vm._s(selectedProduct.name) + " "),
             _c("b-form-input", {
               staticClass: "quantity",
               attrs: {
