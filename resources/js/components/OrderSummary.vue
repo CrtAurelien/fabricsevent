@@ -25,18 +25,10 @@
     .custom-range{
         margin-top:5px;
     }
-    .placeholder
-    {
-        position: relative;
-    }
 
-    .placeholder:after{
-        content: attr(data-placeholder);
-        position: absolute;
-        left: 5px;
-        top: 3px;
-        pointer-events: none;
-        opacity: 0.6;
+    .form-control:focus{
+        box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+        border-color:inherit;
     }
 
     input[type="range"] {
@@ -51,7 +43,7 @@
         border: 5px solid #ffffff;
         color: white;
         position: relative;
-        padding: 10px 15px;
+        padding: 10px 8px;
     }
     .recap-title{
         box-shadow: 0px 0px 6px 0px #000000b5;
