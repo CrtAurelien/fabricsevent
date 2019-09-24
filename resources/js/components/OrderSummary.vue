@@ -3,11 +3,16 @@
         <h3 v-if="listproduct.length > 0" class="recap-title">Recapitulatif</h3>
 
         <div v-for="(selectedProduct, index) in listproduct" class="recap-products">
-            {{selectedProduct.name}} <b-form-input placeholder="x" class="quantity" data-placeholder="x" :value="value" v-model="value"></b-form-input>
+            <span class="badge">&nbsp;</span> {{selectedProduct.name}} <b-form-input placeholder="x" class="quantity" data-placeholder="x" :value="value" v-model="value"></b-form-input>
         </div>
     </div>
 </template>
 <style>
+    .colors{
+        padding-top:5px;
+        display:block;
+    }
+
     .quantity{
         width: 45px;
         border: none;
