@@ -73,6 +73,7 @@
 <script src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
+<script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
 
 </body>
 </html>

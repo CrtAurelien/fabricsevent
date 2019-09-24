@@ -17,9 +17,8 @@
                     </router-link>
                 </div>
                 <hr class="separator">
-                <div class="col-lg-3 product" v-for="products in product" :key="products.id"
-                     v-on:click="addProduct(products);">
-                    <figure class="productimg" v-bind:id="products.id" v-on:click="selectedItem()">
+                <div class="col-lg-3 product" v-for="products in product" :key="products.id">
+                    <figure class="productimg" v-bind:id="products.id" v-on:click="selectedItem();addProduct(products)">
                         <img :src="'./images/fabrics-img/sweat-fabrics.png'"
                              :class="{highlight:products.selectproduct}"
                              alt="">

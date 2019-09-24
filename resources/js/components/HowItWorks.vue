@@ -1,65 +1,117 @@
 <template>
     <div class="howItWorks col-lg-2">
-        <h3>Comment ça marche</h3>
-        <div class="step-one">
-            <div class="number">
-                <span>1</span>
-            </div>
-            <span class="explication">Sélectionnez la ou les couleurs que vous désirez ajouter pour le produit souhaité</span>
-        </div>
-        <div class="step-two">
-            <div class="number">
-                <span>2</span>
-            </div>
-            <span class="explication">Cliquez ensuite sur le produit correspondant aux couleurs choisies </span>
-        </div>
-        <div class="step-three">
-            <div class="number">
-                <span>3</span>
-            </div>
-            <span class="explication">Le récapitulatif de votre devis s'affichera, et vous pourrez éditer la quantité voulue du produit par couleur sélectionnée</span>
-        </div>
-        <div class="step-four">
-            <div class="number">
-                <span>4</span>
-            </div>
-            <span class="explication">Valider votre devis, vous aurez la possibilité de laisser un message pour accompagner votre devis</span>
-        </div>
+        <img :src="'./images/question.png'" alt="" class="question">
+        <b-button class="howitworks-title" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
+            Comment ça marche ?
+        </b-button>
+
+        <!-- Elements to collapse -->
+        <b-collapse id="collapse-a" v-model="showCollapse" class="mt-2">
+            <b-card class="step">
+                <div class="number" id="1">
+                    <span>1</span>
+                </div>
+                <div class="explication">
+                    Sélectionnez le ou les produits que vous désirez.
+                </div>
+            </b-card>
+        </b-collapse>
+        <b-collapse id="collapse-a" v-model="showCollapse" class="mt-2">
+            <b-card class="step">
+                <div class="number" id="2">
+                    <span>2</span>
+                </div>
+                <div class="explication">Sélectionnez ensuite la ou les couleurs souhaitées.</div>
+            </b-card>
+        </b-collapse>
+        <b-collapse id="collapse-a" v-model="showCollapse" class="mt-2">
+            <b-card class="step">
+                <div class="number" id="3">
+                    <span>3</span>
+                </div>
+                <div class="explication">Le récapitulatif de votre devis s'affichera, et vous pourrez éditer la quantité voulue du produit.</div>
+            </b-card>
+        </b-collapse>
+        <b-collapse id="collapse-a" v-model="showCollapse" class="mt-2">
+            <b-card class="step">
+                <div class="number" id="4">
+                    <span>4</span>
+                </div>
+                <div class="explication">Validez votre devis. Vous aurez la possibilité de laisser un message pour accompagner celui-ci.</div>
+            </b-card>
+        </b-collapse>
+        <b-collapse id="collapse-a" v-model="showCollapse" class="mt-2">
+            <b-card class="last-step">
+                <div class="last-explication">NOTRE CONSEILLER VOUS CONTACTERA APRES VALIDATION</div>
+            </b-card>
+        </b-collapse>
     </div>
 </template>
 
 
 <style scoped>
-    .step-one {
-        padding: 15px 15px 55px 15px;
+
+    .howitworks-title {
+        padding:27px 0 15px 0;
+        background: white;
+        color: black;
+        text-transform: uppercase;
+        width: 100%;
+        border-radius: 0 !important;
+        font-weight: bold;
+        font-size: 20px !important;
+        font-family: "Roboto", sans-serif;
     }
 
-    .step-two {
-        padding: 15px 15px 40px 15px;
+    .step {
+        border-radius: 0;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        margin: 0;
     }
 
-    .step-three {
-        padding: 15px 15px 105px 15px;
+    .last-step{
+        background: #4BA593;
+        color:white;
+        font-weight:bold;
     }
 
-    .step-four {
-        padding: 15px 15px 100px 15px;
+    .card{
+        border-radius:0;
     }
 
     .explication {
-        vertical-align: top;
-        position: absolute;
-        max-width: 155px;
-        padding-left: 15px;
+        margin-left: 45px;
+    }
+
+    .last-explication {
+        padding: 15px;
+        text-align:center;
+    }
+
+    .number[id="1"]{
+        background-color: #E5A686;
+    }
+
+    .number[id="2"]{
+        background-color: #92A4CF;
+    }
+
+    .number[id="3"]{
+        background-color: #7BD5A2;
+    }
+
+    .number[id="4"]{
+        background-color: #E1EC7E;
     }
 
     .number {
-        background: red;
+        margin-right: 15px;
+        float: left;
         border-radius: 50%;
         width: 15px;
         height: 15px;
         padding: 15px;
-        vertical-align: middle;
         display: inline-block;
         position: relative;
     }
@@ -86,14 +138,33 @@
     }
 
     .howItWorks {
+        position: relative;
         width: 16%;
+        margin-top:25px;
+    }
+
+    img.question {
+        top: -30px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
     }
 </style>
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
+        data: function () {
+            return{
+                showCollapse: true,
+            }
+        },
+        created() {
+            let url = location.href;
+            if (url === 'http://localhost/fabricsevent/public/#/'){
+                this.showCollapse = false;
+            }
         }
     }
 </script>

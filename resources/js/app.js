@@ -6,7 +6,10 @@ import VueRouter from 'vue-router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+Vue.use(BootstrapVue)
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter)
 Vue.use(Vuex)
@@ -47,6 +50,7 @@ const router = new VueRouter({
     ],
 });
 
+
 const store = new Vuex.Store({
     state: {
         count: 0
@@ -72,7 +76,6 @@ const app = new Vue({
 
 export default {
     router,
-
 }
 
 
