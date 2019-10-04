@@ -8,9 +8,9 @@
                             <figure class="imghvr-shutter-out-diag-2">
                                 <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                                 <figcaption>
-                                    <h3>Hello World</h3>
+                                    <h3 class="home-categories"><span>Sweats</span></h3>
                                 </figcaption>
-                                <a href="javascript:;"></a>
+                                <router-link :to="{path: '/hkjhk'}"></router-link>
                             </figure>
                         </div>
                         <div class="deux">
@@ -19,7 +19,7 @@
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/tasse-fabrics.jpg'" alt="example-image">
                                         <figcaption>
-                                            <h3>Hello World</h3>
+                                            <h3 class="home-categories"><span>Sweats</span></h3>
                                         </figcaption>
                                         <a href="javascript:;"></a>
                                     </figure>
@@ -28,7 +28,7 @@
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/bonnet-fabrics.png'" alt="example-image">
                                         <figcaption>
-                                            <h3>Hello World</h3>
+                                            <h3 class="home-categories"><span>Sweats</span></h3>
                                         </figcaption>
                                         <a href="javascript:;"></a>
                                     </figure>
@@ -39,7 +39,7 @@
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
                                         <figcaption>
-                                            <h3>Hello World</h3>
+                                            <h3 class="home-categories"><span>Sweats</span></h3>
                                         </figcaption>
                                         <a href="javascript:;"></a>
                                     </figure>
@@ -48,7 +48,7 @@
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/polo-fabrics.png'" alt="example-image">
                                         <figcaption>
-                                            <h3>Hello World</h3>
+                                            <h3 class="home-categories"><span>Sweats</span></h3>
                                         </figcaption>
                                         <a href="javascript:;"></a>
                                     </figure>
@@ -59,7 +59,7 @@
                             <figure class="imghvr-shutter-out-diag-2"><img
                                     :src="'./images/fabrics-img/autre-fabrics.png'" alt="example-image">
                                 <figcaption>
-                                    <h3>Autres</h3>
+                                    <h3 class="home-categories"><span>Sweats</span></h3>
                                 </figcaption>
                                 <a href="javascript:;"></a>
                             </figure>
@@ -73,6 +73,13 @@
 </template>
 
 <style scoped>
+
+    .home-categories{
+        height: 100%;
+        align-items: center;
+        display: flex;
+        margin: 0;
+    }
 
     .test-container {
         display: flex;

@@ -11,14 +11,15 @@
                 </ol>
                 <hr class="separator">
                 <div class="categories">
-                    <router-link :to="{name: 'products', params: {id: category.id}}" class="produit"
+                    <router-link v-if="categories" :to="{name: 'products', params: {id: category.id}}" class="produit"
                                  v-for="category in categories" :key="category.id">
                         <span class="badge" :style="{backgroundColor: category.color}">{{category.name}}</span>
                     </router-link>
                 </div>
                 <hr class="separator">
                 <div class="col-lg-3 product" v-for="products in product" :key="products.id">
-                    <figure class="productimg" v-bind:id="products.id" v-on:click="selectedItem();addProduct(products)">
+                    <figure class="productimg" v-bind:id="products.id"
+                            v-on:click="selectedItem();addProduct(products);">
                         <img :src="'./images/fabrics-img/sweat-fabrics.png'"
                              :class="{highlight:products.selectproduct}"
                              alt="">
@@ -27,13 +28,6 @@
                     </figure>
                     <hr>
                     <div class="color">
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
                         <span class="badge">&nbsp;</span>
                         <span class="badge" data-toggle="modal" data-target="#modal-colors">&nbsp;</span>
                     </div>
@@ -46,8 +40,9 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <span class="badge">&nbsp;</span>
-                        <span class="badge">&nbsp;</span>
+                        <span class="badge" v-if="colors" v-for="color in colors" :style="{backgroundColor:color.hexaCode}">
+                            {{color.colorname}}
+                        </span>
                     </div>
                 </div>
             </div>
@@ -100,7 +95,12 @@
         width: 45px;
         height: 45px;
         cursor: pointer;
-        padding: 0;
+        margin: 0 10px;
+        padding: 16px 0;
+    }
+
+    span.badge:hover {
+        opacity: 0.8 !important;
     }
 
     .color > .badge:last-child {
@@ -150,7 +150,9 @@
                 product: {},
                 selected: '',
                 categories: {},
-                selectproduct: undefined
+                selectproduct: undefined,
+                listeProduitCouleur: [],
+                colors: {}
             }
         },
         methods: {
@@ -164,6 +166,25 @@
             changeRoute: function (id) {
                 this.$router.push({path: '/produits/' + id.target.value})
             },
+            getColors: function () {
+                return axios.get('http://localhost/fabricsevent/public/api/colors/')
+            },
+            getColor: function (id) {
+                return axios.get('http://localhost/fabricsevent/public/api/color/' + id)
+            },
+/*            getColorById: function(id){
+                return axios.get('http://localhost/fabricsevent/public/api/colors/' + id)
+            },*/
+            getProductColor: function () {
+                for (produit in self.product) {
+                    var listeCouleurTemp = this.getColor(product.id);
+                    var obj = {
+                        nom: produit.nom,
+                        listeCouleur: listeCouleurTemp
+                    };
+                    self.listeProduitCouleur.push(obj)
+                }
+            },
             getCategories: function () {
                 return axios.get('http://localhost/fabricsevent/public/api/categories/')
             },
@@ -176,14 +197,18 @@
         },
         created() {
             var self = this;
-            axios.all([this.getCategory(this.id), this.getProduct(this.id), this.getCategories()])
-                .then(axios.spread(function (category, product, categories) {
+            axios.all([this.getCategory(this.id), this.getProduct(this.id), this.getCategories(), this.getColors()])
+                .then(axios.spread(function (category, product, categories, colors) {
                     self.category = category.data;
                     self.product = product.data;
                     self.categories = categories.data;
-                }));
+                    self.colors = colors.data;
+                })).catch(error => {
+                console.log(error.response)
+            });
+
         },
-        props: ["id", "name"],
+        props: ['id', 'name'],
         components: {
             ordersummary: OrderSummary,
             howitworks: HowItWorks

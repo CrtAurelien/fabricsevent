@@ -3,10 +3,37 @@
 namespace App\Http\Controllers;
 
 use App\Color;
+use App\Product;
+use App\ProductColor;
 use Illuminate\Http\Request;
 
 class ColorsController extends Controller
 {
+
+    // PARTIE API PUBLIC //
+
+    public function allColors(){
+        $colors = Color::all();
+        return response()->json($colors);
+    }
+
+    public function getColor($id){
+        $product = Product::findOrFail($id);
+        $color = ProductColor::where('id_products', '=', $product->id)->get();
+        return response()->json($color);
+    }
+
+    public function getColorById($id){
+        $colorById = Color::findOrFail($id);
+        $colorProduct = ProductColor::where('id_colors', '=', $colorById->id)->get();
+        return response()->json($colorProduct);
+    }
+
+
+
+
+    // PARTIE ADMIN //
+
     public function index(){
         $colors = Color::all();
         return view('colors.index', ['colors' => $colors]);

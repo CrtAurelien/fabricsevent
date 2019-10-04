@@ -14,6 +14,9 @@ Route::get('api/categories', ['uses' => 'ProductsController@allCategories']);
 Route::get('api/category/{id}', ['uses' => 'ProductsController@getCategory']);
 Route::get('api/products/', ['uses' => 'ProductsController@allProducts']);
 Route::get('api/product/{id}', ['uses' => 'ProductsController@getProduct']);
+Route::get('api/colors', ['uses' => 'ColorsController@allColors']);
+Route::get('api/colors/{id}', ['uses' => 'ColorsController@getColorById']);
+Route::get('api/color/{id}', ['uses' => 'ColorsController@getColor']);
 
 Route::group(['middleware' => ['auth']], function () {
     /* ------ PARTIE ADMIN ------ */

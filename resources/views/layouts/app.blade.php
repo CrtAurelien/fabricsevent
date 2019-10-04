@@ -59,12 +59,46 @@
 <a class="overlay"></a>
 <div id="app">
     <navbar></navbar>
-
     <router-view :key="$route.fullPath"></router-view>
     <router-view name="productslist"></router-view>
     <router-view name="methods"></router-view>
     <router-view name="engagements"></router-view>
     <footer-site></footer-site>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog contact-box" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title w-100 contact-title font-weight-bold">Contactez-nous</h4>
+            </div>
+            <hr>
+            <div class="modal-body mx-3">
+                <div class="md-form mb-5 contact-area">
+                    <i class="fas fa-envelope prefix grey-text"></i>
+                    <label data-error="wrong" data-success="right" for="form29">Votre email</label>
+                    <input type="email" id="form29" class="form-control contact-form validate">
+                </div>
+                <div class="md-form mb-5 contact-area">
+                    <i class="fas fa-tag prefix grey-text"></i>
+                    <label data-error="wrong" data-success="right" for="form32">Sujet</label>
+                    <input type="text" id="form32" class="form-control contact-form validate">
+                </div>
+                <div class="md-form contact-area">
+                    <i class="fas fa-pencil prefix grey-text"></i>
+                    <label data-error="wrong" data-success="right" for="form8">Votre message</label>
+                    <textarea type="text" id="form8" class="md-textarea contact-textarea form-control" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer contact-footer d-flex justify-content-center">
+                <button class="btn btn-unique btn-contact">Envoyer</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="{{asset('js/app.js')}}"></script>
@@ -74,6 +108,5 @@
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
 <script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
-
 </body>
 </html>

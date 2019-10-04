@@ -59,11 +59,12 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </template>
 
-<style>
+<style scoped>
 
     .engagements {
         padding-top: 25px;
@@ -89,9 +90,14 @@
     }
 
     .engagement {
+        color:white;
         flex: 1;
-        background: white;
+        box-shadow: 0px 0px 12px -6px rgba(0, 0, 0, 0.95);
         padding: 15px;
+        background: url(https://www.zupimages.net/up/19/39/1zmf.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: saturate(0.5);
     }
 
     .engagement + .engagement {
