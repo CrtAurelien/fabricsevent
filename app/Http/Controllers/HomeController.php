@@ -33,4 +33,5 @@ class HomeController extends Controller
         $otherCategories = Category::where('type', '=', 2)->get();
         return view('home', compact('products', 'type_categories', 'featuredCategories', 'otherCategories', 'categories'));
     }
+
 }

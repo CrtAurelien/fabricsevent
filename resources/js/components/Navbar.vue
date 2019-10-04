@@ -10,17 +10,26 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
                     <li v-for="category in categories">
-                        <router-link :to="{name: 'products', params: {id: category.id}}" class="js-right-sidebar" data-close="true">{{category.name}}
+                        <router-link :to="{name: 'products', params: {id: category.id}}" v-if="category" class="js-right-sidebar" data-close="true">{{category.name}}
                         </router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle js-right-sidebar" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Autres
+                        </a>
+                        <div class="dropdown-menu dropdown-navbar" aria-labelledby="navbarDropdownMenuLink">
+                            <router-link :to="{name: 'products', params: {id: category.id}}" :key="category.id" v-if="category" v-for="category in categories" class="js-right-sidebar" data-close="true">{{category.name}}
+                            </router-link>
+                        </div>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Call Search -->
                     <li class="info-box-devis hover-expand-effect">
-                        <a href="">DEVIS GRATUIT</a>
+                        <a class="devis">DEVIS GRATUIT</a>
                     </li>
                     <li class="pull-right">
-                        <a href="javascript:void(0);"><i class="material-icons">mail</i></a>
+                        <a data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><i class="material-icons">mail</i></a>
                     </li>
                 </ul>
             </div>
@@ -30,7 +39,28 @@
 </template>
 
 
-<style>
+<style scoped>
+    .dropdown-navbar{
+        padding: 10px;
+        font-size: 17px;
+        transition: none !important;
+        transform: skew(20deg) !important;
+        height: auto;
+        border: 3px solid #285a53;
+        margin-left: 20px;
+        background: #4ba593;
+        margin-top: 0 !important;
+        min-width: 135px !important;
+    }
+
+    .dropdown-navbar > a{
+        width: 100%;
+        display:block;
+    }
+
+    .devis{
+        cursor: initial;
+    }
 </style>
 
 <script>

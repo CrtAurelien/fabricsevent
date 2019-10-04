@@ -7968,7 +7968,8 @@ ul.nav.navbar-nav.navbar-right > li.info-box-devis{
 .four-zero-four {
   width: 100%;
   text-align: center;
-  margin: 5% auto; }
+  padding-top: 75px;
+}
 .four-zero-four .four-zero-four-container .error-code {
   font-size: 160px; }
 .four-zero-four .four-zero-four-container .error-message {

@@ -23,13 +23,19 @@ import Engagements from "./components/Engagements";
 import FooterSite from "./components/FooterSite";
 import Products from "./components/Products";
 import HowItWorks from "./components/HowItWorks";
+import Error404 from "./components/Error404";
 import OrderSummary from "./components/OrderSummary";
 
 const router = new VueRouter({
     routes: [
         {
+            path: '/404',
+            name: 'error404',
+            component: Error404,
+        },
+        {
             path: '*',
-            redirect: '/',
+            redirect: '/404',
         },
         {
             path: '/',
@@ -51,17 +57,6 @@ const router = new VueRouter({
 });
 
 
-const store = new Vuex.Store({
-    state: {
-        count: 0
-    },
-    mutations: {
-        increment (state){
-            state.count++
-        }
-    }
-})
-
 const app = new Vue({
     el: '#app',
     components: {
@@ -72,6 +67,7 @@ const app = new Vue({
     },
     router,
 });
+
 
 
 export default {

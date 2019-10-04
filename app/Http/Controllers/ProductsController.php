@@ -32,6 +32,7 @@ class ProductsController extends Controller
         $category = Category::findOrFail($id);
         $product = Product::where('id_category', '=', $category->id)->get();
         return response()->json($product);
+
     }
 
 

@@ -3,8 +3,10 @@
         <h3 v-if="listproduct.length > 0" class="recap-title">Recapitulatif</h3>
 
         <div v-for="(selectedProduct, index) in listproduct" class="recap-products">
-            <span class="badge">&nbsp;</span> {{selectedProduct.name}} <b-form-input placeholder="x" class="quantity" data-placeholder="x" :value="value" v-model="value"></b-form-input>
+            <span class="badge">&nbsp;</span> {{selectedProduct.name}}
+            <b-form-input placeholder="x" class="quantity from-control" min="0" type="number" data-placeholder="x" :value="quantity" v-model="quantity"></b-form-input>
         </div>
+        <button v-if="listproduct.length > 0" class="recap-footer">Valider le devis</button>
     </div>
 </template>
 <style>
@@ -14,9 +16,9 @@
     }
 
     .quantity{
+        padding-left: 5px !important;
         width: 45px;
         border: none;
-        text-align:right;
         background: none;
         float: right;
         height: 20px;
@@ -62,6 +64,19 @@
         border: 5px solid white;
     }
 
+    .recap-footer{
+        box-shadow: 0px 0px 6px 0px #000000b5;
+        background: #4ba593;
+        width: 210px;
+        margin: 10px 0 0 0;
+        padding: 5px 0;
+        font-size:15px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        border: 5px solid white;
+    }
+
     .recap-products > i{
         line-height: 28px;
         right:10px;
@@ -76,9 +91,9 @@
 <script>
     export default {
         data(){
-          return{
-              value:1
-          }
+            return{
+                quantity: 1
+            }
         },
         methods:{
             removeProduct: function(index) {
