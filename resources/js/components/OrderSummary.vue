@@ -1,12 +1,41 @@
 <template>
     <div class="recap col-lg-2">
-        <h3 v-if="listproduct.length > 0" class="recap-title">Recapitulatif</h3>
-
-        <div v-for="(selectedProduct, index) in listproduct" class="recap-products">
-            <span class="badge">&nbsp;</span> {{selectedProduct.name}}
+        <h3 v-if="this.$store.getters.productlist.length > 0" class="recap-title">Recapitulatif</h3>
+        <div v-for="(selectedProduct, index) in this.$store.getters.productlist" :key="index" class="recap-products">
+            <span class="badge">&nbsp;</span> {{selectedProduct.product.name}}
+            <button v-on:click="removeProduct()">Supprimer</button>
             <b-form-input placeholder="x" class="quantity from-control" min="0" type="number" data-placeholder="x" :value="quantity" v-model="quantity"></b-form-input>
+
         </div>
-        <button v-if="listproduct.length > 0" class="recap-footer">Valider le devis</button>
+        <button data-toggle="modal" data-target="#devis" data-whatever="@getbootstrap" v-if="this.$store.getters.productlist.length > 0" class="recap-footer">Valider le devis</button>
+        <div class="modal fade" id="devis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog contact-box" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title w-100 contact-title font-weight-bold">Récapitulatif de votre devis</h4>
+                    </div>
+                    <hr>
+                    <div class="modal-body mx-3" v-for="(selectedProduct, index) in this.$store.getters.productlist" :key="index">
+                        <div class="md-form mb-5 contact-area">
+                            <span class="badge">&nbsp;</span> {{selectedProduct.product.name}}
+                        </div>
+                        <div class="md-form contact-area">
+                            <i class="fas fa-pencil prefix grey-text"></i>
+                            <label data-error="wrong" data-success="right" for="form8">Laisser un commentaire</label>
+                            <textarea type="text" id="form8" class="md-textarea contact-textarea form-control" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer contact-footer d-flex justify-content-center">
+                        <button class="btn btn-unique btn-contact" type="submit">Modifier</button>
+                        <button class="btn btn-unique btn-contact" type="submit">Valider</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 <style>
@@ -89,17 +118,26 @@
     }
 </style>
 <script>
+    import Vuex from 'vuex';
+    import store from './ProductsStore';
     export default {
+        store: store,
         data(){
             return{
-                quantity: 1
+                quantity: 1,
             }
         },
+
         methods:{
-            removeProduct: function(index) {
-                this.listproduct.splice(index, 1)
-            }
+            ...Vuex.mapGetters([
+                'productlist'
+            ]),
+            ...Vuex.mapActions([
+                'removeProduct'
+            ]),
+            /*removeProduct: function(index) {
+                this.productlist.splice(index, 1)
+            }*/
         },
-        props:['listproduct']
     }
 </script>
