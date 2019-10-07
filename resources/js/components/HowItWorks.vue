@@ -2,7 +2,7 @@
     <div class="howItWorks col-lg-2">
         <img :src="'./images/question.png'" alt="" class="question">
         <b-button class="howitworks-title" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
-            Comment ça marche ?
+            <div>Comment ça marche ?</div>
         </b-button>
 
         <!-- Elements to collapse -->

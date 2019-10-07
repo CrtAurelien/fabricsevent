@@ -56,8 +56,9 @@ const router = new VueRouter({
     ],
 });
 
-
+/* eslint-disable no-new */
 const app = new Vue({
+    store: require('./components/ProductsStore'),
     el: '#app',
     components: {
         OrderSummary,
@@ -67,7 +68,6 @@ const app = new Vue({
     },
     router,
 });
-
 
 
 export default {

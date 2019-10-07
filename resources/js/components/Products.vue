@@ -139,11 +139,15 @@
 <script>
     import OrderSummary from "./OrderSummary";
     import HowItWorks from "./HowItWorks";
+    import store from './ProductsStore';
+    import Vuex from 'vuex';
+
+    global.v = Vuex;
 
     export default {
+        store: store,
         data() {
             return {
-                productlist: [],
                 selectedProduct: [{name: ''}],
                 isActive: false,
                 category: {},
@@ -156,10 +160,17 @@
             }
         },
         methods: {
-            addProduct: function (product) {
+            ...Vuex.mapGetters([
+                'productlist'
+            ]),
+
+            ...Vuex.mapActions([
+               'addProduct'
+            ]),
+            /*addProduct: function (product) {
                 this.selectedProduct = product;
                 this.productlist.push(product);
-            },
+            },*/
             selectedItem: function () {
                 this.isActive = !this.isActive;
             },
