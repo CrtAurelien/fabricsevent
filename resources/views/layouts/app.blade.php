@@ -1,3 +1,10 @@
+<!--
+    DEVELOPPÉ FIÈREMENT
+    ET
+    AVEC ♥ PAR
+    VICTOR GUÉRINON & AURÉLIEN CARTERET
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +15,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>FabricsEvent</title>
     <!-- Favicon-->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('./images/favicon.ico')}}" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"

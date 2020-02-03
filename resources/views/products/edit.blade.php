@@ -4,7 +4,8 @@
         <div class="container-fluid">
             <ol class="breadcrumb breadcrumb-bg-green">
                 <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
-                <li class="active"><i class="material-icons">shop</i> Édition du produit : <b>{{$product->name}}</b></li>
+                <li class="active"><i class="material-icons">shop</i> Édition du produit : <b>{{$product->name}}</b>
+                </li>
             </ol>
             <div class="row clearfix">
                 {!! Form::open(['route' => ['update-product', $product->id], 'method' => 'POST', 'files' => true, 'enctype'=>'multipart/form-data']) !!}
@@ -43,19 +44,21 @@
                                         </i>
                                         <b>Couleur</b>
                                     </p>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            {!!  Form::text('colorname', $color[0]->colorname, ['class' => 'form-control input-sm'])!!}
+                                    @if($color[0])
+                                        <div class="input-group">
+                                            <div class="form-line">
+                                                {!!  Form::text('colorname', $color[0]->colorname, ['class' => 'form-control input-sm'])!!}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="input-group colorpicker colorpicker-element">
-                                        <div class="form-line">
-                                            {!!  Form::text('hexaCode', $color[0]->hexaCode, ['class' => 'form-control input-sm'])!!}
-                                        </div>
-                                        <span class="input-group-addon">
+                                        <div class="input-group colorpicker colorpicker-element">
+                                            <div class="form-line">
+                                                {!!  Form::text('hexaCode', $color[0]->hexaCode, ['class' => 'form-control input-sm'])!!}
+                                            </div>
+                                            <span class="input-group-addon">
                                             <i style="background-color: rgb(0, 170, 187);"></i>
                                         </span>
-                                    </div>
+                                        </div>
+                                    @endif
                                 </div>
                                 <div class="col-md-6">
                                     <div class="demo-checkbox">
@@ -65,7 +68,8 @@
                                         <label for="md_checkbox_2">PINK</label>
                                         <input type="checkbox" id="md_checkbox_3" class="chk-col-purple" checked="">
                                         <label for="md_checkbox_3">PURPLE</label>
-                                        <input type="checkbox" id="md_checkbox_4" class="chk-col-deep-purple" checked="">
+                                        <input type="checkbox" id="md_checkbox_4" class="chk-col-deep-purple"
+                                               checked="">
                                         <label for="md_checkbox_4">DEEP PURPLE</label>
                                         <input type="checkbox" id="md_checkbox_5" class="chk-col-indigo" checked="">
                                         <label for="md_checkbox_5">INDIGO</label>
@@ -79,7 +83,8 @@
                                         <label for="md_checkbox_9">TEAL</label>
                                         <input type="checkbox" id="md_checkbox_10" class="chk-col-green" checked="">
                                         <label for="md_checkbox_10">GREEN</label>
-                                        <input type="checkbox" id="md_checkbox_11" class="chk-col-light-green" checked="">
+                                        <input type="checkbox" id="md_checkbox_11" class="chk-col-light-green"
+                                               checked="">
                                         <label for="md_checkbox_11">LIGHT GREEN</label>
                                         <input type="checkbox" id="md_checkbox_12" class="chk-col-lime" checked="">
                                         <label for="md_checkbox_12">LIME</label>
@@ -89,7 +94,8 @@
                                         <label for="md_checkbox_14">AMBER</label>
                                         <input type="checkbox" id="md_checkbox_15" class="chk-col-orange" checked="">
                                         <label for="md_checkbox_15">ORANGE</label>
-                                        <input type="checkbox" id="md_checkbox_16" class="chk-col-deep-orange" checked="">
+                                        <input type="checkbox" id="md_checkbox_16" class="chk-col-deep-orange"
+                                               checked="">
                                         <label for="md_checkbox_16">DEEP ORANGE</label>
                                         <input type="checkbox" id="md_checkbox_17" class="chk-col-brown" checked="">
                                         <label for="md_checkbox_17">BROWN</label>

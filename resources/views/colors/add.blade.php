@@ -6,13 +6,13 @@
                 <li><a href="{{route('home')}}"><i class="material-icons">home</i> Tableau de bord</a></li>
                 <li class="active"><i class="material-icons">color_lens</i> Ajouter une nouvelle couleur</li>
             </ol>
-            <div class="row clearfix">
+
                 {!! Form::open(['action' => 'ColorsController@store', 'method' => 'POST']) !!}
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="body">
                             <div class="row clearfix">
-                                <div class="col-md-6">
+                                <div class="col-lg-8 col-lg-offset-2">
                                     <p>
                                         <i class="material-icons label-icon">
                                             color_lens
@@ -20,7 +20,7 @@
                                         <b>Couleur</b>
                                     </p>
                                     <div class="input-group">
-                                        <div class="form-line">
+                                        <div class="form-line" id="dynamic_field">
                                             {{ Form::text('colorname', null,['placeholder' => 'Nom de la couleur', 'required' => 'required', 'class' => 'form-control']) }}
                                         </div>
                                     </div>
@@ -31,6 +31,7 @@
                                             <i style="background-color: rgb(0, 170, 187);"></i>
                                         </span>
                                     </div>
+                                    <button type="button" name="add" id="add" class="btn btn-success">Add More</button>
                                 </div>
                             </div>
                         </div>

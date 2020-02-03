@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Color;
 use App\Product;
 use App\ProductColor;
+use Dotenv\Validator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ColorsController extends Controller
 {
@@ -46,6 +48,8 @@ class ColorsController extends Controller
 
     public function store(Request $request)
     {
+
+
         $colorname = $request->colorname;
         $color = $request->hexaCode;
 
@@ -53,8 +57,9 @@ class ColorsController extends Controller
             'colorname' => $colorname,
             'hexaCode' => $color,
         ]);
-
         return redirect()->to('/home')->with('status', 'Nouvelle couleur ajoutée !' );
+
+
     }
 
     public function edit($id){

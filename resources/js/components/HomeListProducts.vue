@@ -8,7 +8,7 @@
                             <figure class="imghvr-shutter-out-diag-2">
                                 <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                                 <figcaption>
-                                    <h3 class="home-categories"><span>Sweats</span></h3>
+                                    <h3 class="home-categories"><span>Tee-shirts</span></h3>
                                 </figcaption>
                                 <router-link :to="{path: '/hkjhk'}"></router-link>
                             </figure>
@@ -19,18 +19,18 @@
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/tasse-fabrics.jpg'" alt="example-image">
                                         <figcaption>
-                                            <h3 class="home-categories"><span>Sweats</span></h3>
+                                            <h3 class="home-categories"><span>Tasses</span></h3>
                                         </figcaption>
-                                        <a href="javascript:;"></a>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
                                     </figure>
                                 </div>
                                 <div class="deuxADeux">
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/bonnet-fabrics.png'" alt="example-image">
                                         <figcaption>
-                                            <h3 class="home-categories"><span>Sweats</span></h3>
+                                            <h3 class="home-categories"><span>Bonnets</span></h3>
                                         </figcaption>
-                                        <a href="javascript:;"></a>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
                                     </figure>
                                 </div>
                             </div>
@@ -41,16 +41,16 @@
                                         <figcaption>
                                             <h3 class="home-categories"><span>Sweats</span></h3>
                                         </figcaption>
-                                        <a href="javascript:;"></a>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
                                     </figure>
                                 </div>
                                 <div class="deuxBDeux">
                                     <figure class="imghvr-shutter-out-diag-2"><img
                                             :src="'./images/fabrics-img/polo-fabrics.png'" alt="example-image">
                                         <figcaption>
-                                            <h3 class="home-categories"><span>Sweats</span></h3>
+                                            <h3 class="home-categories"><span>Polos</span></h3>
                                         </figcaption>
-                                        <a href="javascript:;"></a>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
                                     </figure>
                                 </div>
                             </div>
@@ -59,9 +59,9 @@
                             <figure class="imghvr-shutter-out-diag-2"><img
                                     :src="'./images/fabrics-img/autre-fabrics.png'" alt="example-image">
                                 <figcaption>
-                                    <h3 class="home-categories"><span>Sweats</span></h3>
+                                    <h3 class="home-categories"><span>Autres</span></h3>
                                 </figcaption>
-                                <a href="javascript:;"></a>
+                                <router-link :to="{path: '/hkjhk'}"></router-link>
                             </figure>
                         </div>
                     </div>

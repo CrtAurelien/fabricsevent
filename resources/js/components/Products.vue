@@ -18,6 +18,7 @@
                 </div>
                 <hr class="separator">
                 <div class="col-lg-3 product" v-for="products in product" :key="products.id">
+                    <div class="categories" style="color:#4ba593">{{products.name}}</div>
                     <figure class="productimg" v-bind:id="products.id"
                             v-on:click="selectedItem();addProduct(products);">
                         <img :src="'./images/fabrics-img/sweat-fabrics.png'"

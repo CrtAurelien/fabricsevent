@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>FabricsEvent - Interface d'administration</title>
     <!-- Favicon-->
-    <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
-
+    <link rel="icon" href="{{asset('./images/favicon.ico')}}" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
           type="text/css">
@@ -246,7 +246,32 @@
 
 <!-- Jquery Core Js -->
 <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var postURL = "<?php echo url('http://localhost/fabricsevent/public/color/new'); ?>";
+        var i=1;
 
+
+        $('#add').click(function(){
+            i++;
+            $('#dynamic_field').append('<td><button type="button" name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');
+        });
+
+
+        $(document).on('click', '.btn_remove', function(){
+            var button_id = $(this).attr("id");
+            $('#row'+button_id+'').remove();
+        });
+
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+    });
+</script>
 <!-- Bootstrap Core Js -->
 <script src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
 <script src="{{asset('plugins/dropzone/dropzone.js')}}"></script>
@@ -292,6 +317,5 @@
 <script src="{{asset('plugins/bootstrap-tagsinput/bootstrap-tagsinput.js')}}"></script>
 <script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
 <script src="{{asset('plugins/jquery-inputmask/jquery.inputmask.bundle.js')}}"></script>
-
 </body>
 </html>
