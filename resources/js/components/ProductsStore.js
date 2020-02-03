@@ -8,6 +8,8 @@ const state = {
     ]
 };
 
+
+
 const mutations = {
     ADD_PRODUCT: (state, product) => {
         state.productlist.push({
@@ -16,9 +18,9 @@ const mutations = {
     },
 
     REMOVE_PRODUCT: (state, product) => {
-        var index = state.productlist.findIndex(todo => todo.id === product);
+        var index = state.productlist
         var test = state.productlist.splice(index, 1);
-        console.log(test)
+        console.log(index)
     }
 };
 

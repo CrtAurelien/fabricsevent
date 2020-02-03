@@ -42,9 +42,7 @@ const router = new VueRouter({
             name: 'home',
             components: {
                 productslist: HomeListProducts,
-                methods: PrintMethod,
                 clients: Clients,
-                engagements: Engagements,
             }
         },
         {

@@ -1,8 +1,8 @@
 <template>
     <div class="howItWorks col-lg-2">
         <img :src="'./images/question.png'" alt="" class="question">
-        <b-button class="howitworks-title" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
-            <div>Comment ça marche ?</div>
+        <b-button :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
+            <h3 class="howitworks-title">Comment ça marche ?</h3>
         </b-button>
 
         <!-- Elements to collapse -->
@@ -52,7 +52,6 @@
 <style scoped>
 
     .howitworks-title {
-        padding:27px 0 15px 0;
         background: white;
         color: black;
         text-transform: uppercase;
@@ -139,8 +138,8 @@
 
     .howItWorks {
         position: relative;
-        width: 16%;
         margin-top:25px;
+        float: right;
     }
 
     img.question {

@@ -2003,6 +2003,51 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _HowItWorks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HowItWorks */ "./resources/js/components/HowItWorks.vue");
+/* harmony import */ var _PrintMethod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrintMethod */ "./resources/js/components/PrintMethod.vue");
+/* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
+/* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2142,9 +2187,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      categories: {}
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.get('http://localhost/fabricsevent/public/api/categories/').then(function (response) {
+      return _this.categories = response.data;
+    })["catch"](function (error) {
+      return console.log(error);
+    });
+  },
   components: {
-    howitworks: _HowItWorks__WEBPACK_IMPORTED_MODULE_0__["default"]
+    OrderSummary: _OrderSummary__WEBPACK_IMPORTED_MODULE_3__["default"],
+    howitworks: _HowItWorks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    printmethods: _PrintMethod__WEBPACK_IMPORTED_MODULE_1__["default"],
+    engagements: _Engagements__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -2159,7 +2224,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -2601,6 +2665,21 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -35438,7 +35517,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.home-categories[data-v-9f1a96e8]{\n    height: 100%;\n    align-items: center;\n    display: flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n}\n", ""]);
+exports.push([module.i, "\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(1n +1){\n    padding-top:30px;\n}\n.welcome[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n}\n", ""]);
 
 // exports
 
@@ -35457,7 +35536,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworks-title[data-v-2c1b2bd2] {\n    padding:27px 0 15px 0;\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    text-align: center;\n    margin: 0;\n    background: white;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    width: 16%;\n    margin-top:25px;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    text-align: center;\n    margin: 0;\n    background: white;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -68041,94 +68120,87 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          {
-            staticClass: "col-lg-8 col-lg-offset-2",
-            attrs: { id: "engagements" }
-          },
-          [
-            _c("div", { staticClass: "engagements" }, [
-              _c("div", { staticClass: "container-engagements" }, [
-                _c("div", { staticClass: "engagements-top" }, [
-                  _c("div", { staticClass: "engagement " }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-law" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "\n                                Nous nous engageons à vous proposer des\n                                tarifs abordables et compétitifs.\n                            "
-                      )
-                    ])
+        _c("div", { staticClass: "col-lg-8", attrs: { id: "engagements" } }, [
+          _c("div", { staticClass: "engagements" }, [
+            _c("div", { staticClass: "container-engagements" }, [
+              _c("div", { staticClass: "engagements-top" }, [
+                _c("div", { staticClass: "engagement " }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-law" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "engagement" }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-badge" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "engagement green" }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-chart-histogram-alt" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
-                      )
-                    ])
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "\n                                Nous nous engageons à vous proposer des\n                                tarifs abordables et compétitifs.\n                            "
+                    )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagements-bottom" }, [
-                  _c("div", { staticClass: "engagement" }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-space-shuttle" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "Nos délais sont optimum et toujours respectés\n                            "
-                      )
-                    ])
+                _c("div", { staticClass: "engagement" }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-badge" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "engagement green" }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-business-man" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
-                      )
-                    ])
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "engagement green" }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-chart-histogram-alt" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "engagement" }, [
-                    _c("div", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "icofont-business-man" })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-engagement" }, [
-                      _vm._v(
-                        "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
-                      )
-                    ])
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "engagements-bottom" }, [
+                _c("div", { staticClass: "engagement" }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-space-shuttle" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "Nos délais sont optimum et toujours respectés\n                            "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "engagement green" }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-business-man" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "engagement" }, [
+                  _c("div", { staticClass: "icon" }, [
+                    _c("i", { staticClass: "icofont-business-man" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-engagement" }, [
+                    _vm._v(
+                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                    )
                   ])
                 ])
               ])
             ])
-          ]
-        )
+          ])
+        ])
       ])
     ])
   }
@@ -68249,151 +68321,71 @@ var render = function() {
         _c(
           "div",
           {
-            staticClass: "col-lg-8 col-lg-offset-2",
-            attrs: { id: "homeListProducts" }
+            staticClass: "col-lg-2 recap",
+            staticStyle: { "min-height": "100vh" }
           },
-          [
-            _c("div", { staticClass: "content" }, [
-              _c("div", { staticClass: "test-container" }, [
-                _c("div", { staticClass: "un" }, [
-                  _c(
-                    "figure",
-                    { staticClass: "imghvr-shutter-out-diag-2" },
-                    [
-                      _c("img", {
-                        attrs: {
-                          src: "./images/fabrics-img/tee-shirt-fabrics.jpg",
-                          alt: "example-image"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _vm._m(0),
-                      _vm._v(" "),
-                      _c("router-link", { attrs: { to: { path: "/hkjhk" } } })
-                    ],
-                    1
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "deux" }, [
-                  _c("div", { staticClass: "deuxA" }, [
-                    _c("div", { staticClass: "deuxAUn" }, [
-                      _c(
-                        "figure",
-                        { staticClass: "imghvr-shutter-out-diag-2" },
-                        [
-                          _c("img", {
-                            attrs: {
-                              src: "./images/fabrics-img/tasse-fabrics.jpg",
-                              alt: "example-image"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _vm._m(1),
-                          _vm._v(" "),
-                          _c("router-link", {
-                            attrs: { to: { path: "/hkjhk" } }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "deuxADeux" }, [
-                      _c(
-                        "figure",
-                        { staticClass: "imghvr-shutter-out-diag-2" },
-                        [
-                          _c("img", {
-                            attrs: {
-                              src: "./images/fabrics-img/bonnet-fabrics.png",
-                              alt: "example-image"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _vm._m(2),
-                          _vm._v(" "),
-                          _c("router-link", {
-                            attrs: { to: { path: "/hkjhk" } }
-                          })
-                        ],
-                        1
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "deuxB" }, [
-                    _c("div", { staticClass: "deuxBUn" }, [
-                      _c(
-                        "figure",
-                        { staticClass: "imghvr-shutter-out-diag-2" },
-                        [
-                          _c("img", {
-                            attrs: {
-                              src: "./images/fabrics-img/sweat-fabrics.png",
-                              alt: "example-image"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _vm._m(3),
-                          _vm._v(" "),
-                          _c("router-link", {
-                            attrs: { to: { path: "/hkjhk" } }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "deuxBDeux" }, [
-                      _c(
-                        "figure",
-                        { staticClass: "imghvr-shutter-out-diag-2" },
-                        [
-                          _c("img", {
-                            attrs: {
-                              src: "./images/fabrics-img/polo-fabrics.png",
-                              alt: "example-image"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _vm._m(4),
-                          _vm._v(" "),
-                          _c("router-link", {
-                            attrs: { to: { path: "/hkjhk" } }
-                          })
-                        ],
-                        1
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "trois" }, [
-                  _c(
-                    "figure",
-                    { staticClass: "imghvr-shutter-out-diag-2" },
-                    [
-                      _c("img", {
-                        attrs: {
-                          src: "./images/fabrics-img/autre-fabrics.png",
-                          alt: "example-image"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _vm._m(5),
-                      _vm._v(" "),
-                      _c("router-link", { attrs: { to: { path: "/hkjhk" } } })
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ])
-          ]
+          [_c("order-summary")],
+          1
         ),
         _vm._v(" "),
-        _c("howitworks")
+        _vm._m(0),
+        _vm._v(" "),
+        _c("howitworks"),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-8 main-products" },
+          _vm._l(_vm.categories, function(category) {
+            return category.type === 1
+              ? _c(
+                  "div",
+                  {
+                    staticClass: "col-lg-3",
+                    attrs: { id: "homeListProducts" }
+                  },
+                  [
+                    _c("div", { staticClass: "content" }, [
+                      _c("div", { staticClass: "test-container" }, [
+                        _c("div", { staticClass: "deuxB" }, [
+                          _c("div", { staticClass: "deuxBUn" }, [
+                            _c(
+                              "figure",
+                              { staticClass: "imghvr-shutter-out-diag-2" },
+                              [
+                                _c("img", {
+                                  attrs: {
+                                    src:
+                                      "./images/fabrics-img/sweat-fabrics.png",
+                                    alt: "example-image"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("figcaption", [
+                                  _c("h3", { staticClass: "home-categories" }, [
+                                    _c("span", [_vm._v(_vm._s(category.name))])
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("router-link", {
+                                  attrs: { to: { path: "/hkjhk" } }
+                                })
+                              ],
+                              1
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              : _vm._e()
+          }),
+          0
+        ),
+        _vm._v(" "),
+        _c("printmethods"),
+        _vm._v(" "),
+        _c("engagements")
       ],
       1
     )
@@ -68404,60 +68396,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Tee-shirts")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Tasses")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Bonnets")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Polos")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Autres")])
-      ])
+    return _c("div", { staticClass: "col-lg-8 welcome" }, [
+      _c("h2", [_vm._v("Bienvenue sur Fabrics")]),
+      _vm._v(" "),
+      _c("hr")
     ])
   }
 ]
@@ -68501,10 +68443,13 @@ var render = function() {
               modifiers: { "collapse-a": true, "collapse-b": true }
             }
           ],
-          staticClass: "howitworks-title",
           attrs: { "aria-expanded": _vm.showCollapse ? "true" : "false" }
         },
-        [_c("div", [_vm._v("Comment ça marche ?")])]
+        [
+          _c("h3", { staticClass: "howitworks-title" }, [
+            _vm._v("Comment ça marche ?")
+          ])
+        ]
       ),
       _vm._v(" "),
       _c(
@@ -69149,22 +69094,21 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          {
-            staticClass: "col-lg-8 col-lg-offset-2",
-            attrs: { id: "printMethods" }
-          },
-          [
-            _c("div", { staticClass: "printMethods" }, [
-              _c("h3", [_vm._v("Méthodes d'impressions")])
-            ])
-          ]
-        )
-      ])
-    ])
+    return _c(
+      "div",
+      { staticClass: "col-lg-8", attrs: { id: "printMethods" } },
+      [
+        _c("div", { staticClass: "printMethods" }, [
+          _c("h3", [_vm._v("Méthodes d'impressions")]),
+          _vm._v(" "),
+          _c("div", [
+            _vm._v(
+              "• Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -85507,9 +85451,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     name: 'home',
     components: {
       productslist: _components_HomeListProducts__WEBPACK_IMPORTED_MODULE_7__["default"],
-      methods: _components_PrintMethod__WEBPACK_IMPORTED_MODULE_9__["default"],
-      clients: _components_Clients__WEBPACK_IMPORTED_MODULE_10__["default"],
-      engagements: _components_Engagements__WEBPACK_IMPORTED_MODULE_11__["default"]
+      clients: _components_Clients__WEBPACK_IMPORTED_MODULE_10__["default"]
     }
   }, {
     path: '/produits/:id',
@@ -86456,11 +86398,9 @@ var mutations = {
     });
   },
   REMOVE_PRODUCT: function REMOVE_PRODUCT(state, product) {
-    var index = state.productlist.findIndex(function (todo) {
-      return todo.id === product;
-    });
+    var index = state.productlist;
     var test = state.productlist.splice(index, 1);
-    console.log(test);
+    console.log(index);
   }
 };
 var actions = {

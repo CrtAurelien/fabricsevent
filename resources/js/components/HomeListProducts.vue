@@ -1,7 +1,35 @@
 <template>
     <div class="container-fluid">
         <div class="row main_wrapper">
-            <div class="col-lg-8 col-lg-offset-2" id="homeListProducts">
+            <div class="col-lg-2 recap" style="min-height: 100vh;">
+                <order-summary></order-summary>
+            </div>
+            <div class="col-lg-8 welcome">
+                <h2>Bienvenue sur Fabrics</h2>
+                <hr>
+            </div>
+            <howitworks></howitworks>
+            <div class="col-lg-8 main-products">
+            <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
+                <div class="content">
+                    <div class="test-container">
+
+                            <div class="deuxB">
+                                <div class="deuxBUn">
+                                    <figure class="imghvr-shutter-out-diag-2"><img
+                                            :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
+                                        <figcaption>
+                                            <h3 class="home-categories"><span>{{category.name}}</span></h3>
+                                        </figcaption>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
+                                    </figure>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
                     <div class="test-container">
                         <div class="un">
@@ -66,18 +94,32 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <howitworks></howitworks>
+            </div>-->
+            <printmethods></printmethods>
+            <engagements></engagements>
         </div>
     </div>
 </template>
 
 <style scoped>
 
-    .home-categories{
+    div#homeListProducts:nth-child(1n +1){
+        padding-top:30px;
+    }
+
+    .welcome{
+        text-transform: uppercase;
+    }
+
+    .main-products{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home-categories {
         height: 100%;
         align-items: center;
-        display: flex;
+        display: inline-flex;
         margin: 0;
     }
 
@@ -138,10 +180,27 @@
 
 <script>
     import HowItWorks from "./HowItWorks";
+    import PrintMethod from "./PrintMethod";
+    import Engagements from "./Engagements";
+    import OrderSummary from "./OrderSummary";
 
     export default {
-        components:{
-          howitworks: HowItWorks,
+        data() {
+            return {
+                categories: {}
+            }
+        },
+        created(){
+            axios.get('http://localhost/fabricsevent/public/api/categories/')
+                .then((response) => this.categories = response.data)
+                .catch((error) => console.log(error));
+        },
+        components: {
+            OrderSummary,
+            howitworks: HowItWorks,
+            printmethods: PrintMethod,
+            engagements: Engagements,
         }
+
     }
 </script>

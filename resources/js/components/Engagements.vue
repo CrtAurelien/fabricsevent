@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2" id="engagements">
+            <div class="col-lg-8" id="engagements">
                 <div class="engagements">
                     <div class="container-engagements">
                         <div class="engagements-top">
