@@ -57,6 +57,50 @@
                                         </span>
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="demo-checkbox">
+                                        <input type="checkbox" id="md_checkbox_1" class="chk-col-red">
+                                        <label for="md_checkbox_1">RED</label>
+                                        <input type="checkbox" id="md_checkbox_2" class="chk-col-pink">
+                                        <label for="md_checkbox_2">PINK</label>
+                                        <input type="checkbox" id="md_checkbox_3" class="chk-col-purple">
+                                        <label for="md_checkbox_3">PURPLE</label>
+                                        <input type="checkbox" id="md_checkbox_4" class="chk-col-deep-purple">
+                                        <label for="md_checkbox_4">DEEP PURPLE</label>
+                                        <input type="checkbox" id="md_checkbox_5" class="chk-col-indigo">
+                                        <label for="md_checkbox_5">INDIGO</label>
+                                        <input type="checkbox" id="md_checkbox_6" class="chk-col-blue">
+                                        <label for="md_checkbox_6">BLUE</label>
+                                        <input type="checkbox" id="md_checkbox_7" class="chk-col-light-blue">
+                                        <label for="md_checkbox_7">LIGHT BLUE</label>
+                                        <input type="checkbox" id="md_checkbox_8" class="chk-col-cyan">
+                                        <label for="md_checkbox_8">CYAN</label>
+                                        <input type="checkbox" id="md_checkbox_9" class="chk-col-teal">
+                                        <label for="md_checkbox_9">TEAL</label>
+                                        <input type="checkbox" id="md_checkbox_10" class="chk-col-green">
+                                        <label for="md_checkbox_10">GREEN</label>
+                                        <input type="checkbox" id="md_checkbox_11" class="chk-col-light-green">
+                                        <label for="md_checkbox_11">LIGHT GREEN</label>
+                                        <input type="checkbox" id="md_checkbox_12" class="chk-col-lime">
+                                        <label for="md_checkbox_12">LIME</label>
+                                        <input type="checkbox" id="md_checkbox_13" class="chk-col-yellow">
+                                        <label for="md_checkbox_13">YELLOW</label>
+                                        <input type="checkbox" id="md_checkbox_14" class="chk-col-amber">
+                                        <label for="md_checkbox_14">AMBER</label>
+                                        <input type="checkbox" id="md_checkbox_15" class="chk-col-orange">
+                                        <label for="md_checkbox_15">ORANGE</label>
+                                        <input type="checkbox" id="md_checkbox_16" class="chk-col-deep-orange">
+                                        <label for="md_checkbox_16">DEEP ORANGE</label>
+                                        <input type="checkbox" id="md_checkbox_17" class="chk-col-brown">
+                                        <label for="md_checkbox_17">BROWN</label>
+                                        <input type="checkbox" id="md_checkbox_18" class="chk-col-grey">
+                                        <label for="md_checkbox_18">GREY</label>
+                                        <input type="checkbox" id="md_checkbox_19" class="chk-col-blue-grey">
+                                        <label for="md_checkbox_19">BLUE GREY</label>
+                                        <input type="checkbox" id="md_checkbox_20" class="chk-col-black">
+                                        <label for="md_checkbox_20">BLACK</label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

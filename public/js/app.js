@@ -2405,6 +2405,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2441,6 +2442,23 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2633,6 +2651,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
 //
 //
 //
@@ -35476,7 +35495,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.colors{\n    padding-top:5px;\n    display:block;\n}\n.quantity{\n    padding-left: 5px !important;\n    width: 45px;\n    border: none;\n    background: none;\n    float: right;\n    height: 20px;\n    border-bottom: 1px solid white;\n    border-radius: 0;\n    color:white;\n    box-shadow: none;\n    padding:0;\n}\n.custom-range{\n    margin-top:5px;\n}\n.form-control:focus{\n    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.12);\n    border-color:inherit;\n}\ninput[type=\"range\"] {\n    display: inline-block;\n    width: 80%;\n}\n.recap-products{\n    box-shadow: 0px 0px 6px -2px #000000b5, inset 0px 0px 9px 0px rgb(40, 90, 83);\n    background: #4ba593;\n    width: 210px;\n    border: 5px solid #ffffff;\n    color: white;\n    position: relative;\n    padding: 10px 8px;\n}\n.recap-title{\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 0;\n    padding: 40px 0 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-footer{\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 10px 0 0 0;\n    padding: 5px 0;\n    font-size:15px;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-products > i{\n    line-height: 28px;\n    right:10px;\n    position: absolute;\n    color:#de2a2a;\n}\ni{\n    cursor: pointer;\n}\n", ""]);
+exports.push([module.i, "\n.colors {\n    padding-top: 5px;\n    display: block;\n}\n.quantity {\n    padding-left: 5px !important;\n    width: 45px;\n    border: none;\n    background: none;\n    float: right;\n    height: 20px;\n    border-bottom: 1px solid white;\n    border-radius: 0;\n    color: white;\n    box-shadow: none;\n    padding: 0;\n}\n.custom-range {\n    margin-top: 5px;\n}\n.form-control:focus {\n    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.12);\n    border-color: inherit;\n}\ninput[type=\"range\"] {\n    display: inline-block;\n    width: 80%;\n}\n.recap-products {\n    box-shadow: 0px 0px 6px -2px #000000b5, inset 0px 0px 9px 0px rgb(40, 90, 83);\n    background: #4ba593;\n    width: 210px;\n    border: 5px solid #ffffff;\n    color: white;\n    position: relative;\n    padding: 10px 8px;\n}\n.recap-title {\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 0;\n    padding: 40px 0 15px 0;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-footer {\n    box-shadow: 0px 0px 6px 0px #000000b5;\n    background: #4ba593;\n    width: 210px;\n    margin: 10px 0 0 0;\n    padding: 5px 0;\n    font-size: 15px;\n    text-transform: uppercase;\n    text-align: center;\n    color: white;\n    border: 5px solid white;\n}\n.recap-products > i {\n    line-height: 28px;\n    right: 10px;\n    position: absolute;\n    color: #de2a2a;\n}\ni {\n    cursor: pointer;\n}\n", ""]);
 
 // exports
 
@@ -68272,8 +68291,11 @@ var render = function() {
                           _vm._v(" "),
                           _vm._m(1),
                           _vm._v(" "),
-                          _c("a", { attrs: { href: "javascript:;" } })
-                        ]
+                          _c("router-link", {
+                            attrs: { to: { path: "/hkjhk" } }
+                          })
+                        ],
+                        1
                       )
                     ]),
                     _vm._v(" "),
@@ -68291,8 +68313,11 @@ var render = function() {
                           _vm._v(" "),
                           _vm._m(2),
                           _vm._v(" "),
-                          _c("a", { attrs: { href: "javascript:;" } })
-                        ]
+                          _c("router-link", {
+                            attrs: { to: { path: "/hkjhk" } }
+                          })
+                        ],
+                        1
                       )
                     ])
                   ]),
@@ -68312,8 +68337,11 @@ var render = function() {
                           _vm._v(" "),
                           _vm._m(3),
                           _vm._v(" "),
-                          _c("a", { attrs: { href: "javascript:;" } })
-                        ]
+                          _c("router-link", {
+                            attrs: { to: { path: "/hkjhk" } }
+                          })
+                        ],
+                        1
                       )
                     ]),
                     _vm._v(" "),
@@ -68331,26 +68359,34 @@ var render = function() {
                           _vm._v(" "),
                           _vm._m(4),
                           _vm._v(" "),
-                          _c("a", { attrs: { href: "javascript:;" } })
-                        ]
+                          _c("router-link", {
+                            attrs: { to: { path: "/hkjhk" } }
+                          })
+                        ],
+                        1
                       )
                     ])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "trois" }, [
-                  _c("figure", { staticClass: "imghvr-shutter-out-diag-2" }, [
-                    _c("img", {
-                      attrs: {
-                        src: "./images/fabrics-img/autre-fabrics.png",
-                        alt: "example-image"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _vm._m(5),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "javascript:;" } })
-                  ])
+                  _c(
+                    "figure",
+                    { staticClass: "imghvr-shutter-out-diag-2" },
+                    [
+                      _c("img", {
+                        attrs: {
+                          src: "./images/fabrics-img/autre-fabrics.png",
+                          alt: "example-image"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _vm._m(5),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: { path: "/hkjhk" } } })
+                    ],
+                    1
+                  )
                 ])
               ])
             ])
@@ -68370,7 +68406,27 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("figcaption", [
       _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
+        _c("span", [_vm._v("Tee-shirts")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("figcaption", [
+      _c("h3", { staticClass: "home-categories" }, [
+        _c("span", [_vm._v("Tasses")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("figcaption", [
+      _c("h3", { staticClass: "home-categories" }, [
+        _c("span", [_vm._v("Bonnets")])
       ])
     ])
   },
@@ -68390,7 +68446,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("figcaption", [
       _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
+        _c("span", [_vm._v("Polos")])
       ])
     ])
   },
@@ -68400,27 +68456,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("figcaption", [
       _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("figcaption", [
-      _c("h3", { staticClass: "home-categories" }, [
-        _c("span", [_vm._v("Sweats")])
+        _c("span", [_vm._v("Autres")])
       ])
     ])
   }
@@ -68673,32 +68709,35 @@ var render = function() {
             { staticClass: "nav navbar-nav navbar-center" },
             [
               _vm._l(_vm.categories, function(category) {
-                return _c(
-                  "li",
-                  [
-                    category
-                      ? _c(
-                          "router-link",
-                          {
-                            staticClass: "js-right-sidebar",
-                            attrs: {
-                              to: {
-                                name: "products",
-                                params: { id: category.id }
+                return category.type === 1
+                  ? _c(
+                      "li",
+                      [
+                        category
+                          ? _c(
+                              "router-link",
+                              {
+                                staticClass: "js-right-sidebar",
+                                attrs: {
+                                  to: {
+                                    name: "products",
+                                    params: { id: category.id }
+                                  },
+                                  "data-close": "true"
+                                }
                               },
-                              "data-close": "true"
-                            }
-                          },
-                          [
-                            _vm._v(
-                              _vm._s(category.name) + "\n                    "
+                              [
+                                _vm._v(
+                                  _vm._s(category.name) +
+                                    "\n                    "
+                                )
+                              ]
                             )
-                          ]
-                        )
-                      : _vm._e()
-                  ],
-                  1
-                )
+                          : _vm._e()
+                      ],
+                      1
+                    )
+                  : _vm._e()
               }),
               _vm._v(" "),
               _c("li", { staticClass: "nav-item dropdown" }, [
@@ -68707,7 +68746,6 @@ var render = function() {
                   {
                     staticClass: "nav-link dropdown-toggle js-right-sidebar",
                     attrs: {
-                      href: "#",
                       id: "navbarDropdownMenuLink",
                       role: "button",
                       "data-toggle": "dropdown",
@@ -68729,7 +68767,7 @@ var render = function() {
                     attrs: { "aria-labelledby": "navbarDropdownMenuLink" }
                   },
                   _vm._l(_vm.categories, function(category) {
-                    return category
+                    return category.type === 2
                       ? _c(
                           "router-link",
                           {
@@ -68745,7 +68783,8 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              _vm._s(category.name) +
+                              "\n                            " +
+                                _vm._s(category.name) +
                                 "\n                        "
                             )
                           ]
@@ -68872,7 +68911,7 @@ var render = function() {
                 "data-whatever": "@getbootstrap"
               }
             },
-            [_vm._v("Valider le devis")]
+            [_vm._v("Valider le devis\n    ")]
           )
         : _vm._e(),
       _vm._v(" "),
@@ -68920,17 +68959,85 @@ var render = function() {
                             _vm._v(
                               " " +
                                 _vm._s(selectedProduct.product.name) +
-                                "\n                    "
+                                "\n                        "
+                            ),
+                            _c(
+                              "button",
+                              {
+                                on: {
+                                  click: function($event) {
+                                    return _vm.removeProduct()
+                                  }
+                                }
+                              },
+                              [_vm._v("Supprimer")]
                             )
                           ]
-                        ),
-                        _vm._v(" "),
-                        _vm._m(1, true)
+                        )
                       ]
                     )
                   }),
                   _vm._v(" "),
-                  _vm._m(2)
+                  this.$store.getters.productlist.length > 0
+                    ? _c("div", { staticClass: "modal-body mx-3" }, [_vm._m(1)])
+                    : _vm._e(),
+                  _vm._v(" "),
+                  this.$store.getters.productlist.length < 1
+                    ? _c(
+                        "div",
+                        {
+                          staticClass:
+                            "modal-footer contact-footer d-flex justify-content-center"
+                        },
+                        [
+                          _vm._m(2),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              staticClass: "btn btn-unique btn-contact",
+                              attrs: {
+                                "data-dismiss": "modal",
+                                "aria-label": "Close"
+                              }
+                            },
+                            [_vm._v("Retour\n                    ")]
+                          )
+                        ]
+                      )
+                    : _c(
+                        "div",
+                        {
+                          staticClass:
+                            "modal-footer contact-footer d-flex justify-content-center"
+                        },
+                        [
+                          _c(
+                            "button",
+                            {
+                              staticClass: "btn btn-unique btn-contact",
+                              attrs: {
+                                "data-dismiss": "modal",
+                                "aria-label": "Close"
+                              }
+                            },
+                            [
+                              _vm._v(
+                                "Modifier le\n                        devis\n                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              staticClass: "btn btn-unique btn-contact",
+                              attrs: { type: "submit" }
+                            },
+                            [_vm._v("Valider")]
+                          )
+                        ]
+                      )
                 ],
                 2
               )
@@ -68998,28 +69105,18 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "div",
+      "h4",
       {
-        staticClass: "modal-footer contact-footer d-flex justify-content-center"
+        staticClass: "modal-title w-100 contact-title font-weight-bold",
+        staticStyle: { "text-align": "center" }
       },
       [
-        _c(
-          "button",
-          {
-            staticClass: "btn btn-unique btn-contact",
-            attrs: { type: "submit" }
-          },
-          [_vm._v("Modifier")]
+        _vm._v(
+          "Votre\n                        devis ne contient aucun produit... "
         ),
-        _vm._v(" "),
-        _c(
-          "button",
-          {
-            staticClass: "btn btn-unique btn-contact",
-            attrs: { type: "submit" }
-          },
-          [_vm._v("Valider")]
-        )
+        _c("a", { staticStyle: { color: "#4BA593" }, attrs: { href: "#" } }, [
+          _vm._v("Besoin d'aide ?")
+        ])
       ]
     )
   }
@@ -69159,6 +69256,15 @@ var render = function() {
                 "div",
                 { key: products.id, staticClass: "col-lg-3 product" },
                 [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "categories",
+                      staticStyle: { color: "#4ba593" }
+                    },
+                    [_vm._v(_vm._s(products.name))]
+                  ),
+                  _vm._v(" "),
                   _c(
                     "figure",
                     {
