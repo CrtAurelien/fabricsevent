@@ -66,11 +66,10 @@
 
     #engagements{
         padding:0;
-        background: #285a53;;
+        background: #285A53;
     }
 
     .text-engagement {
-        padding-top: 10px;
         text-align: center;
     }
 
