@@ -1924,20 +1924,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2649,14 +2635,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -35463,7 +35441,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#engagements[data-v-39d380f9]{\n    padding:0;\n    background: #285A53;\n}\n.text-engagement[data-v-39d380f9] {\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    padding: 15px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n.text-engagement[data-v-39d380f9] {\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n    margin-top: 35px;\n}\n.engagement[data-v-39d380f9] {\n    color: white;\n    flex: 1;\n    padding: 0 35px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -68105,83 +68083,85 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-lg-12", attrs: { id: "engagements" } }, [
-          _c("div", { staticClass: "engagements" }, [
-            _c("div", { staticClass: "container-engagements" }, [
+          _c(
+            "div",
+            { staticClass: "container-engagements col-lg-10 col-lg-offset-1" },
+            [
               _c("div", { staticClass: "engagements-top" }, [
-                _c("div", { staticClass: "engagement " }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-law" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "\n                                Nous nous engageons à vous proposer des\n                                tarifs abordables et compétitifs.\n                            "
+                      "\n                            Nous nous engageons à vous proposer des\n                            tarifs abordables et compétitifs.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-badge" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement green" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-chart-histogram-alt" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-space-shuttle" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nos délais sont optimum et toujours respectés\n                            "
+                      "Nos délais sont optimum et toujours respectés\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement green" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-business-man" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-business-man" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ])
               ])
-            ])
-          ])
+            ]
+          )
         ])
       ])
     ])
@@ -69078,13 +69058,39 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-lg-8", attrs: { id: "printMethods" } },
       [
-        _c("div", { staticClass: "printMethods" }, [
-          _c("h3", [_vm._v("Méthodes d'impressions")]),
-          _vm._v(" "),
-          _c("div", [
-            _vm._v(
-              "• Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
-            )
+        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Special title treatment")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "With supporting text below as a natural lead-in to additional content."
+              )
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
+              _vm._v("Go somewhere")
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Special title treatment")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "With supporting text below as a natural lead-in to additional content."
+              )
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
+              _vm._v("Go somewhere")
+            ])
           ])
         ])
       ]

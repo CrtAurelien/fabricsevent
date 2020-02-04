@@ -2,72 +2,65 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12" id="engagements">
-                <div class="engagements">
-                    <div class="container-engagements">
-                        <div class="engagements-top">
-                            <div class="engagement ">
-                                <div class="icon">
-                                    <i class="icofont-law"></i>
-                                </div>
-                                <div class="text-engagement">
-                                    Nous nous engageons à vous proposer des
-                                    tarifs abordables et compétitifs.
-                                </div>
+                <div class="container-engagements col-lg-10 col-lg-offset-1">
+                    <div class="engagements-top">
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-law"></i>
                             </div>
-                            <div class="engagement">
-                                <div class="icon">
-                                    <i class="icofont-badge"></i>
-                                </div>
-                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                                    réalisé.
-                                </div>
+                            <div class="text-engagement">
+                                Nous nous engageons à vous proposer des
+                                tarifs abordables et compétitifs.
                             </div>
-                            <div class="engagement green">
-                                <div class="icon">
-                                    <i class="icofont-chart-histogram-alt"></i>
-                                </div>
-                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                                    réalisé.
-                                </div>
+                        </div>
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-badge"></i>
                             </div>
-                            <div class="engagement">
-                                <div class="icon">
-                                    <i class="icofont-space-shuttle"></i>
-                                </div>
-                                <div class="text-engagement">Nos délais sont optimum et toujours respectés
-                                </div>
+                            <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                réalisé.
                             </div>
-                            <div class="engagement green">
-                                <div class="icon">
-                                    <i class="icofont-business-man"></i>
-                                </div>
-                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                                    réalisé.
-                                </div>
+                        </div>
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-chart-histogram-alt"></i>
                             </div>
-                            <div class="engagement">
-                                <div class="icon">
-                                    <i class="icofont-business-man"></i>
-                                </div>
-                                <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                                    réalisé.
-                                </div>
+                            <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                réalisé.
+                            </div>
+                        </div>
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-space-shuttle"></i>
+                            </div>
+                            <div class="text-engagement">Nos délais sont optimum et toujours respectés
+                            </div>
+                        </div>
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-business-man"></i>
+                            </div>
+                            <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                réalisé.
+                            </div>
+                        </div>
+                        <div class="col-lg-2 engagement">
+                            <div class="icon">
+                                <i class="icofont-business-man"></i>
+                            </div>
+                            <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
+                                réalisé.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
 
 <style scoped>
 
-    #engagements{
-        padding:0;
-        background: #285A53;
-    }
 
     .text-engagement {
         text-align: center;
@@ -76,23 +69,16 @@
     .container-engagements {
         display: flex;
         flex-direction: column;
+        margin-top: 35px;
     }
 
-    .engagements-top, .engagements-bottom {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .engagements-top + .engagements-bottom {
-        margin-top: 15px;
-    }
 
     .engagement {
-        color:white;
+        color: white;
         flex: 1;
-        padding: 15px;
+        padding: 0 35px;
     }
-    
+
     .icon {
         font-size: 40px;
         text-transform: uppercase;
