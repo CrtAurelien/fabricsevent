@@ -1957,6 +1957,82 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35470,7 +35546,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nspan[data-v-5603df2d] {\r\n    color:white;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -68257,9 +68333,134 @@ var staticRenderFns = [
       "footer",
       { staticClass: "footer custom-footer", attrs: { id: "bottomFabrics" } },
       [
-        _c("div", { staticClass: "container" }, [
-          _c("span", {}, [_vm._v("Place sticky footer content here.")])
-        ])
+        _c(
+          "footer",
+          { staticClass: "page-footer font-small stylish-color-dark pt-4" },
+          [
+            _c(
+              "div",
+              { staticClass: "container footer text-center text-md-left" },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Footer Content")]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit\n                        amet,\n                        consectetur\n                        adipisicing elit."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("div", { staticClass: "footer-copyright text-center py-3" }, [
+              _vm._v("© 2020 Copyright:\n            "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://mdbootstrap.com/education/bootstrap/"
+                  }
+                },
+                [_vm._v(" MDBootstrap.com")]
+              )
+            ])
+          ]
+        )
       ]
     )
   }
