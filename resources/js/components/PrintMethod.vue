@@ -3,7 +3,7 @@
         <div class="printMethods">
             <h3>Méthodes d'impressions</h3>
             <div>
-                
+
                 • Flocage
                 Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
                 Idéal pour de petites quantités.

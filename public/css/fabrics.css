@@ -177,10 +177,9 @@ video.video-stream.html5-main-video {
   bottom: 0;
   width: 100%;
   height: 60px;
-  margin-top: 25px;
   line-height: 60px;
   text-align: center;
-  background-color: #285A53;
+  background-color: #237e72;
 }
 
 .actual-label {
@@ -188,3 +187,7 @@ video.video-stream.html5-main-video {
   margin-top: 1px;
 }
 
+#engagements{
+  height: 200px;
+  background: #285A53;
+}
