@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8" id="engagements">
+            <div class="col-lg-12" id="engagements">
                 <div class="engagements">
                     <div class="container-engagements">
                         <div class="engagements-top">
@@ -64,8 +64,9 @@
 
 <style scoped>
 
-    .engagements {
-        padding-top: 25px;
+    #engagements{
+        padding:0;
+        background: #285a53;;
     }
 
     .text-engagement {
@@ -90,12 +91,7 @@
     .engagement {
         color:white;
         flex: 1;
-        box-shadow: 0px 0px 12px -6px rgba(0, 0, 0, 0.95);
         padding: 15px;
-        background: url(https://www.zupimages.net/up/19/39/1zmf.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        filter: saturate(0.5);
     }
 
     .engagement + .engagement {
@@ -103,12 +99,9 @@
     }
 
     .icon {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
         font-size: 40px;
         text-transform: uppercase;
+        text-align: center;
     }
 
     .trending-icon {

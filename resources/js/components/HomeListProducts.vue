@@ -6,14 +6,12 @@
             </div>
             <div class="col-lg-8 welcome">
                 <h2>Bienvenue sur Fabrics</h2>
-                <hr>
             </div>
             <howitworks></howitworks>
             <div class="col-lg-8 main-products">
             <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
                 <div class="content">
                     <div class="test-container">
-
                             <div class="deuxB">
                                 <div class="deuxBUn">
                                     <figure class="imghvr-shutter-out-diag-2"><img

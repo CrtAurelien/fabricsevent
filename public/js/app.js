@@ -1943,13 +1943,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2004,8 +1997,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PrintMethod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrintMethod */ "./resources/js/components/PrintMethod.vue");
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
-//
-//
 //
 //
 //
@@ -35477,7 +35468,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.engagements[data-v-39d380f9] {\n    padding-top: 25px;\n}\n.text-engagement[data-v-39d380f9] {\n    padding-top: 10px;\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    box-shadow: 0px 0px 12px -6px rgba(0, 0, 0, 0.95);\n    padding: 15px;\n    background: url(https://www.zupimages.net/up/19/39/1zmf.png);\n    background-size: cover;\n    background-repeat: no-repeat;\n    -webkit-filter: saturate(0.5);\n            filter: saturate(0.5);\n}\n.engagement + .engagement[data-v-39d380f9] {\n    margin-left: 15px;\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n#engagements[data-v-39d380f9]{\n    padding:0;\n    background: #285a53;\n}\n.text-engagement[data-v-39d380f9] {\n    padding-top: 10px;\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    padding: 15px;\n}\n.engagement + .engagement[data-v-39d380f9] {\n    margin-left: 15px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -68118,7 +68109,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-lg-8", attrs: { id: "engagements" } }, [
+        _c("div", { staticClass: "col-lg-12", attrs: { id: "engagements" } }, [
           _c("div", { staticClass: "engagements" }, [
             _c("div", { staticClass: "container-engagements" }, [
               _c("div", { staticClass: "engagements-top" }, [
@@ -68393,9 +68384,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-8 welcome" }, [
-      _c("h2", [_vm._v("Bienvenue sur Fabrics")]),
-      _vm._v(" "),
-      _c("hr")
+      _c("h2", [_vm._v("Bienvenue sur Fabrics")])
     ])
   }
 ]
