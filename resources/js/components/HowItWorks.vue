@@ -1,7 +1,7 @@
 <template>
     <div class="howItWorks col-lg-2">
         <img :src="'./images/question.png'" alt="" class="question">
-        <b-button :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
+        <b-button class="howitworksbtn" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
             <h3 class="howitworks-title">Comment ça marche ?</h3>
         </b-button>
 
@@ -50,6 +50,11 @@
 
 
 <style scoped>
+
+    .howitworksbtn{
+        padding: 25px 0 8px 0px;
+        border-radius: 0;
+    }
 
     .howitworks-title {
         background: white;

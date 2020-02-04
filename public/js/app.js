@@ -1924,34 +1924,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1969,6 +1941,83 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2006,8 +2055,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PrintMethod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrintMethod */ "./resources/js/components/PrintMethod.vue");
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
-//
-//
 //
 //
 //
@@ -2224,6 +2271,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2665,6 +2717,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -35479,7 +35533,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.engagements[data-v-39d380f9] {\n    padding-top: 25px;\n}\n.text-engagement[data-v-39d380f9] {\n    padding-top: 10px;\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    box-shadow: 0px 0px 12px -6px rgba(0, 0, 0, 0.95);\n    padding: 15px;\n    background: url(https://www.zupimages.net/up/19/39/1zmf.png);\n    background-size: cover;\n    background-repeat: no-repeat;\n    -webkit-filter: saturate(0.5);\n            filter: saturate(0.5);\n}\n.engagement + .engagement[data-v-39d380f9] {\n    margin-left: 15px;\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n.text-engagement[data-v-39d380f9] {\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n    margin-top: 35px;\n}\n.engagement[data-v-39d380f9] {\n    color: white;\n    flex: 1;\n    padding: 0 35px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -35498,7 +35552,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nspan[data-v-5603df2d] {\r\n    color:white;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n    background: #237E72;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -35536,7 +35590,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    text-align: center;\n    margin: 0;\n    background: white;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    text-align: center;\n    margin: 0;\n    background: white;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -68120,86 +68174,86 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-lg-8", attrs: { id: "engagements" } }, [
-          _c("div", { staticClass: "engagements" }, [
-            _c("div", { staticClass: "container-engagements" }, [
+        _c("div", { staticClass: "col-lg-12", attrs: { id: "engagements" } }, [
+          _c(
+            "div",
+            { staticClass: "container-engagements col-lg-10 col-lg-offset-1" },
+            [
               _c("div", { staticClass: "engagements-top" }, [
-                _c("div", { staticClass: "engagement " }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-law" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "\n                                Nous nous engageons à vous proposer des\n                                tarifs abordables et compétitifs.\n                            "
+                      "\n                            Nous nous engageons à vous proposer des\n                            tarifs abordables et compétitifs.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-badge" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement green" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-chart-histogram-alt" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "engagements-bottom" }, [
-                _c("div", { staticClass: "engagement" }, [
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-space-shuttle" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nos délais sont optimum et toujours respectés\n                            "
+                      "Nos délais sont optimum et toujours respectés\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement green" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-business-man" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "engagement" }, [
+                _c("div", { staticClass: "col-lg-2 engagement" }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("i", { staticClass: "icofont-business-man" })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-engagement" }, [
                     _vm._v(
-                      "Nous garantissons que notre travail sera parfaitement\n                                réalisé.\n                            "
+                      "Nous garantissons que notre travail sera parfaitement\n                            réalisé.\n                        "
                     )
                   ])
                 ])
               ])
-            ])
-          ])
+            ]
+          )
         ])
       ])
     ])
@@ -68285,9 +68339,134 @@ var staticRenderFns = [
       "footer",
       { staticClass: "footer custom-footer", attrs: { id: "bottomFabrics" } },
       [
-        _c("div", { staticClass: "container" }, [
-          _c("span", {}, [_vm._v("Place sticky footer content here.")])
-        ])
+        _c(
+          "footer",
+          { staticClass: "page-footer font-small stylish-color-dark pt-4" },
+          [
+            _c(
+              "div",
+              { staticClass: "container footer text-center text-md-left" },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Footer Content")]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit\n                        amet,\n                        consectetur\n                        adipisicing elit."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3" }, [
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                      },
+                      [_vm._v("Links")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
+                      ])
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("div", { staticClass: "footer-copyright text-center py-3" }, [
+              _vm._v("© 2020 Copyright:\n            "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://mdbootstrap.com/education/bootstrap/"
+                  }
+                },
+                [_vm._v(" MDBootstrap.com")]
+              )
+            ])
+          ]
+        )
       ]
     )
   }
@@ -68397,9 +68576,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-8 welcome" }, [
-      _c("h2", [_vm._v("Bienvenue sur Fabrics")]),
-      _vm._v(" "),
-      _c("hr")
+      _c("h2", [_vm._v("Bienvenue sur Fabrics")])
     ])
   }
 ]
@@ -68443,6 +68620,7 @@ var render = function() {
               modifiers: { "collapse-a": true, "collapse-b": true }
             }
           ],
+          staticClass: "howitworksbtn",
           attrs: { "aria-expanded": _vm.showCollapse ? "true" : "false" }
         },
         [
@@ -69103,7 +69281,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", [
             _vm._v(
-              "• Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
+              "\n\n            • Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
             )
           ])
         ])

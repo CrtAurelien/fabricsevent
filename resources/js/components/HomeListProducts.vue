@@ -6,30 +6,27 @@
             </div>
             <div class="col-lg-8 welcome">
                 <h2>Bienvenue sur Fabrics</h2>
-                <hr>
             </div>
             <howitworks></howitworks>
             <div class="col-lg-8 main-products">
-                <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
-                    <div class="content">
-                        <div class="test-container">
-                                <div class="deuxB">
-                                    <div class="deuxBUn">
-                                        <figure class="imghvr-shutter-out-diag-2"><img
-                                                :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
-                                            <figcaption>
-                                                <h3 class="home-categories"><span>{{category.name}}</span></h3>
-                                            </figcaption>
-                                            <router-link :to="{path: '/hkjhk'}"></router-link>
-                                        </figure>
-                                    </div>
+            <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
+                <div class="content">
+                    <div class="test-container">
+                            <div class="deuxB">
+                                <div class="deuxBUn">
+                                    <figure class="imghvr-shutter-out-diag-2"><img
+                                            :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
+                                        <figcaption>
+                                            <h3 class="home-categories"><span>{{category.name}}</span></h3>
+                                        </figcaption>
+                                        <router-link :to="{path: '/hkjhk'}"></router-link>
+                                    </figure>
                                 </div>
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>
-            <printmethods></printmethods>
-            <engagements></engagements>
+            </div>
             <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
                     <div class="test-container">
@@ -96,11 +93,10 @@
                     </div>
                 </div>
             </div>-->
+            <printmethods></printmethods>
+            <engagements></engagements>
         </div>
-
-
     </div>
-
 </template>
 
 <style scoped>
