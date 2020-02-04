@@ -1939,10 +1939,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35468,7 +35464,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#engagements[data-v-39d380f9]{\n    padding:0;\n    background: #285a53;\n}\n.text-engagement[data-v-39d380f9] {\n    padding-top: 10px;\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    padding: 15px;\n}\n.engagement + .engagement[data-v-39d380f9] {\n    margin-left: 15px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n#engagements[data-v-39d380f9]{\n    padding:0;\n    background: #285a53;\n}\n.text-engagement[data-v-39d380f9] {\n    padding-top: 10px;\n    text-align: center;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 15px;\n}\n.engagement[data-v-39d380f9] {\n    color:white;\n    flex: 1;\n    padding: 15px;\n}\n.icon[data-v-39d380f9] {\n    font-size: 40px;\n    text-transform: uppercase;\n    text-align: center;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 

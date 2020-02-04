@@ -93,11 +93,7 @@
         flex: 1;
         padding: 15px;
     }
-
-    .engagement + .engagement {
-        margin-left: 15px;
-    }
-
+    
     .icon {
         font-size: 40px;
         text-transform: uppercase;
