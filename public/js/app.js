@@ -2665,6 +2665,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -69058,39 +69068,13 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-lg-8", attrs: { id: "printMethods" } },
       [
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [
-              _vm._v("Special title treatment")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "card-text" }, [
-              _vm._v(
-                "With supporting text below as a natural lead-in to additional content."
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
-              _vm._v("Go somewhere")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [
-              _vm._v("Special title treatment")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "card-text" }, [
-              _vm._v(
-                "With supporting text below as a natural lead-in to additional content."
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
-              _vm._v("Go somewhere")
-            ])
+        _c("div", { staticClass: "printMethods" }, [
+          _c("h3", [_vm._v("Méthodes d'impressions")]),
+          _vm._v(" "),
+          _c("div", [
+            _vm._v(
+              "\n            \n            • Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
+            )
           ])
         ])
       ]
