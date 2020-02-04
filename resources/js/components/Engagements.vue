@@ -1,6 +1,5 @@
 <template>
     <div class="container-fluid">
-        <div class="row">
             <div class="col-lg-8" id="engagements">
                 <div class="engagements">
                     <div class="container-engagements">
@@ -59,8 +58,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
     </div>
 </template>
 

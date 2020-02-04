@@ -1,0 +1,15 @@
+.container-prints {
+  display:flex;
+  .print-method {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    height: 190px;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+
+  }
+  .print-method +.print-method {
+    margin-left:15px;
+  }
+}

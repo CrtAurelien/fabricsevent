@@ -1,5 +1,22 @@
 /* PRODUITS */
 
+.container-prints {
+  display: flex;
+}
+
+.container-prints .print-method {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 190px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container-prints .print-method + .print-method {
+  margin-left: 15px;
+}
+
 .un {
   display: flex;
   justify-content: center;
