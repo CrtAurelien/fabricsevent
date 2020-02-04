@@ -30,8 +30,6 @@
                                     réalisé.
                                 </div>
                             </div>
-                        </div>
-                        <div class="engagements-bottom">
                             <div class="engagement">
                                 <div class="icon">
                                     <i class="icofont-space-shuttle"></i>
