@@ -2033,6 +2033,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35551,7 +35552,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
+exports.push([module.i, "\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n    background: #237E72;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
 
 // exports
 

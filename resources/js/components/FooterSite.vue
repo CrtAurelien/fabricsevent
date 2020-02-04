@@ -82,6 +82,7 @@
     .footer {
         line-height:25px;
         padding: 15px 0 0 0;
+        background: #237E72;
     }
 
     span {
