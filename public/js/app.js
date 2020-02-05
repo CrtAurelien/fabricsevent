@@ -2851,8 +2851,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-<<<<<<< HEAD
-=======
 //
 //
 //
@@ -2911,7 +2909,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-<<<<<<< HEAD
 //
 //
 //
@@ -2936,9 +2933,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-=======
->>>>>>> aurelien
->>>>>>> master
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35829,15 +35823,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-<<<<<<< HEAD
 exports.push([module.i, "\n.card .header h2 {\n    font-size: 25px;\n    text-transform: uppercase;\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods {\n    display: inline-block;\n}\n.printmethods-title {\n    text-align: center;\n}\n.printmethod {\n    min-height: 150px;\n}\n.separatewelcome {\n    width: 530px;\n}\nh3 {\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods {\n    display: inline-block;\n}\n.printmethods-title {\n    text-align: center;\n}\n.printmethod {\n    min-height: 150px;\n}\n.separatewelcome {\n    width: 530px;\n}\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
-=======
-<<<<<<< HEAD
-exports.push([module.i, "\nh3 {\n    text-align: center;\n}\n\n\n", ""]);
-=======
-exports.push([module.i, "\n.card .header h2{\n    font-size: 25px;\n    text-transform: uppercase;\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods{\n    display:inline-block;\n}\n.printmethods-title{\n    text-align:center;\n}\n.printmethod{\n    min-height:150px;\n}\n.separatewelcome{\n    width: 530px;\n}\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
->>>>>>> aurelien
->>>>>>> master
 
 // exports
 
@@ -69459,29 +69445,6 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-lg-8", attrs: { id: "printMethods" } },
       [
-<<<<<<< HEAD
-        _c("h3", [_vm._v("Méthodes d'impressions")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container-prints" }, [
-          _c("div", { staticClass: "print-method" }, [
-            _c("h4", [_vm._v("Flocage")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "print-method" }, [
-            _c("h4", [_vm._v("Flex")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "print-method" }, [
-            _c("h4", [_vm._v("Impression numérique")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "print-method" }, [
-            _c("h4", [_vm._v("Serigraphie")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "print-method" }, [
-            _c("h4", [_vm._v("Broderie")])
-=======
         _c("hr", { staticClass: "separatewelcome" }),
         _vm._v(" "),
         _c("div", { staticClass: "printMethods" }, [
@@ -69575,7 +69538,6 @@ var staticRenderFns = [
                 )
               ])
             ])
->>>>>>> aurelien
           ])
         ])
       ]
