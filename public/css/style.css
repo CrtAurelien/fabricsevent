@@ -2875,7 +2875,8 @@ section.content {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 2px; }
+  border-radius: 2px;
+}
 .card .card-inside-title {
   margin-top: 25px;
   margin-bottom: 15px;
@@ -2998,8 +2999,11 @@ section.content {
 .card .header {
   color: #555;
   padding: 20px;
+  background: radial-gradient(#4ba593, #237e7278);
+  box-shadow: -2px -2px 0px 2px #285a53;
   position: relative;
-  border-bottom: 1px solid rgba(204, 204, 204, 0.35); }
+  border-bottom: none !important;
+}
 .card .header .header-dropdown {
   position: absolute;
   top: 20px;
@@ -3022,7 +3026,7 @@ section.content {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
-  color: #111; }
+  color: #fff; }
 .card .header h2 small {
   display: block;
   font-size: 12px;
@@ -3037,7 +3041,13 @@ section.content {
 .card .body {
   font-size: 14px;
   color: #555;
-  padding: 20px; }
+  min-height: 190px;
+  text-align: justify;
+  box-shadow: 2px 2px 0px 2px #285a53;
+  padding: 20px;
+  width: auto;
+  line-height: 25px;
+}
 .card .body .col-xs-1,
 .card .body .col-sm-1,
 .card .body .col-md-1,
@@ -6779,9 +6789,11 @@ fieldset[disabled] .form-control {
   border: none;
   position: fixed;
   top: 0;
+  box-shadow: inset 0px 0px 9px 0px #285a53;
   left: 0;
   z-index: 12;
-  width: 100%; }
+  width: 100%;
+}
 .navbar .navbar-brand {
   white-space: nowrap;
   -ms-text-overflow: ellipsis;
@@ -8327,3 +8339,4 @@ html.ie11 .dropdown-menu ul.menu li a {
 
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
+

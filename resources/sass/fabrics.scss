@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0 !important;
+}
+
 /* PRODUITS */
 
 .un{
@@ -182,9 +191,14 @@ video.video-stream.html5-main-video {
 
 #engagements{
   height: 200px;
+  box-shadow: inset 0px -5px 50px -25px #333;
   background: #285A53;
 }
 
 .footer-copyright.text-center.py-3 {
   padding: 0 0 15px 0;
+  width: auto;
+  display: inline-block;
+  margin: 0 15px;
 }
+

@@ -4,29 +4,28 @@
             <div class="col-lg-2 recap" style="min-height: 100vh;">
                 <order-summary></order-summary>
             </div>
-            <div class="col-lg-8 welcome">
-                <h2>Bienvenue sur Fabrics</h2>
-            </div>
-            <howitworks></howitworks>
-            <div class="col-lg-8 main-products">
-            <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
-                <div class="content">
-                    <div class="test-container">
-                            <div class="deuxB">
-                                <div class="deuxBUn">
-                                    <figure class="imghvr-shutter-out-diag-2"><img
-                                            :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
-                                        <figcaption>
-                                            <h3 class="home-categories"><span>{{category.name}}</span></h3>
-                                        </figcaption>
-                                        <router-link :to="{path: '/hkjhk'}"></router-link>
-                                    </figure>
+            <div class="col-lg-8 middlecolumn">
+                <div class="col-lg-12 main-products">
+                    <div class="col-lg-3" id="homeListProducts" v-for="category in categories" v-if="category.type === 1">
+                        <div class="content">
+                            <div class="test-container">
+                                <div class="deuxB">
+                                    <div class="deuxBUn">
+                                        <figure class="imghvr-shutter-out-diag-2"><img
+                                                :src="'./images/fabrics-img/sweat-fabrics.png'" alt="example-image">
+                                            <figcaption>
+                                                <h3 class="home-categories"><span>{{category.name}}</span></h3>
+                                            </figcaption>
+                                            <router-link :to="{path: '/hkjhk'}"></router-link>
+                                        </figure>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
+            <howitworks></howitworks>
             <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
                     <div class="test-container">
@@ -93,6 +92,7 @@
                     </div>
                 </div>
             </div>-->
+            <clients></clients>
             <printmethods></printmethods>
             <engagements></engagements>
         </div>
@@ -100,12 +100,16 @@
 </template>
 
 <style scoped>
+    .welcomeon{
+        text-align: center;
+        font-size: 50px;
+    }
 
-    div#homeListProducts:nth-child(1n +1){
+    div#homeListProducts:nth-child(n+5){
         padding-top:30px;
     }
 
-    .welcome{
+    .middlecolumn{
         text-transform: uppercase;
     }
 
@@ -173,6 +177,7 @@
 
     .content {
         background: transparent;
+        box-shadow: 0px 0 20px -6px #a0a0a0;
     }
 </style>
 
@@ -181,6 +186,7 @@
     import PrintMethod from "./PrintMethod";
     import Engagements from "./Engagements";
     import OrderSummary from "./OrderSummary";
+    import Clients from "./Clients";
 
     export default {
         data() {
@@ -194,6 +200,7 @@
                 .catch((error) => console.log(error));
         },
         components: {
+            Clients,
             OrderSummary,
             howitworks: HowItWorks,
             printmethods: PrintMethod,

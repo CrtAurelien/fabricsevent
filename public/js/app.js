@@ -1692,11 +1692,9 @@ module.exports = {
 /*!******************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Clients.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -1810,15 +1808,73 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    $('#exampleSlider').multislider({
-      interval: 4000,
-      continuous: true,
-      duration: 6500
-    });
-  }
-});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/*    export default {
+        mounted: function() {
+            $('#exampleSlider').multislider({
+                interval: 4000,
+                continuous: true,
+                duration: 6500
+            });
+
+        }
+    }*/
 
 /***/ }),
 
@@ -2028,12 +2084,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2055,6 +2105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PrintMethod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrintMethod */ "./resources/js/components/PrintMethod.vue");
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
+/* harmony import */ var _Clients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Clients */ "./resources/js/components/Clients.vue");
 //
 //
 //
@@ -2233,6 +2284,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+
 
 
 
@@ -2253,6 +2310,7 @@ __webpack_require__.r(__webpack_exports__);
     });
   },
   components: {
+    Clients: _Clients__WEBPACK_IMPORTED_MODULE_4__["default"],
     OrderSummary: _OrderSummary__WEBPACK_IMPORTED_MODULE_3__["default"],
     howitworks: _HowItWorks__WEBPACK_IMPORTED_MODULE_0__["default"],
     printmethods: _PrintMethod__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -2519,9 +2577,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2717,6 +2772,78 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -35514,7 +35641,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slick-slider[data-v-63a32926]\n{\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -35571,7 +35698,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(1n +1){\n    padding-top:30px;\n}\n.welcome[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n}\n", ""]);
+exports.push([module.i, "\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
 
 // exports
 
@@ -35647,7 +35774,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
+exports.push([module.i, "\n.card .header h2{\n    font-size: 25px;\n    text-transform: uppercase;\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods{\n    display:inline-block;\n}\n.printmethods-title{\n    text-align:center;\n}\n.printmethod{\n    min-height:150px;\n}\n.separatewelcome{\n    width: 530px;\n}\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
 
 // exports
 
@@ -68052,94 +68179,79 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          {
-            staticClass: "col-lg-8 col-lg-offset-2 title-client",
-            attrs: { align: "center" }
-          },
-          [_vm._v("NOS CLIENTS")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-8 col-lg-offset-2", attrs: { id: "clients" } },
-          [
-            _c("div", { staticClass: "clients" }, [
-              _c("div", { attrs: { id: "exampleSlider" } }, [
-                _c("div", { staticClass: "MS-content" }, [
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icofont-brand-bmw" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [
-                      _c("i", { staticClass: "icon-club_elite_sarthe" })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-ouestfrance" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [
-                      _c("i", { staticClass: "icofont-brand-mercedes" })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-nowadaysrecord" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-4l_trophy" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-sport_2000" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [
-                      _c("i", { staticClass: "icofont-brand-volkswagen" })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-bleu_citron" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-francebleu_maine" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-superforma" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [
-                      _c("i", { staticClass: "icon-club_ambassadeur_sarthe" })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-public" })])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("p", [_c("i", { staticClass: "icon-mouv" })])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        )
+    return _c("div", { staticClass: "col-lg-8 clients" }, [
+      _c("section", { staticClass: "customer-logos slider" }, [
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"
+            }
+          })
+        ])
       ])
     ])
   }
@@ -68352,12 +68464,14 @@ var staticRenderFns = [
                     _c(
                       "h5",
                       {
-                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
+                        staticClass:
+                          "font-weight-bold text-uppercase mt-3 mb-4",
+                        staticStyle: { "text-align": "left" }
                       },
-                      [_vm._v("Footer Content")]
+                      [_vm._v("FabricsEvent")]
                     ),
                     _vm._v(" "),
-                    _c("p", [
+                    _c("p", { staticStyle: { "text-align": "left" } }, [
                       _vm._v(
                         "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit\n                        amet,\n                        consectetur\n                        adipisicing elit."
                       )
@@ -68370,12 +68484,14 @@ var staticRenderFns = [
                       {
                         staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
                       },
-                      [_vm._v("Links")]
+                      [_vm._v("L'ENTREPRISE")]
                     ),
                     _vm._v(" "),
                     _c("ul", { staticClass: "list-unstyled" }, [
                       _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+                        _c("a", { attrs: { href: "#!" } }, [
+                          _vm._v("Qui sommes-nous ?")
+                        ])
                       ]),
                       _vm._v(" "),
                       _c("li", [
@@ -68384,10 +68500,6 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("li", [
                         _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
                       ])
                     ])
                   ]),
@@ -68412,10 +68524,6 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("li", [
                         _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
                       ])
                     ])
                   ]),
@@ -68440,10 +68548,6 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("li", [
                         _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 4")])
                       ])
                     ])
                   ])
@@ -68454,7 +68558,9 @@ var staticRenderFns = [
             _c("hr"),
             _vm._v(" "),
             _c("div", { staticClass: "footer-copyright text-center py-3" }, [
-              _vm._v("© 2020 Copyright:\n            "),
+              _vm._v("© 2020 Tous droits réservés\n            "),
+              _c("br"),
+              _vm._v(" "),
               _c(
                 "a",
                 {
@@ -68462,7 +68568,27 @@ var staticRenderFns = [
                     href: "https://mdbootstrap.com/education/bootstrap/"
                   }
                 },
-                [_vm._v(" MDBootstrap.com")]
+                [_vm._v(" FabricsEvent")]
+              ),
+              _vm._v(" |\n            "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://mdbootstrap.com/education/bootstrap/"
+                  }
+                },
+                [_vm._v(" Mentions légales")]
+              ),
+              _vm._v(" |\n            "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://mdbootstrap.com/education/bootstrap/"
+                  }
+                },
+                [_vm._v(" Nous contacter")]
               )
             ])
           ]
@@ -68507,60 +68633,68 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
-        _c("howitworks"),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-8 main-products" },
-          _vm._l(_vm.categories, function(category) {
-            return category.type === 1
-              ? _c(
-                  "div",
-                  {
-                    staticClass: "col-lg-3",
-                    attrs: { id: "homeListProducts" }
-                  },
-                  [
-                    _c("div", { staticClass: "content" }, [
-                      _c("div", { staticClass: "test-container" }, [
-                        _c("div", { staticClass: "deuxB" }, [
-                          _c("div", { staticClass: "deuxBUn" }, [
-                            _c(
-                              "figure",
-                              { staticClass: "imghvr-shutter-out-diag-2" },
-                              [
-                                _c("img", {
-                                  attrs: {
-                                    src:
-                                      "./images/fabrics-img/sweat-fabrics.png",
-                                    alt: "example-image"
-                                  }
-                                }),
-                                _vm._v(" "),
-                                _c("figcaption", [
-                                  _c("h3", { staticClass: "home-categories" }, [
-                                    _c("span", [_vm._v(_vm._s(category.name))])
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("router-link", {
-                                  attrs: { to: { path: "/hkjhk" } }
-                                })
-                              ],
-                              1
-                            )
+        _c("div", { staticClass: "col-lg-8 middlecolumn" }, [
+          _c(
+            "div",
+            { staticClass: "col-lg-12 main-products" },
+            _vm._l(_vm.categories, function(category) {
+              return category.type === 1
+                ? _c(
+                    "div",
+                    {
+                      staticClass: "col-lg-3",
+                      attrs: { id: "homeListProducts" }
+                    },
+                    [
+                      _c("div", { staticClass: "content" }, [
+                        _c("div", { staticClass: "test-container" }, [
+                          _c("div", { staticClass: "deuxB" }, [
+                            _c("div", { staticClass: "deuxBUn" }, [
+                              _c(
+                                "figure",
+                                { staticClass: "imghvr-shutter-out-diag-2" },
+                                [
+                                  _c("img", {
+                                    attrs: {
+                                      src:
+                                        "./images/fabrics-img/sweat-fabrics.png",
+                                      alt: "example-image"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("figcaption", [
+                                    _c(
+                                      "h3",
+                                      { staticClass: "home-categories" },
+                                      [
+                                        _c("span", [
+                                          _vm._v(_vm._s(category.name))
+                                        ])
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("router-link", {
+                                    attrs: { to: { path: "/hkjhk" } }
+                                  })
+                                ],
+                                1
+                              )
+                            ])
                           ])
                         ])
                       ])
-                    ])
-                  ]
-                )
-              : _vm._e()
-          }),
-          0
-        ),
+                    ]
+                  )
+                : _vm._e()
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("howitworks"),
+        _vm._v(" "),
+        _c("clients"),
         _vm._v(" "),
         _c("printmethods"),
         _vm._v(" "),
@@ -68570,16 +68704,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-8 welcome" }, [
-      _c("h2", [_vm._v("Bienvenue sur Fabrics")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -68934,20 +69059,17 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
       _c("li", { staticClass: "info-box-devis hover-expand-effect" }, [
-        _c("a", { staticClass: "devis" }, [_vm._v("DEVIS GRATUIT")])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "pull-right" }, [
         _c(
           "a",
           {
+            staticClass: "devis",
             attrs: {
               "data-toggle": "modal",
               "data-target": "#exampleModal",
               "data-whatever": "@getbootstrap"
             }
           },
-          [_c("i", { staticClass: "material-icons" }, [_vm._v("mail")])]
+          [_vm._v("DEVIS GRATUIT")]
         )
       ])
     ])
@@ -69276,13 +69398,95 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-lg-8", attrs: { id: "printMethods" } },
       [
+        _c("hr", { staticClass: "separatewelcome" }),
+        _vm._v(" "),
         _c("div", { staticClass: "printMethods" }, [
-          _c("h3", [_vm._v("Méthodes d'impressions")]),
+          _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v(
+                    "\n                        Serigraphie\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n                    dépose sur le textile ensuite.\n                    Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n                    très bien avec le temps. Ce procédé reste d’excellente qualité.\n                "
+                )
+              ])
+            ])
+          ]),
           _vm._v(" "),
-          _c("div", [
-            _vm._v(
-              "\n\n            • Flocage\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Idéal pour de petites quantités.\n            • Flex\n            Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n            Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n            Idéal pour une quantité moyenne.\n            • Impression numérique\n            Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n            Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n            couleurs durent moins dans le temps à la différence de la sérigraphie.\n            • Serigraphie\n            Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n            dépose sur le textile ensuite.\n            Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n            très bien avec le temps. Ce procédé reste d’excellente qualité.\n            • Broderie\n            Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n        "
-            )
+          _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v(
+                    "\n                        Broderie\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n                "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-4 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v(
+                    "\n                        Flocage\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n                    Idéal pour de petites quantités.\n                "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-4 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v("\n                        Flex\n                    ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n                    Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n                    Idéal pour une quantité moyenne.\n                "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-4 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v(
+                    "\n                        Impression numérique\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n                    Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n                    couleurs durent moins dans le temps à la différence de la sérigraphie.\n                "
+                )
+              ])
+            ])
           ])
         ])
       ]
@@ -85719,14 +85923,15 @@ if (token) {
 /*!*********************************************!*\
   !*** ./resources/js/components/Clients.vue ***!
   \*********************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Clients_vue_vue_type_template_id_63a32926_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Clients.vue?vue&type=template&id=63a32926&scoped=true& */ "./resources/js/components/Clients.vue?vue&type=template&id=63a32926&scoped=true&");
 /* harmony import */ var _Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Clients.vue?vue&type=script&lang=js& */ "./resources/js/components/Clients.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Clients_vue_vue_type_style_index_0_id_63a32926_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Clients.vue?vue&type=style&index=0&id=63a32926&scoped=true&lang=css& */ "./resources/js/components/Clients.vue?vue&type=style&index=0&id=63a32926&scoped=true&lang=css&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Clients_vue_vue_type_style_index_0_id_63a32926_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Clients.vue?vue&type=style&index=0&id=63a32926&scoped=true&lang=css& */ "./resources/js/components/Clients.vue?vue&type=style&index=0&id=63a32926&scoped=true&lang=css&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -85758,13 +85963,15 @@ component.options.__file = "resources/js/components/Clients.vue"
 /*!**********************************************************************!*\
   !*** ./resources/js/components/Clients.vue?vue&type=script&lang=js& ***!
   \**********************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Clients.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Clients.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Clients_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
