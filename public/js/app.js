@@ -1864,6 +1864,9 @@ module.exports = {
 //
 //
 //
+//
+//
+//
 
 /*    export default {
         mounted: function() {
@@ -2138,6 +2141,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
 /* harmony import */ var _Clients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Clients */ "./resources/js/components/Clients.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2843,7 +2855,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -35735,7 +35746,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slick-slider[data-v-63a32926]\n{\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slick-slider[data-v-63a32926]\n{\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -35792,7 +35803,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 55px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
+exports.push([module.i, "\n.separate[data-v-9f1a96e8]{\n    margin-top: 40px;\n    margin-bottom: 0px;\n    width: 60px;\n    border: 0;\n    border-top: 1px solid #285a53;\n}\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 35px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
 
 // exports
 
@@ -68274,6 +68285,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-12 clients" }, [
+      _c("h4", [_vm._v("Nos clients")]),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
       _c("section", { staticClass: "customer-logos slider" }, [
         _c("div", { staticClass: "slide" }, [
           _c("img", {
@@ -68346,7 +68361,9 @@ var staticRenderFns = [
             }
           })
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hr")
     ])
   }
 ]
@@ -68391,7 +68408,7 @@ var staticRenderFns = [
                     staticClass: "icofont-euro-true",
                     attrs: {
                       "data-toggle": "tooltip",
-                      "data-placement": "bottom",
+                      "data-placement": "right",
                       title: "",
                       "data-original-title":
                         "Nous nous engageons à vous proposer des\n                tarifs abordables et compétitifs."
@@ -68827,6 +68844,8 @@ var staticRenderFns = [
       _c("h4", { staticStyle: { "text-align": "center" } }, [
         _vm._v("Dites-nous tout, votre devis est gratuit ♥")
       ]),
+      _vm._v(" "),
+      _c("hr", { staticClass: "separate" }),
       _vm._v(" "),
       _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
         _c("button", { staticClass: "btn btn-devis waves" }, [
@@ -69529,8 +69548,6 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-lg-12", attrs: { id: "printMethods" } },
       [
-        _c("hr", { staticClass: "separatewelcome" }),
-        _vm._v(" "),
         _c("div", { staticClass: "printMethods" }, [
           _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-6 col-xs-12" }, [
             _c("div", { staticClass: "card" }, [

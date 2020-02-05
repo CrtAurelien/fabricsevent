@@ -5,7 +5,7 @@
                 <div class="engagements-top">
                     <div class="engagement ">
                         <div class="icon">
-                            <i class="icofont-euro-true" data-toggle="tooltip" data-placement="bottom" title=""
+                            <i class="icofont-euro-true" data-toggle="tooltip" data-placement="right" title=""
                                data-original-title="Nous nous engageons à vous proposer des
                     tarifs abordables et compétitifs."></i>
                         </div>

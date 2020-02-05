@@ -99,6 +99,7 @@
             <div class="col-lg-12 devis">
                 <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
                 <h4 style="text-align: center">Dites-nous tout, votre devis est gratuit ♥</h4>
+                <hr class="separate">
                 <div class="col-lg-6 col-lg-offset-3 askdevis">
                     <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
                 </div>
@@ -108,9 +109,17 @@
 </template>
 
 <style scoped>
+    .separate{
+        margin-top: 40px;
+        margin-bottom: 0px;
+        width: 60px;
+        border: 0;
+        border-top: 1px solid #285a53;
+    }
+
     .askdevis{
         text-align:center;
-        margin-top: 55px;
+        margin-top: 35px;
     }
 
     .devis{
