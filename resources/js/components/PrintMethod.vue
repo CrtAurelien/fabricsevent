@@ -2,6 +2,7 @@
     <div id="printMethods" class="col-lg-8">
         <hr class="separatewelcome">
         <div class="printMethods">
+            <h3>Méthodes d'impressions</h3>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card">
                     <div class="header bg-green">
@@ -16,121 +17,58 @@
                         très bien avec le temps. Ce procédé reste d’excellente qualité.
                     </div>
                 </div>
-                <h3>Méthodes d'impressions</h3>
-                <div class="container-prints">
-                    <div class="print-method">
-                        <h4>Flocage</h4>
-                        <!--<p>Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.-->
-                        <!--Idéal pour de petites quantités</p>-->
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="header bg-green">
+                        <h2>
+                            Serigraphie
+                        </h2>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="card">
-                            <div class="header bg-green">
-                                <h2>
-                                    Broderie
-                                </h2>
-                            </div>
-                            <div class="body">
-                                Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné.
-                                Haute qualité.
-                            </div>
-                        </div>
+                    <div class="body">
+                        Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se
+                        dépose sur le textile ensuite.
+                        Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent
+                        très bien avec le temps. Ce procédé reste d’excellente qualité.
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="card">
-                            <div class="header bg-green">
-                                <h2>
-                                    Flocage
-                                </h2>
-                            </div>
-                            <div class="body">
-                                Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
-                                Idéal pour de petites quantités.
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="header bg-green">
+                        <h2>
+                            Broderie
+                        </h2>
                     </div>
-                    <div class="print-method">
-                        <h4>Broderie</h4>
-                        <!--<p>-->
-                        <!--Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné.-->
-                        <!--Haute qualité.-->
-                        <!--</p>-->
-
-                        <hr class="separatewelcome">
-                        <div class="printMethods">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="card">
-                                    <div class="header bg-green">
-                                        <h2>
-                                            Serigraphie
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir
-                                        et se
-                                        dépose sur le textile ensuite.
-                                        Les couleurs sont moins resplendissantes qu’une impression numérique mais
-                                        tiennent
-                                        très bien avec le temps. Ce procédé reste d’excellente qualité.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="card">
-                                    <div class="header bg-green">
-                                        <h2>
-                                            Broderie
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support
-                                        concerné. Haute qualité.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="card">
-                                    <div class="header bg-green">
-                                        <h2>
-                                            Flocage
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
-                                        Idéal pour de petites quantités.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="card">
-                                    <div class="header bg-green">
-                                        <h2>
-                                            Flex
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
-                                        Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.
-                                        Idéal pour une quantité moyenne.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="card">
-                                    <div class="header bg-green">
-                                        <h2>
-                                            Impression numérique
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        Motif imprimé directement sur le textile avec l’aide d’imprimantes.
-                                        Malgré un système de personnalisation de haute qualité et un résultat optimal,
-                                        les
-                                        couleurs durent moins dans le temps à la différence de la sérigraphie.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="body">
+                        Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné.
+                        Haute qualité.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="header bg-green">
+                        <h2>
+                            Flocage
+                        </h2>
+                    </div>
+                    <div class="body">
+                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
+                        Idéal pour de petites quantités.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="header bg-green">
+                        <h2>
+                            Flocage
+                        </h2>
+                    </div>
+                    <div class="body">
+                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
+                        Idéal pour de petites quantités.
                     </div>
                 </div>
             </div>
@@ -166,7 +104,7 @@
     }
 
     h3 {
-    >>> >>> > Stashed changes text-align: center;
+        text-align: center;
         letter-spacing: 15px;
     }
 

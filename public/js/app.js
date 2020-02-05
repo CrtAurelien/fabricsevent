@@ -2884,6 +2884,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35774,7 +35798,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.card .header h2{\n    font-size: 25px;\n    text-transform: uppercase;\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods{\n    display:inline-block;\n}\n.printmethods-title{\n    text-align:center;\n}\n.printmethod{\n    min-height:150px;\n}\n.separatewelcome{\n    width: 530px;\n}\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
+exports.push([module.i, "\n.card .header h2 {\n    font-size: 25px;\n    text-transform: uppercase;\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods {\n    display: inline-block;\n}\n.printmethods-title {\n    text-align: center;\n}\n.printmethod {\n    min-height: 150px;\n}\n.separatewelcome {\n    width: 530px;\n}\nh3 {\n    text-align: center;\n    letter-spacing: 15px;\n}\n.printmethods {\n    display: inline-block;\n}\n.printmethods-title {\n    text-align: center;\n}\n.printmethod {\n    min-height: 150px;\n}\n.separatewelcome {\n    width: 530px;\n}\nh3 {\n    text-align: center;\n}\n.printMethods {\n    background: white;\n}\n", ""]);
 
 // exports
 
@@ -69401,6 +69425,8 @@ var staticRenderFns = [
         _c("hr", { staticClass: "separatewelcome" }),
         _vm._v(" "),
         _c("div", { staticClass: "printMethods" }, [
+          _c("h3", [_vm._v("Méthodes d'impressions")]),
+          _vm._v(" "),
           _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-6 col-xs-12" }, [
             _c("div", { staticClass: "card" }, [
               _c("div", { staticClass: "header bg-green" }, [
@@ -69424,6 +69450,24 @@ var staticRenderFns = [
               _c("div", { staticClass: "header bg-green" }, [
                 _c("h2", [
                   _vm._v(
+                    "\n                        Serigraphie\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "body" }, [
+                _vm._v(
+                  "\n                    Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se\n                    dépose sur le textile ensuite.\n                    Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent\n                    très bien avec le temps. Ce procédé reste d’excellente qualité.\n                "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-6 col-xs-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "header bg-green" }, [
+                _c("h2", [
+                  _vm._v(
                     "\n                        Broderie\n                    "
                   )
                 ])
@@ -69431,7 +69475,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "body" }, [
                 _vm._v(
-                  "\n                    Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné. Haute qualité.\n                "
+                  "\n                    Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné.\n                    Haute qualité.\n                "
                 )
               ])
             ])
@@ -69459,31 +69503,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "card" }, [
               _c("div", { staticClass: "header bg-green" }, [
                 _c("h2", [
-                  _vm._v("\n                        Flex\n                    ")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "body" }, [
-                _vm._v(
-                  "\n                    Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n                    Couleurs plus resplendissantes, colle appliquée sur le rebord de l’impression.\n                    Idéal pour une quantité moyenne.\n                "
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-4 col-sm-6 col-xs-12" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("div", { staticClass: "header bg-green" }, [
-                _c("h2", [
                   _vm._v(
-                    "\n                        Impression numérique\n                    "
+                    "\n                        Flocage\n                    "
                   )
                 ])
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "body" }, [
                 _vm._v(
-                  "\n                    Motif imprimé directement sur le textile avec l’aide d’imprimantes.\n                    Malgré un système de personnalisation de haute qualité et un résultat optimal, les\n                    couleurs durent moins dans le temps à la différence de la sérigraphie.\n                "
+                  "\n                    Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.\n                    Idéal pour de petites quantités.\n                "
                 )
               ])
             ])
