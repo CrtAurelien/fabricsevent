@@ -97,9 +97,10 @@
             </div>-->
             <engagements></engagements>
             <div class="col-lg-12 devis">
-                <h3>Vous avez un projet ?</h3>
+                <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
+                <h4 style="text-align: center">Dites-nous tout, votre devis est gratuit ♥</h4>
                 <div class="col-lg-6 col-lg-offset-3 askdevis">
-                    <button class="btn btn-devis">DEMANDEZ UN DEVIS GRATUIT</button>
+                    <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
                 </div>
             </div>
         </div>
@@ -109,11 +110,11 @@
 <style scoped>
     .askdevis{
         text-align:center;
-        margin-top: 25px;
+        margin-top: 55px;
     }
 
     .devis{
-        padding:55px;
+        padding:80px;
     }
 
     .btn-devis{

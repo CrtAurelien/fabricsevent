@@ -10,14 +10,13 @@
                     tarifs abordables et compétitifs."></i>
                         </div>
                         <div class="text-engagement">
-                            TARIFS ACCESSIBLES
+                            COMPÉTITIVITÉ
                         </div>
                     </div>
                     <div class="engagement">
                         <div class="icon">
                             <i class="icofont-badge" data-toggle="tooltip" data-placement="bottom" title=""
-                               data-original-title="Nous nous engageons à vous proposer des
-                    tarifs abordables et compétitifs."></i>
+                               data-original-title="Nous garantissons que notre travail sera parfaitement réalisé"></i>
                         </div>
                         <div class="text-engagement">
                             QUALITÉ
@@ -28,30 +27,31 @@
                             <i class="icofont-delivery-time" data-toggle="tooltip" data-placement="bottom" title=""
                                data-original-title="Nos délais sont optimum et toujours respectés"></i>
                         </div>
-                        <div class="text-engagement">RESPECT DES DÉLAIS
-                        </div>
-                    </div>
-                    <div class="engagement">
-                        <div class="icon">
-                            <i class="icofont-space-shuttle"></i>
-                        </div>
-                        <div class="text-engagement">Nos délais sont optimum et toujours respectés
+                        <div class="text-engagement">RÉACTIVITÉ
                         </div>
                     </div>
                     <div class="engagement green">
                         <div class="icon">
-                            <i class="icofont-business-man"></i>
+                            <i class="icofont-holding-hands" data-toggle="tooltip" data-placement="bottom" title=""
+                               data-original-title="Main dans la main, du commencement jusqu’à la finalisation et au suivi de votre projet"></i>
                         </div>
-                        <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                            réalisé.
+                        <div class="text-engagement">CONFIANCE
                         </div>
                     </div>
-                    <div class="engagement">
+                    <div class="engagement green">
                         <div class="icon">
-                            <i class="icofont-business-man"></i>
+                            <i class="icofont-chart-growth" data-toggle="tooltip" data-placement="bottom" title=""
+                               data-original-title="Nous détectons vos besoins et vous conseillons au mieux pour vous faire grandir"></i>
                         </div>
-                        <div class="text-engagement">Nous garantissons que notre travail sera parfaitement
-                            réalisé.
+                        <div class="text-engagement">DÉVELOPPEMENT
+                        </div>
+                    </div>
+                    <div class="engagement green">
+                        <div class="icon">
+                            <i class="icofont-business-man-alt-3" data-toggle="tooltip" data-placement="bottom" title=""
+                               data-original-title="Plus de 5 ans d’expérience à votre service"></i>
+                        </div>
+                        <div class="text-engagement">PROFESSIONNALISME
                         </div>
                     </div>
                 </div>
@@ -95,6 +95,7 @@
     }
 
     .engagement {
+        margin: auto;
         color: white;
         flex: 1;
     }

@@ -2006,6 +2006,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2137,6 +2138,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
 /* harmony import */ var _Clients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Clients */ "./resources/js/components/Clients.vue");
+//
 //
 //
 //
@@ -35752,7 +35754,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9]{\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9]{\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    margin: auto;\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -35790,7 +35792,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 25px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:55px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
+exports.push([module.i, "\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 55px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
 
 // exports
 
@@ -68399,7 +68401,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
                   _vm._v(
-                    "\n                        TARIFS ACCESSIBLES\n                    "
+                    "\n                        COMPÉTITIVITÉ\n                    "
                   )
                 ])
               ]),
@@ -68413,7 +68415,7 @@ var staticRenderFns = [
                       "data-placement": "bottom",
                       title: "",
                       "data-original-title":
-                        "Nous nous engageons à vous proposer des\n                tarifs abordables et compétitifs."
+                        "Nous garantissons que notre travail sera parfaitement réalisé"
                     }
                   })
                 ]),
@@ -68440,43 +68442,64 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v("RESPECT DES DÉLAIS\n                    ")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "engagement" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", { staticClass: "icofont-space-shuttle" })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v(
-                    "Nos délais sont optimum et toujours respectés\n                    "
-                  )
+                  _vm._v("RÉACTIVITÉ\n                    ")
                 ])
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
                 _c("div", { staticClass: "icon" }, [
-                  _c("i", { staticClass: "icofont-business-man" })
+                  _c("i", {
+                    staticClass: "icofont-holding-hands",
+                    attrs: {
+                      "data-toggle": "tooltip",
+                      "data-placement": "bottom",
+                      title: "",
+                      "data-original-title":
+                        "Main dans la main, du commencement jusqu’à la finalisation et au suivi de votre projet"
+                    }
+                  })
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v(
-                    "Nous garantissons que notre travail sera parfaitement\n                        réalisé.\n                    "
-                  )
+                  _vm._v("CONFIANCE\n                    ")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "engagement" }, [
+              _c("div", { staticClass: "engagement green" }, [
                 _c("div", { staticClass: "icon" }, [
-                  _c("i", { staticClass: "icofont-business-man" })
+                  _c("i", {
+                    staticClass: "icofont-chart-growth",
+                    attrs: {
+                      "data-toggle": "tooltip",
+                      "data-placement": "bottom",
+                      title: "",
+                      "data-original-title":
+                        "Nous détectons vos besoins et vous conseillons au mieux pour vous faire grandir"
+                    }
+                  })
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v(
-                    "Nous garantissons que notre travail sera parfaitement\n                        réalisé.\n                    "
-                  )
+                  _vm._v("DÉVELOPPEMENT\n                    ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "engagement green" }, [
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", {
+                    staticClass: "icofont-business-man-alt-3",
+                    attrs: {
+                      "data-toggle": "tooltip",
+                      "data-placement": "bottom",
+                      title: "",
+                      "data-original-title":
+                        "Plus de 5 ans d’expérience à votre service"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text-engagement" }, [
+                  _vm._v("PROFESSIONNALISME\n                    ")
                 ])
               ])
             ])
@@ -68795,11 +68818,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-12 devis" }, [
-      _c("h3", [_vm._v("Vous avez un projet ?")]),
+      _c(
+        "h3",
+        { staticStyle: { "letter-spacing": "5px", "font-size": "42px" } },
+        [_vm._v("Vous avez un projet ?")]
+      ),
+      _vm._v(" "),
+      _c("h4", { staticStyle: { "text-align": "center" } }, [
+        _vm._v("Dites-nous tout, votre devis est gratuit ♥")
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
-        _c("button", { staticClass: "btn btn-devis" }, [
-          _vm._v("DEMANDEZ UN DEVIS GRATUIT")
+        _c("button", { staticClass: "btn btn-devis waves" }, [
+          _vm._v("DEMANDER UN DEVIS GRATUIT")
         ])
       ])
     ])
