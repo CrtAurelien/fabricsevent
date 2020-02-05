@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.0.2",
+        "mdbvue": "^6.4.0",
         "vue-axios": "^2.1.4",
         "vue-badger-accordion": "^1.1.5",
         "vue-router": "^3.1.3",

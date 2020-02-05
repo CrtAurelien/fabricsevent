@@ -1,5 +1,6 @@
 <template>
-    <div id="printMethods" class="col-lg-12">
+
+    <!--<div id="printMethods" class="col-lg-12">
         <div class="printMethods">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card">
@@ -71,7 +72,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </template>
 
 
@@ -133,9 +134,28 @@
 </style>
 
 <script>
+    import { mdbStepper } from 'mdbvue';
     export default {
-        mounted() {
-            console.log('Component mounted.')
+        components: {
+            mdbStepper,
+        },
+        data() {
+            return {
+                steps: [
+                    {
+                        content:
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
+                    },
+                    {
+                        content:
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
+                    },
+                    {
+                        content:
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
+                    }
+                ],
+            };
         }
-    }
+    };
 </script>

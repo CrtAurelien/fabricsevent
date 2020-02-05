@@ -1,7 +1,7 @@
 <template>
     <div class="col-lg-12 clients">
-        <h4>Nos clients</h4>
-        <hr>
+        <h4 class="ourclients">Nos clients</h4>
+        <hr class="separate">
         <section class="customer-logos slider">
             <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
@@ -12,12 +12,20 @@
             <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
         </section>
-        <hr>
     </div>
 </template>
 
 
 <style scoped>
+    .separate{
+        margin-top:0;
+    }
+
+    .ourclients{
+        text-align: center;
+        font-size: 24px;
+    }
+
     /* Slider */
 
     .slick-slide {
@@ -171,14 +179,31 @@
 </style>
 
 <script>
-/*    export default {
+    export default {
         mounted: function() {
-            $('#exampleSlider').multislider({
-                interval: 4000,
-                continuous: true,
-                duration: 6500
+            $(document).ready(function(){
+                $('.customer-logos').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 2,
+                    speed: 2000,
+                    autoplay: true,
+                    autoplaySpeed: 3500,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    }, {
+                        breakpoint: 520,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }]
+                });
             });
-
         }
-    }*/
+    }
 </script>

@@ -24,8 +24,8 @@
                         </div>
                     </div>
                 </div>
-                <clients></clients>
                 <printmethods></printmethods>
+                <clients></clients>
             </div>
             <howitworks></howitworks>
 

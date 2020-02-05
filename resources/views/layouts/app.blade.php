@@ -36,6 +36,7 @@
     <link href="css/imagehover.css" rel="stylesheet"/>
     <link href="css/icofont.css" rel="stylesheet"/>
     <link href="css/fontello.css" rel="stylesheet"/>
+    <link href="https://z9t4u9f6.stackpathcdn.com/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.3.2" rel="stylesheet"/>
 
     <!-- Custom Css -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -117,30 +118,5 @@
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
 <script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 2,
-            speed: 2000,
-            autoplay: true,
-            autoplaySpeed: 3500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
-</script>
 </body>
 </html>
