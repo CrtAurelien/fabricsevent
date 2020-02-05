@@ -57,14 +57,14 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <!--<hr style="width: 70px">
 
             <div class="footer-copyright text-center py-3">© 2020 Tous droits réservés
                 <br>
                 <a href="https://mdbootstrap.com/education/bootstrap/"> FabricsEvent</a> |
                 <a href="https://mdbootstrap.com/education/bootstrap/"> Mentions légales</a> |
                 <a href="https://mdbootstrap.com/education/bootstrap/"> Nous contacter</a>
-            </div>
+            </div>-->
         </footer>
         <!-- Footer -->
     </footer>
@@ -72,11 +72,16 @@
 
 
 <style scoped>
+    footer#bottomFabrics {
+        background: url(https://i.ibb.co/McJ0539/bgfabrics.png);
+        background-size: contain;
+        background-position: bottom;
+        min-height: 240px;
+    }
 
     .footer {
         line-height:25px;
         padding: 15px 0 0 0;
-        background: #237E72;
     }
 
     span {

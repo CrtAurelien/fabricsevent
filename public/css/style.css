@@ -2533,7 +2533,7 @@ section.content {
   /* border: none; */
   font-size: 13px;
   width: 100%;
-  background: white;
+  background: #f4faf9;
   outline: none;
 }
 .btn:not(.btn-link):not(.btn-circle):hover {

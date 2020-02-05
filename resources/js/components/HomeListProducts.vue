@@ -24,8 +24,11 @@
                         </div>
                     </div>
                 </div>
+                <clients></clients>
+                <printmethods></printmethods>
             </div>
             <howitworks></howitworks>
+
             <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
                     <div class="test-container">
@@ -92,14 +95,48 @@
                     </div>
                 </div>
             </div>-->
-            <clients></clients>
-            <printmethods></printmethods>
             <engagements></engagements>
+            <div class="col-lg-12 devis">
+                <h3>Vous avez un projet ?</h3>
+                <div class="col-lg-6 col-lg-offset-3 askdevis">
+                    <button class="btn btn-devis">DEMANDEZ UN DEVIS GRATUIT</button>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+    .askdevis{
+        text-align:center;
+        margin-top: 25px;
+    }
+
+    .devis{
+        padding:55px;
+    }
+
+    .btn-devis{
+        width: 280px !important;
+        border-radius: 0;
+        border: 2px solid #333;
+        box-shadow: none !important;
+        color: #333;
+        font-size: 17px !important;
+        font-weight: 600;
+        transition: 0.3s;
+
+    }
+
+    button.btn.btn-devis:hover {
+        color: #f4faf9;
+        border: 2px solid #333333;
+        background: #333333;
+        transition: 0.3s;
+    }
+
+
+
     .welcomeon{
         text-align: center;
         font-size: 50px;

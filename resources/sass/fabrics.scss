@@ -182,6 +182,7 @@ video.video-stream.html5-main-video {
   line-height: 60px;
   text-align: center;
   background-color: #285A53;
+  border-top: 5px solid #285852;
 }
 
 .actual-label{
@@ -190,9 +191,11 @@ video.video-stream.html5-main-video {
 }
 
 #engagements{
-  height: 200px;
   box-shadow: inset 0px -5px 50px -25px #333;
   background: #285A53;
+  margin-bottom: 3px;
+  border-top: 3px solid #419a8a;
+  margin-top: 60px;
 }
 
 .footer-copyright.text-center.py-3 {

@@ -1,8 +1,7 @@
 <template>
-    <div id="printMethods" class="col-lg-8">
+    <div id="printMethods" class="col-lg-12">
         <hr class="separatewelcome">
         <div class="printMethods">
-            <h3>Méthodes d'impressions</h3>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card">
                     <div class="header bg-green">

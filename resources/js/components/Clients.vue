@@ -1,5 +1,5 @@
 <template>
-    <div class="col-lg-8 clients">
+    <div class="col-lg-12 clients">
         <section class="customer-logos slider">
             <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
