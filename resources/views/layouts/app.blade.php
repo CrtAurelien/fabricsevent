@@ -107,13 +107,39 @@
         </div>
     </div>
 </div>
-
 <script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('js/multislider.js')}}"></script>
 <script src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{asset('plugins/sweetalert/sweetalert.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
 <script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 2,
+            speed: 2000,
+            autoplay: true,
+            autoplaySpeed: 3500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
 </body>
 </html>

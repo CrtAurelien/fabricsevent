@@ -27,10 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Call Search -->
                     <li class="info-box-devis hover-expand-effect">
-                        <a class="devis">DEVIS GRATUIT</a>
-                    </li>
-                    <li class="pull-right">
-                        <a data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><i class="material-icons">mail</i></a>
+                        <a class="devis" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">DEVIS GRATUIT</a>
                     </li>
                 </ul>
             </div>
