@@ -112,6 +112,7 @@
 <script src="{{asset('js/multislider.js')}}"></script>
 <script src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
 <script src="{{asset('plugins/sweetalert/sweetalert.min.js')}}"></script>
+<script src="{{asset('js/pages/ui/tooltips-popovers.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
