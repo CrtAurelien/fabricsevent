@@ -2494,13 +2494,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -2987,32 +2980,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var mdbvue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mdbvue */ "./node_modules/mdbvue/lib/index.js");
 /* harmony import */ var mdbvue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mdbvue__WEBPACK_IMPORTED_MODULE_0__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -69066,43 +69033,17 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
         _c("howitworks"),
         _vm._v(" "),
         _c("engagements"),
         _vm._v(" "),
-        _vm._m(1)
+        _vm._m(0)
       ],
       1
     )
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-12 devis" }, [
-      _c(
-        "h3",
-        { staticStyle: { "letter-spacing": "5px", "font-size": "42px" } },
-        [_vm._v("Vous avez un projet ?")]
-      ),
-      _vm._v(" "),
-      _c("h4", { staticStyle: { "text-align": "center" } }, [
-        _vm._v("Dites-nous tout, votre devis est gratuit ♥")
-      ]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "separate" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
-        _c("button", { staticClass: "btn btn-devis waves" }, [
-          _vm._v("DEMANDER UN DEVIS GRATUIT")
-        ])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -69810,9 +69751,77 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-12 devis" }, [
+      _c("h1", [_vm._v("Responsive Infographic Card")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-container" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-count-container" }, [
+            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-content" }, [
+            _c("h2", [_vm._v("Title")]),
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet.\n            "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-count-container" }, [
+            _c("div", { staticClass: "card-count" }, [_vm._v("2")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-content" }, [
+            _c("h2", [_vm._v("Title")]),
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet.\n            "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-count-container" }, [
+            _c("div", { staticClass: "card-count" }, [_vm._v("3")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-content" }, [
+            _c("h2", [_vm._v("Title")]),
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet.\n            "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

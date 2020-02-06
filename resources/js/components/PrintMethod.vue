@@ -1,78 +1,52 @@
 <template>
+    <div class="col-lg-12 devis">
+        <h1>Responsive Infographic Card</h1>
 
-    <!--<div id="printMethods" class="col-lg-12">
-        <div class="printMethods">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="header bg-green">
-                        <h2>
-                            Serigraphie
-                        </h2>
-                    </div>
-                    <div class="body">
-                        Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se
-                        dépose sur le textile ensuite.
-                        Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent
-                        très bien avec le temps. Ce procédé reste d’excellente qualité.
-                    </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-count-container">
+                    <div class="card-count">1</div>
+                </div>
+
+                <div class="card-content">
+                    <h2>Title</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
+                </div>
+
+                <div class="card-footer">
+                    Lorem ipsum dolor sit amet.
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="header bg-green">
-                        <h2>
-                            Serigraphie
-                        </h2>
-                    </div>
-                    <div class="body">
-                        Motif imprimé à l’aide de cadres et pochoirs. L’encre passe à travers le pochoir et se
-                        dépose sur le textile ensuite.
-                        Les couleurs sont moins resplendissantes qu’une impression numérique mais tiennent
-                        très bien avec le temps. Ce procédé reste d’excellente qualité.
-                    </div>
+
+            <div class="card">
+                <div class="card-count-container">
+                    <div class="card-count">2</div>
+                </div>
+                <div class="card-content">
+                    <h2>Title</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
+                </div>
+
+                <div class="card-footer">
+                    Lorem ipsum dolor sit amet.
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="header bg-green">
-                        <h2>
-                            Broderie
-                        </h2>
-                    </div>
-                    <div class="body">
-                        Motif réalisé à l’aiguille ou à la machine, et ce directement sur le support concerné.
-                        Haute qualité.
-                    </div>
+
+            <div class="card">
+                <div class="card-count-container">
+                    <div class="card-count">3</div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="header bg-green">
-                        <h2>
-                            Flocage
-                        </h2>
-                    </div>
-                    <div class="body">
-                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
-                        Idéal pour de petites quantités.
-                    </div>
+                <div class="card-content">
+                    <h2>Title</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="header bg-green">
-                        <h2>
-                            Flocage
-                        </h2>
-                    </div>
-                    <div class="body">
-                        Motif imprimé sur une feuille, découpé puis pressé à chaud sur le textile.
-                        Idéal pour de petites quantités.
-                    </div>
+
+                <div class="card-footer">
+                    Lorem ipsum dolor sit amet.
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 </template>
 
 

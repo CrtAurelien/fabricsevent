@@ -28,14 +28,7 @@
                 <clients></clients>
             </div>
 
-            <div class="col-lg-12 devis">
-                <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
-                <h4 style="text-align: center">Dites-nous tout, votre devis est gratuit ♥</h4>
-                <hr class="separate">
-                <div class="col-lg-6 col-lg-offset-3 askdevis">
-                    <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
-                </div>
-            </div>
+
             <howitworks></howitworks>
             <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
