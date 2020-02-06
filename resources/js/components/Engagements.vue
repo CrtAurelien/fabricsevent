@@ -90,7 +90,7 @@
         transform: scale(0);
         position: absolute;
         right: -68px;
-        bottom: 100px;
+        bottom: 98px;
         box-shadow: 3px -3px #285952d6;
     }
 
