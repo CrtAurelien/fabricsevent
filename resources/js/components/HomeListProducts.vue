@@ -109,6 +109,7 @@
 </template>
 
 <style scoped>
+
     .separate{
         margin-top: 40px;
         margin-bottom: 0px;

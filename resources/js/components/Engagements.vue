@@ -5,7 +5,7 @@
                 <div class="engagements-top">
                     <div class="engagement ">
                         <div class="icon tooltip-container">
-                            <i class="icofont-euro-true"></i>
+                            <i class="icofont-euro-true stickengagements"></i>
                             <span class="tooltip">Nous nous engageons à vous proposer des
                     tarifs abordables et compétitifs.</span>
                         </div>
@@ -16,7 +16,7 @@
 
                     <div class="engagement">
                         <div class="icon tooltip-container">
-                            <i class="icofont-badge"></i>
+                            <i class="icofont-badge stickengagements"></i>
                             <span class="tooltip">Nous garantissons que notre travail sera parfaitement réalisé</span>
                         </div>
                         <div class="text-engagement">
@@ -26,7 +26,7 @@
 
                     <div class="engagement green">
                         <div class="icon tooltip-container">
-                            <i class="icofont-delivery-time"></i>
+                            <i class="icofont-delivery-time stickengagements"></i>
                             <span class="tooltip">Nos délais sont optimum et toujours respectés</span>
                         </div>
                         <div class="text-engagement">
@@ -36,7 +36,7 @@
 
                     <div class="engagement green">
                         <div class="icon tooltip-container">
-                            <i class="icofont-holding-hands"></i>
+                            <i class="icofont-holding-hands stickengagements"></i>
                             <span class="tooltip">Main dans la main, du commencement jusqu’à la finalisation et au suivi de votre projet</span>
                         </div>
                         <div class="text-engagement">CONFIANCE
@@ -45,14 +45,14 @@
 
                     <div class="engagement green">
                         <div class="icon tooltip-container">
-                            <i class="icofont-chart-growth"></i>
+                            <i class="icofont-chart-growth stickengagements"></i>
                             <span class="tooltip">Nous détectons vos besoins et vous conseillons au mieux pour vous faire grandir</span>
                         </div>
                         <div class="text-engagement">DÉVELOPPEMENT</div>
                     </div>
 
                     <div class="engagement green ">
-                        <div class="icon tooltip-container">
+                        <div class="icon tooltip-container stickengagements">
                             <i class="icofont-business-man-alt-3"></i>
                             <span class="tooltip">Plus de 5 ans d’expérience à votre service !</span>
                         </div>
@@ -65,6 +65,10 @@
 </template>
 
 <style scoped>
+
+    .stickengagements{
+        transform: rotatey(180deg);
+    }
 
     .tooltip-container {
         cursor: pointer;

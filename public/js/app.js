@@ -2091,6 +2091,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2222,6 +2226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
 /* harmony import */ var _Clients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Clients */ "./resources/js/components/Clients.vue");
+//
 //
 //
 //
@@ -35861,7 +35866,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.tooltip-container[data-v-39d380f9] {\n    cursor: pointer;\n    position: relative;\n    display: block;\n}\n.tooltip[data-v-39d380f9] {\n    opacity: 0;\n    z-index: 99;\n    color: #f4faf9;\n    width: 200px;\n    display: block;\n    font-size: 13px;\n    padding: 25px 10px;\n    text-align: center;\n    background: rgb(65, 154, 138);\n    transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) ;\n    transform: scale(0);\n    position: absolute;\n    right: -68px;\n    bottom: 100px;\n    box-shadow: 3px -3px #285952d6;\n}\n.tooltip[data-v-39d380f9]:before, .tooltip[data-v-39d380f9]:after {\n    content: '';\n    border-left: 10px solid transparent;\n    border-right: 10px solid transparent;\n    border-top: 10px solid rgb(65, 154, 138);\n    position: absolute;\n    bottom: -10px;\n    left: 43%;\n}\n.tooltip-container:hover .tooltip[data-v-39d380f9], a:hover .tooltip[data-v-39d380f9] {\n    opacity: 1;\n    transform: scale(1);\n}\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9] {\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    margin: auto;\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon.tooltip-container[data-v-39d380f9]:hover {\n    transition: 0.9s;\n    transform: rotateY(0deg);\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    transform: rotateY(180deg);\n    transition: 0.9s;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n.stickengagements[data-v-39d380f9]{\n    transform: rotatey(180deg);\n}\n.tooltip-container[data-v-39d380f9] {\n    cursor: pointer;\n    position: relative;\n    display: block;\n}\n.tooltip[data-v-39d380f9] {\n    opacity: 0;\n    z-index: 99;\n    color: #f4faf9;\n    width: 200px;\n    display: block;\n    font-size: 13px;\n    padding: 25px 10px;\n    text-align: center;\n    background: rgb(65, 154, 138);\n    transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) ;\n    transform: scale(0);\n    position: absolute;\n    right: -68px;\n    bottom: 100px;\n    box-shadow: 3px -3px #285952d6;\n}\n.tooltip[data-v-39d380f9]:before, .tooltip[data-v-39d380f9]:after {\n    content: '';\n    border-left: 10px solid transparent;\n    border-right: 10px solid transparent;\n    border-top: 10px solid rgb(65, 154, 138);\n    position: absolute;\n    bottom: -10px;\n    left: 43%;\n}\n.tooltip-container:hover .tooltip[data-v-39d380f9], a:hover .tooltip[data-v-39d380f9] {\n    opacity: 1;\n    transform: scale(1);\n}\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9] {\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    margin: auto;\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon.tooltip-container[data-v-39d380f9]:hover {\n    transition: 0.9s;\n    transform: rotateY(0deg);\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    transform: rotateY(180deg);\n    transition: 0.9s;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -35918,7 +35923,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: white;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -68554,7 +68559,9 @@ var staticRenderFns = [
             _c("div", { staticClass: "engagements-top" }, [
               _c("div", { staticClass: "engagement " }, [
                 _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-euro-true" }),
+                  _c("i", {
+                    staticClass: "icofont-euro-true stickengagements"
+                  }),
                   _vm._v(" "),
                   _c("span", { staticClass: "tooltip" }, [
                     _vm._v(
@@ -68572,7 +68579,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "engagement" }, [
                 _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-badge" }),
+                  _c("i", { staticClass: "icofont-badge stickengagements" }),
                   _vm._v(" "),
                   _c("span", { staticClass: "tooltip" }, [
                     _vm._v(
@@ -68590,7 +68597,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
                 _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-delivery-time" }),
+                  _c("i", {
+                    staticClass: "icofont-delivery-time stickengagements"
+                  }),
                   _vm._v(" "),
                   _c("span", { staticClass: "tooltip" }, [
                     _vm._v("Nos délais sont optimum et toujours respectés")
@@ -68606,7 +68615,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
                 _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-holding-hands" }),
+                  _c("i", {
+                    staticClass: "icofont-holding-hands stickengagements"
+                  }),
                   _vm._v(" "),
                   _c("span", { staticClass: "tooltip" }, [
                     _vm._v(
@@ -68622,7 +68633,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
                 _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-chart-growth" }),
+                  _c("i", {
+                    staticClass: "icofont-chart-growth stickengagements"
+                  }),
                   _vm._v(" "),
                   _c("span", { staticClass: "tooltip" }, [
                     _vm._v(
@@ -68637,13 +68650,17 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement green " }, [
-                _c("div", { staticClass: "icon tooltip-container" }, [
-                  _c("i", { staticClass: "icofont-business-man-alt-3" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "tooltip" }, [
-                    _vm._v("Plus de 5 ans d’expérience à votre service !")
-                  ])
-                ]),
+                _c(
+                  "div",
+                  { staticClass: "icon tooltip-container stickengagements" },
+                  [
+                    _c("i", { staticClass: "icofont-business-man-alt-3" }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "tooltip" }, [
+                      _vm._v("Plus de 5 ans d’expérience à votre service !")
+                    ])
+                  ]
+                ),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
                   _vm._v("PROFESSIONNALISME")

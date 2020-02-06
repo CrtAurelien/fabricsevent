@@ -127,10 +127,7 @@ ul.nav.navbar-nav.navbar-center > li a:hover {
   float: left;
   text-decoration: none; }
 
-.navbar-nav > li > a {
-  padding: 7px 7px 2px 7px;
-  margin-top: 17px;
-  margin-left: 5px; }
+
 
 .navbar-nav .dropdown-menu {
   margin-top: -40px !important; }
@@ -6165,7 +6162,8 @@ fieldset[disabled] .form-control {
 
 .wizard > .steps .done a {
   background: #9dc8e2;
-  color: #fff; }
+  color: #fff;
+}
 .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
   background: #9dc8e2;
   color: #fff; }
@@ -6312,7 +6310,8 @@ fieldset[disabled] .form-control {
   border-radius: 0; }
 
 .wizard .steps .done a {
-  background-color: rgba(0, 150, 136, 0.6); }
+  background-color: rgb(0, 150, 136);
+}
 .wizard .steps .done a:hover, .wizard .steps .done a:active, .wizard .steps .done a:focus {
   background-color: rgba(0, 150, 136, 0.5); }
 

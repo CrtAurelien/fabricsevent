@@ -139,7 +139,7 @@
         letter-spacing: 0;
         text-align: center;
         margin: 0;
-        background: white;
+        background: transparent;
     }
 
     .howItWorks {
