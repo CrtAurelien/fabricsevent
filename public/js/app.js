@@ -2655,8 +2655,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -35885,7 +35883,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter#bottomFabrics[data-v-5603df2d] {\n    background: url(https://i.ibb.co/McJ0539/bgfabrics.png);\n    background-size: contain;\n    background-position: bottom;\n    min-height: 240px;\n}\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
+exports.push([module.i, "\nfooter#bottomFabrics[data-v-5603df2d] {\n    background: url(https://i.ibb.co/McJ0539/bgfabrics.png);\n    background-size: contain;\n    background-position: bottom;\n    height: 240px;\n}\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -35923,7 +35921,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    background: white;\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 20px !important;\n    font-family: \"Roboto\", sans-serif;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 18px;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -69038,7 +69036,7 @@ var render = function() {
           attrs: { "aria-expanded": _vm.showCollapse ? "true" : "false" }
         },
         [
-          _c("h3", { staticClass: "howitworks-title" }, [
+          _c("span", { staticClass: "howitworks-title" }, [
             _vm._v("Comment ça marche ?")
           ])
         ]

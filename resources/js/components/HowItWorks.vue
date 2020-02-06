@@ -2,7 +2,7 @@
     <div class="howItWorks col-lg-2">
         <img :src="'./images/question.png'" alt="" class="question">
         <b-button class="howitworksbtn" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
-            <h3 class="howitworks-title">Comment ça marche ?</h3>
+            <span class="howitworks-title">Comment ça marche ?</span>
         </b-button>
 
         <!-- Elements to collapse -->
@@ -57,14 +57,12 @@
     }
 
     .howitworks-title {
-        background: white;
         color: black;
         text-transform: uppercase;
         width: 100%;
         border-radius: 0 !important;
         font-weight: bold;
-        font-size: 20px !important;
-        font-family: "Roboto", sans-serif;
+        font-size: 18px;
     }
 
     .step {

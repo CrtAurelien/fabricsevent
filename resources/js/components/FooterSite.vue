@@ -76,7 +76,7 @@
         background: url(https://i.ibb.co/McJ0539/bgfabrics.png);
         background-size: contain;
         background-position: bottom;
-        min-height: 240px;
+        height: 240px;
     }
 
     .footer {
