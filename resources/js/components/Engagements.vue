@@ -124,6 +124,7 @@
         height: 70px;
         color: #285a53;
         margin: auto;
+        border: 5px solid #237e72;
     }
 
     .text-engagement {
@@ -158,6 +159,8 @@
     .icon.tooltip-container:hover {
         transition: 0.9s;
         transform: rotateY(0deg);
+        border: 5px solid #419a8a;
+        color: #419a8a;
     }
 
     .icon {
