@@ -5,7 +5,7 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-count-container">
-                    <div class="card-count">1</div>
+                    <div class="card-count"><i data-v-39d380f9="" class="icofont-holding-hands stickengagements"></i></div>
                 </div>
 
                 <div class="card-content">
@@ -20,7 +20,7 @@
 
             <div class="card">
                 <div class="card-count-container">
-                    <div class="card-count">1</div>
+                    <div class="card-count"><i data-v-39d380f9="" class="icofont-holding-hands stickengagements"></i></div>
                 </div>
 
                 <div class="card-content">
@@ -35,7 +35,7 @@
 
             <div class="card">
                 <div class="card-count-container">
-                    <div class="card-count">1</div>
+                    <div class="card-count"><i data-v-39d380f9="" class="icofont-holding-hands stickengagements"></i></div>
                 </div>
 
                 <div class="card-content">
@@ -50,8 +50,9 @@
 
             <div class="card">
                 <div class="card-count-container">
-                    <div class="card-count">2</div>
+                    <div class="card-count"><i data-v-39d380f9="" class="icofont-holding-hands stickengagements"></i></div>
                 </div>
+
                 <div class="card-content">
                     <h2>Title</h2>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
@@ -64,8 +65,9 @@
 
             <div class="card">
                 <div class="card-count-container">
-                    <div class="card-count">3</div>
+                    <div class="card-count"><i data-v-39d380f9="" class="icofont-holding-hands stickengagements"></i></div>
                 </div>
+
                 <div class="card-content">
                     <h2>Title</h2>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?

@@ -3118,6 +3118,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -68990,66 +68992,71 @@ var render = function() {
       [
         _c("div", { staticClass: "col-lg-2 recap" }, [_c("order-summary")], 1),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-8 middlecolumn" }, [
-          _c(
-            "div",
-            { staticClass: "col-lg-12 main-products" },
-            _vm._l(_vm.categories, function(category) {
-              return category.type === 1
-                ? _c(
-                    "div",
-                    {
-                      staticClass: "col-lg-3",
-                      attrs: { id: "homeListProducts" }
-                    },
-                    [
-                      _c("div", { staticClass: "content" }, [
-                        _c("div", { staticClass: "test-container" }, [
-                          _c("div", { staticClass: "deuxB" }, [
-                            _c("div", { staticClass: "deuxBUn" }, [
-                              _c(
-                                "figure",
-                                { staticClass: "imghvr-shutter-out-diag-2" },
-                                [
-                                  _c("img", {
-                                    attrs: {
-                                      src:
-                                        "./images/fabrics-img/sweat-fabrics.png",
-                                      alt: "example-image"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("figcaption", [
-                                    _c(
-                                      "h3",
-                                      { staticClass: "home-categories" },
-                                      [
-                                        _c("span", [
-                                          _vm._v(_vm._s(category.name))
-                                        ])
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("router-link", {
-                                    attrs: { to: { path: "/hkjhk" } }
-                                  })
-                                ],
-                                1
-                              )
+        _c(
+          "div",
+          { staticClass: "col-lg-8 middlecolumn" },
+          [
+            _c(
+              "div",
+              { staticClass: "col-lg-12 main-products" },
+              _vm._l(_vm.categories, function(category) {
+                return category.type === 1
+                  ? _c(
+                      "div",
+                      {
+                        staticClass: "col-lg-3",
+                        attrs: { id: "homeListProducts" }
+                      },
+                      [
+                        _c("div", { staticClass: "content" }, [
+                          _c("div", { staticClass: "test-container" }, [
+                            _c("div", { staticClass: "deuxB" }, [
+                              _c("div", { staticClass: "deuxBUn" }, [
+                                _c(
+                                  "figure",
+                                  { staticClass: "imghvr-shutter-out-diag-2" },
+                                  [
+                                    _c("img", {
+                                      attrs: {
+                                        src:
+                                          "./images/fabrics-img/sweat-fabrics.png",
+                                        alt: "example-image"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("figcaption", [
+                                      _c(
+                                        "h3",
+                                        { staticClass: "home-categories" },
+                                        [
+                                          _c("span", [
+                                            _vm._v(_vm._s(category.name))
+                                          ])
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("router-link", {
+                                      attrs: { to: { path: "/hkjhk" } }
+                                    })
+                                  ],
+                                  1
+                                )
+                              ])
                             ])
                           ])
                         ])
-                      ])
-                    ]
-                  )
-                : _vm._e()
-            }),
-            0
-          )
-        ]),
-        _vm._v(" "),
-        _c("printmethods"),
+                      ]
+                    )
+                  : _vm._e()
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("printmethods")
+          ],
+          1
+        ),
         _vm._v(" "),
         _c("engagements"),
         _vm._v(" "),
@@ -69789,7 +69796,12 @@ var staticRenderFns = [
       _c("div", { staticClass: "card-container" }, [
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
-            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+            _c("div", { staticClass: "card-count" }, [
+              _c("i", {
+                staticClass: "icofont-holding-hands stickengagements",
+                attrs: { "data-v-39d380f9": "" }
+              })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-content" }, [
@@ -69808,7 +69820,12 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
-            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+            _c("div", { staticClass: "card-count" }, [
+              _c("i", {
+                staticClass: "icofont-holding-hands stickengagements",
+                attrs: { "data-v-39d380f9": "" }
+              })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-content" }, [
@@ -69827,7 +69844,12 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
-            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+            _c("div", { staticClass: "card-count" }, [
+              _c("i", {
+                staticClass: "icofont-holding-hands stickengagements",
+                attrs: { "data-v-39d380f9": "" }
+              })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-content" }, [
@@ -69846,7 +69868,12 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
-            _c("div", { staticClass: "card-count" }, [_vm._v("2")])
+            _c("div", { staticClass: "card-count" }, [
+              _c("i", {
+                staticClass: "icofont-holding-hands stickengagements",
+                attrs: { "data-v-39d380f9": "" }
+              })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-content" }, [
@@ -69865,7 +69892,12 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
-            _c("div", { staticClass: "card-count" }, [_vm._v("3")])
+            _c("div", { staticClass: "card-count" }, [
+              _c("i", {
+                staticClass: "icofont-holding-hands stickengagements",
+                attrs: { "data-v-39d380f9": "" }
+              })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-content" }, [

@@ -24,8 +24,8 @@
                         </div>
                     </div>
                 </div>
+                <printmethods></printmethods>
             </div>
-            <printmethods></printmethods>
             <engagements></engagements>
             <div class="col-lg-12 devis">
                 <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
