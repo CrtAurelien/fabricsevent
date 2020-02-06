@@ -1,7 +1,5 @@
 <template>
     <div class="col-lg-12 clients">
-        <h4 class="ourclients">Nos clients</h4>
-        <hr class="separate">
         <section class="customer-logos slider">
             <div class="slide"><img src="https://podcasts.ouest-france.fr/attachments/images/channel/1/medium.png"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
@@ -27,11 +25,6 @@
 <style scoped>
     .separate{
         margin-top:0;
-    }
-
-    .ourclients{
-        text-align: center;
-        font-size: 24px;
     }
 
     /* Slider */
@@ -166,7 +159,10 @@
     }
 
     .clients {
-        padding-top: 25px;
+        padding: 75px 20px 75px 20px;
+        margin-top: 25px;
+        box-shadow: 20px 20px 0px 2px #285a53, -20px -20px 0px 2px #4aa492;
+        background: #237e72;
     }
 
     #exampleSlider .MS-content {

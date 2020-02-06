@@ -1893,10 +1893,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     $(document).ready(function () {
@@ -2261,6 +2257,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Engagements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Engagements */ "./resources/js/components/Engagements.vue");
 /* harmony import */ var _OrderSummary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary */ "./resources/js/components/OrderSummary.vue");
 /* harmony import */ var _Clients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Clients */ "./resources/js/components/Clients.vue");
+//
+//
+//
 //
 //
 //
@@ -2980,6 +2979,36 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var mdbvue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mdbvue */ "./node_modules/mdbvue/lib/index.js");
 /* harmony import */ var mdbvue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mdbvue__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -35858,7 +35887,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n.ourclients[data-v-63a32926]{\n    text-align: center;\n    font-size: 24px;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slide.slick-slide.slick-cloned[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide.slick-active[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide[data-v-63a32926]{\n    max-width: 100px;\n}\n.slick-slider[data-v-63a32926]\n{\n\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slide.slick-slide.slick-cloned[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide.slick-active[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide[data-v-63a32926]{\n    max-width: 100px;\n}\n.slick-slider[data-v-63a32926]\n{\n\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding: 75px 20px 75px 20px;\n    margin-top: 25px;\n    box-shadow: 20px 20px 0px 2px #285a53, -20px -20px 0px 2px #4aa492;\n    background: #237e72;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -35915,7 +35944,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.separate[data-v-9f1a96e8]{\n    margin-top: 40px;\n    margin-bottom: 0px;\n    width: 60px;\n    border: 0;\n    border-top: 1px solid #285a53;\n}\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 35px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
+exports.push([module.i, "\n.ourclients[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 18px;\n}\n.separate[data-v-9f1a96e8]{\n    margin-top: 40px;\n    margin-bottom: 0px;\n    width: 60px;\n    border: 0;\n    border-top: 1px solid #285a53;\n}\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 35px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
 
 // exports
 
@@ -68453,10 +68482,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-12 clients" }, [
-      _c("h4", { staticClass: "ourclients" }, [_vm._v("Nos clients")]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "separate" }),
-      _vm._v(" "),
       _c("section", { staticClass: "customer-logos slider" }, [
         _c("div", { staticClass: "slide" }, [
           _c("img", {
@@ -68965,79 +68990,93 @@ var render = function() {
       [
         _c("div", { staticClass: "col-lg-2 recap" }, [_c("order-summary")], 1),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-8 middlecolumn" },
-          [
-            _c(
-              "div",
-              { staticClass: "col-lg-12 main-products" },
-              _vm._l(_vm.categories, function(category) {
-                return category.type === 1
-                  ? _c(
-                      "div",
-                      {
-                        staticClass: "col-lg-3",
-                        attrs: { id: "homeListProducts" }
-                      },
-                      [
-                        _c("div", { staticClass: "content" }, [
-                          _c("div", { staticClass: "test-container" }, [
-                            _c("div", { staticClass: "deuxB" }, [
-                              _c("div", { staticClass: "deuxBUn" }, [
-                                _c(
-                                  "figure",
-                                  { staticClass: "imghvr-shutter-out-diag-2" },
-                                  [
-                                    _c("img", {
-                                      attrs: {
-                                        src:
-                                          "./images/fabrics-img/sweat-fabrics.png",
-                                        alt: "example-image"
-                                      }
-                                    }),
-                                    _vm._v(" "),
-                                    _c("figcaption", [
-                                      _c(
-                                        "h3",
-                                        { staticClass: "home-categories" },
-                                        [
-                                          _c("span", [
-                                            _vm._v(_vm._s(category.name))
-                                          ])
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("router-link", {
-                                      attrs: { to: { path: "/hkjhk" } }
-                                    })
-                                  ],
-                                  1
-                                )
-                              ])
+        _c("div", { staticClass: "col-lg-8 middlecolumn" }, [
+          _c(
+            "div",
+            { staticClass: "col-lg-12 main-products" },
+            _vm._l(_vm.categories, function(category) {
+              return category.type === 1
+                ? _c(
+                    "div",
+                    {
+                      staticClass: "col-lg-3",
+                      attrs: { id: "homeListProducts" }
+                    },
+                    [
+                      _c("div", { staticClass: "content" }, [
+                        _c("div", { staticClass: "test-container" }, [
+                          _c("div", { staticClass: "deuxB" }, [
+                            _c("div", { staticClass: "deuxBUn" }, [
+                              _c(
+                                "figure",
+                                { staticClass: "imghvr-shutter-out-diag-2" },
+                                [
+                                  _c("img", {
+                                    attrs: {
+                                      src:
+                                        "./images/fabrics-img/sweat-fabrics.png",
+                                      alt: "example-image"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("figcaption", [
+                                    _c(
+                                      "h3",
+                                      { staticClass: "home-categories" },
+                                      [
+                                        _c("span", [
+                                          _vm._v(_vm._s(category.name))
+                                        ])
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("router-link", {
+                                    attrs: { to: { path: "/hkjhk" } }
+                                  })
+                                ],
+                                1
+                              )
                             ])
                           ])
                         ])
-                      ]
-                    )
-                  : _vm._e()
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _c("printmethods"),
-            _vm._v(" "),
-            _c("clients")
-          ],
-          1
-        ),
+                      ])
+                    ]
+                  )
+                : _vm._e()
+            }),
+            0
+          )
+        ]),
         _vm._v(" "),
-        _c("howitworks"),
+        _c("printmethods"),
         _vm._v(" "),
         _c("engagements"),
         _vm._v(" "),
-        _vm._m(0)
+        _c("div", { staticClass: "col-lg-12 devis" }, [
+          _c(
+            "h3",
+            { staticStyle: { "letter-spacing": "5px", "font-size": "42px" } },
+            [_vm._v("Vous avez un projet ?")]
+          ),
+          _vm._v(" "),
+          _c("h4", { staticStyle: { "text-align": "center" } }, [
+            _vm._v("Dites-nous tout, votre devis est gratuit ♥")
+          ]),
+          _vm._v(" "),
+          _c("h4", { staticClass: "ourclients" }, [_vm._v("Faites comme eux")]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-lg-8 col-lg-offset-2" },
+            [_c("clients")],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(0)
+        ]),
+        _vm._v(" "),
+        _c("howitworks")
       ],
       1
     )
@@ -69048,23 +69087,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-12 devis" }, [
-      _c(
-        "h3",
-        { staticStyle: { "letter-spacing": "5px", "font-size": "42px" } },
-        [_vm._v("Vous avez un projet ?")]
-      ),
-      _vm._v(" "),
-      _c("h4", { staticStyle: { "text-align": "center" } }, [
-        _vm._v("Dites-nous tout, votre devis est gratuit ♥")
-      ]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "separate" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
-        _c("button", { staticClass: "btn btn-devis waves" }, [
-          _vm._v("DEMANDER UN DEVIS GRATUIT")
-        ])
+    return _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
+      _c("button", { staticClass: "btn btn-devis waves" }, [
+        _vm._v("DEMANDER UN DEVIS GRATUIT")
       ])
     ])
   }
@@ -69758,10 +69783,48 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-12 devis" }, [
+    return _c("div", { staticClass: "col-lg-12" }, [
       _c("h1", [_vm._v("Responsive Infographic Card")]),
       _vm._v(" "),
       _c("div", { staticClass: "card-container" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-count-container" }, [
+            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-content" }, [
+            _c("h2", [_vm._v("Title")]),
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet.\n            "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-count-container" }, [
+            _c("div", { staticClass: "card-count" }, [_vm._v("1")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-content" }, [
+            _c("h2", [_vm._v("Title")]),
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet.\n            "
+            )
+          ])
+        ]),
+        _vm._v(" "),
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-count-container" }, [
             _c("div", { staticClass: "card-count" }, [_vm._v("1")])

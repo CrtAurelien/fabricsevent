@@ -24,11 +24,20 @@
                         </div>
                     </div>
                 </div>
-                <printmethods></printmethods>
-                <clients></clients>
             </div>
-
-
+            <printmethods></printmethods>
+            <engagements></engagements>
+            <div class="col-lg-12 devis">
+                <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
+                <h4 style="text-align: center">Dites-nous tout, votre devis est gratuit ♥</h4>
+                <h4 class="ourclients">Faites comme eux</h4>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <clients></clients>
+                </div>
+                <div class="col-lg-6 col-lg-offset-3 askdevis">
+                    <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
+                </div>
+            </div>
             <howitworks></howitworks>
             <!--<div class="col-lg-8" id="homeListProducts">
                 <div class="content">
@@ -96,21 +105,15 @@
                     </div>
                 </div>
             </div>-->
-            <engagements></engagements>
-
-            <div class="col-lg-12 devis">
-                <h3 style="letter-spacing: 5px; font-size: 42px;">Vous avez un projet ?</h3>
-                <h4 style="text-align: center">Dites-nous tout, votre devis est gratuit ♥</h4>
-                <hr class="separate">
-                <div class="col-lg-6 col-lg-offset-3 askdevis">
-                    <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
-                </div>
-            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+    .ourclients{
+        text-align: center;
+        font-size: 18px;
+    }
 
     .separate{
         margin-top: 40px;

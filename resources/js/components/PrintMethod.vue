@@ -1,8 +1,38 @@
 <template>
-    <div class="col-lg-12 devis">
+    <div class="col-lg-12">
         <h1>Responsive Infographic Card</h1>
 
         <div class="card-container">
+            <div class="card">
+                <div class="card-count-container">
+                    <div class="card-count">1</div>
+                </div>
+
+                <div class="card-content">
+                    <h2>Title</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
+                </div>
+
+                <div class="card-footer">
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-count-container">
+                    <div class="card-count">1</div>
+                </div>
+
+                <div class="card-content">
+                    <h2>Title</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam voluptatibus placeat omnis magni, at ducimus nesciunt? Tempora inventore tempore iure suscipit molestiae. Cum, ab labore?
+                </div>
+
+                <div class="card-footer">
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+
             <div class="card">
                 <div class="card-count-container">
                     <div class="card-count">1</div>
