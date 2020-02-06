@@ -2492,6 +2492,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -2532,6 +2541,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -35956,7 +35967,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 18px;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: relative;\n    margin-top:25px;\n    float: right;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 18px;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: absolute;\n    margin-top:25px;\n    float: right;\n    height: 0;\n    right: 0;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -69055,17 +69066,43 @@ var render = function() {
           1
         ),
         _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
         _c("howitworks"),
         _vm._v(" "),
         _c("engagements"),
         _vm._v(" "),
-        _vm._m(0)
+        _vm._m(1)
       ],
       1
     )
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-12 devis" }, [
+      _c(
+        "h3",
+        { staticStyle: { "letter-spacing": "5px", "font-size": "42px" } },
+        [_vm._v("Vous avez un projet ?")]
+      ),
+      _vm._v(" "),
+      _c("h4", { staticStyle: { "text-align": "center" } }, [
+        _vm._v("Dites-nous tout, votre devis est gratuit ♥")
+      ]),
+      _vm._v(" "),
+      _c("hr", { staticClass: "separate" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-6 col-lg-offset-3 askdevis" }, [
+        _c("button", { staticClass: "btn btn-devis waves" }, [
+          _vm._v("DEMANDER UN DEVIS GRATUIT")
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

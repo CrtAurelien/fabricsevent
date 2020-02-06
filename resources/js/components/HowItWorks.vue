@@ -141,9 +141,11 @@
     }
 
     .howItWorks {
-        position: relative;
+        position: absolute;
         margin-top:25px;
         float: right;
+        height: 0;
+        right: 0;
     }
 
     img.question {
