@@ -18,7 +18,7 @@
                             Autres
                         </a>
                         <div class="dropdown-menu dropdown-navbar" aria-labelledby="navbarDropdownMenuLink">
-                            <router-link :to="{name: 'products', params: {id: category.id}}" :key="category.id" v-if="category.type ===  2" v-for="category in categories" class="js-right-sidebar" data-close="true">
+                            <router-link :to="{name: 'products', params: {id: category.id}}" :key="category.id" v-if="category.type !==  1" v-for="category in categories" class="js-right-sidebar" data-close="true">
                                 {{category.name}}
                             </router-link>
                         </div>

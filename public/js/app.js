@@ -2204,6 +2204,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35883,7 +35895,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter#bottomFabrics[data-v-5603df2d] {\n    background: url(https://i.ibb.co/McJ0539/bgfabrics.png);\n    background-size: contain;\n    background-position: bottom;\n    height: 240px;\n}\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
+exports.push([module.i, "\n.logo-footer[data-v-5603df2d]{\n    width: 70px;\n    border-radius: 50%;\n    float: left;\n    position: relative;\n    top: 50px;\n    left: 90px;\n    box-shadow: 0px 0px 7px 0px black;\n    border: 1px solid #285852;\n}\nfooter#bottomFabrics[data-v-5603df2d] {\n    background: url(https://i.ibb.co/McJ0539/bgfabrics.png);\n    background-size: contain;\n    background-position: bottom;\n    height: 240px;\n}\n.footer[data-v-5603df2d] {\n    line-height:25px;\n    padding: 15px 0 0 0;\n}\nspan[data-v-5603df2d] {\n    color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -68740,7 +68752,24 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "footer",
+    { staticClass: "footer custom-footer", attrs: { id: "bottomFabrics" } },
+    [
+      _c(
+        "footer",
+        { staticClass: "page-footer font-small stylish-color-dark pt-4" },
+        [
+          _c("img", {
+            staticClass: "logo-footer",
+            attrs: { src: "./images/logo.jpg" }
+          }),
+          _vm._v(" "),
+          _vm._m(0)
+        ]
+      )
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -68748,114 +68777,89 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "footer",
-      { staticClass: "footer custom-footer", attrs: { id: "bottomFabrics" } },
+      "div",
+      { staticClass: "container footer text-center text-md-left" },
       [
-        _c(
-          "footer",
-          { staticClass: "page-footer font-small stylish-color-dark pt-4" },
-          [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-3" }, [
             _c(
-              "div",
-              { staticClass: "container footer text-center text-md-left" },
-              [
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-lg-3" }, [
-                    _c(
-                      "h5",
-                      {
-                        staticClass:
-                          "font-weight-bold text-uppercase mt-3 mb-4",
-                        staticStyle: { "text-align": "left" }
-                      },
-                      [_vm._v("FabricsEvent")]
-                    ),
-                    _vm._v(" "),
-                    _c("p", { staticStyle: { "text-align": "left" } }, [
-                      _vm._v(
-                        "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit\n                        amet,\n                        consectetur\n                        adipisicing elit."
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-lg-3" }, [
-                    _c(
-                      "h5",
-                      {
-                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
-                      },
-                      [_vm._v("L'ENTREPRISE")]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "list-unstyled" }, [
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [
-                          _vm._v("Qui sommes-nous ?")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-lg-3" }, [
-                    _c(
-                      "h5",
-                      {
-                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
-                      },
-                      [_vm._v("Links")]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "list-unstyled" }, [
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-lg-3" }, [
-                    _c(
-                      "h5",
-                      {
-                        staticClass: "font-weight-bold text-uppercase mt-3 mb-4"
-                      },
-                      [_vm._v("Links")]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "list-unstyled" }, [
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])
-                      ])
-                    ])
-                  ])
+              "h5",
+              {
+                staticClass: "font-weight-bold text-uppercase mt-3 mb-4",
+                staticStyle: { "text-align": "left" }
+              },
+              [_vm._v("FabricsEvent")]
+            ),
+            _vm._v(" "),
+            _c("p", { staticStyle: { "text-align": "left" } }, [
+              _vm._v(
+                "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit\n                        amet,\n                        consectetur\n                        adipisicing elit."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3" }, [
+            _c(
+              "h5",
+              { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" },
+              [_vm._v("L'ENTREPRISE")]
+            ),
+            _vm._v(" "),
+            _c("ul", { staticClass: "list-unstyled" }, [
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [
+                  _vm._v("Qui sommes-nous ?")
                 ])
-              ]
-            )
-          ]
-        )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+              ]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3" }, [
+            _c(
+              "h5",
+              { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" },
+              [_vm._v("Links")]
+            ),
+            _vm._v(" "),
+            _c("ul", { staticClass: "list-unstyled" }, [
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+              ]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3" }, [
+            _c(
+              "h5",
+              { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" },
+              [_vm._v("Links")]
+            ),
+            _vm._v(" "),
+            _c("ul", { staticClass: "list-unstyled" }, [
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 1")])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "#!" } }, [_vm._v("Link 2")])
+              ]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#!" } }, [_vm._v("Link 3")])])
+            ])
+          ])
+        ])
       ]
     )
   }
@@ -69302,7 +69306,7 @@ var render = function() {
                     attrs: { "aria-labelledby": "navbarDropdownMenuLink" }
                   },
                   _vm._l(_vm.categories, function(category) {
-                    return category.type === 2
+                    return category.type !== 1
                       ? _c(
                           "router-link",
                           {

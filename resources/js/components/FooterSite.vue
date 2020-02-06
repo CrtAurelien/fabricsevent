@@ -1,6 +1,7 @@
 <template>
     <footer id="bottomFabrics" class="footer custom-footer">
         <footer class="page-footer font-small stylish-color-dark pt-4">
+            <img :src="'./images/logo.jpg'" class="logo-footer">
             <div class="container footer text-center text-md-left">
                 <div class="row">
                     <div class="col-lg-3">
@@ -72,6 +73,17 @@
 
 
 <style scoped>
+    .logo-footer{
+        width: 70px;
+        border-radius: 50%;
+        float: left;
+        position: relative;
+        top: 50px;
+        left: 90px;
+        box-shadow: 0px 0px 7px 0px black;
+        border: 1px solid #285852;
+    }
+
     footer#bottomFabrics {
         background: url(https://i.ibb.co/McJ0539/bgfabrics.png);
         background-size: contain;
