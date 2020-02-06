@@ -3,7 +3,15 @@
         <h4 class="ourclients">Nos clients</h4>
         <hr class="separate">
         <section class="customer-logos slider">
-            <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+            <div class="slide"><img src="https://podcasts.ouest-france.fr/attachments/images/channel/1/medium.png"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+            <div class="slide"><img src="https://podcasts.ouest-france.fr/attachments/images/channel/1/medium.png"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
             <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
@@ -36,8 +44,21 @@
         width: 100%;
     }
 
+    .slide.slick-slide.slick-cloned {
+        max-width: 100px;
+    }
+
+    .slide.slick-slide.slick-active {
+        max-width: 100px;
+    }
+
+    .slide.slick-slide{
+        max-width: 100px;
+    }
+
     .slick-slider
     {
+
         overflow:hidden;
         position: relative;
         display: block;
@@ -165,7 +186,6 @@
     }
 
 
-
     #exampleSlider .MS-content .item p {
         font-size: 30px;
         text-align: center;
@@ -183,9 +203,9 @@
         mounted: function() {
             $(document).ready(function(){
                 $('.customer-logos').slick({
-                    slidesToShow: 6,
-                    slidesToScroll: 2,
-                    speed: 2000,
+                    slidesToShow: 8,
+                    slidesToScroll: 8,
+                    speed: 3000,
                     autoplay: true,
                     autoplaySpeed: 3500,
                     arrows: false,

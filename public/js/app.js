@@ -1877,13 +1877,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     $(document).ready(function () {
       $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 2,
-        speed: 2000,
+        slidesToShow: 8,
+        slidesToScroll: 8,
+        speed: 3000,
         autoplay: true,
         autoplaySpeed: 3500,
         arrows: false,
@@ -35860,7 +35880,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n.ourclients[data-v-63a32926]{\n    text-align: center;\n    font-size: 24px;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slick-slider[data-v-63a32926]\n{\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n.ourclients[data-v-63a32926]{\n    text-align: center;\n    font-size: 24px;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slide.slick-slide.slick-cloned[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide.slick-active[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide[data-v-63a32926]{\n    max-width: 100px;\n}\n.slick-slider[data-v-63a32926]\n{\n\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding-top: 25px;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -68464,7 +68484,79 @@ var staticRenderFns = [
           _c("img", {
             attrs: {
               src:
-                "https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                "https://podcasts.ouest-france.fr/attachments/images/channel/1/medium.png"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slide" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://podcasts.ouest-france.fr/attachments/images/channel/1/medium.png"
             }
           })
         ]),
