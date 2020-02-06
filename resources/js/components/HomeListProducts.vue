@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row main_wrapper">
-            <div class="col-lg-2 recap" style="min-height: 100vh;">
+            <div class="col-lg-2 recap">
                 <order-summary></order-summary>
             </div>
             <div class="col-lg-8 middlecolumn">

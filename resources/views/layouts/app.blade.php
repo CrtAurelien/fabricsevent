@@ -118,5 +118,10 @@
 <script src="{{asset('plugins/node-waves/waves.js')}}"></script>
 <script src="{{asset('js/admin.js')}}"></script>
 <script src="{{asset('plugins/jquery-spinner/js/jquery.spinner.js')}}"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltipengagements"]').tooltip();
+    });
+</script>
 </body>
 </html>

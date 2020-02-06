@@ -2036,6 +2036,61 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -35806,7 +35861,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9]{\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    margin: auto;\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\n.tooltip-container[data-v-39d380f9] {\n    cursor: pointer;\n    position: relative;\n    display: block;\n}\n.tooltip[data-v-39d380f9] {\n    opacity: 0;\n    z-index: 99;\n    color: #f4faf9;\n    width: 200px;\n    display: block;\n    font-size: 13px;\n    padding: 25px 10px;\n    text-align: center;\n    background: rgb(65, 154, 138);\n    transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) ;\n    transform: scale(0);\n    position: absolute;\n    right: -68px;\n    bottom: 100px;\n    box-shadow: 3px -3px #285952d6;\n}\n.tooltip[data-v-39d380f9]:before, .tooltip[data-v-39d380f9]:after {\n    content: '';\n    border-left: 10px solid transparent;\n    border-right: 10px solid transparent;\n    border-top: 10px solid rgb(65, 154, 138);\n    position: absolute;\n    bottom: -10px;\n    left: 43%;\n}\n.tooltip-container:hover .tooltip[data-v-39d380f9], a:hover .tooltip[data-v-39d380f9] {\n    opacity: 1;\n    transform: scale(1);\n}\n.engagements[data-v-39d380f9] {\n    padding: 30px 65px;\n}\n.icon[data-v-39d380f9] {\n    background: #f4faf9;\n    border-radius: 50%;\n    width: 70px;\n    height: 70px;\n    color: #285a53;\n    margin: auto;\n}\n.text-engagement[data-v-39d380f9] {\n    padding: 0 15px;\n    text-align: center;\n    padding-top: 25px;\n}\n.container-engagements[data-v-39d380f9] {\n    display: flex;\n    flex-direction: column;\n}\n.engagements-top[data-v-39d380f9], .engagements-bottom[data-v-39d380f9] {\n    display: flex;\n    flex-direction: row;\n}\n.engagements-top + .engagements-bottom[data-v-39d380f9] {\n    margin-top: 45px;\n}\n.engagement[data-v-39d380f9] {\n    margin: auto;\n    color: white;\n    flex: 1;\n}\n.engagement + .engagement[data-v-39d380f9] {\n}\n.icon.tooltip-container[data-v-39d380f9]:hover {\n    transition: 0.9s;\n    transform: rotateY(0deg);\n}\n.icon[data-v-39d380f9] {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    text-align: center;\n    transform: rotateY(180deg);\n    transition: 0.9s;\n    font-size: 40px;\n    text-transform: uppercase;\n}\n.trending-icon[data-v-39d380f9] {\n    font-size: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -68498,17 +68553,14 @@ var staticRenderFns = [
           _c("div", { staticClass: "container-engagements" }, [
             _c("div", { staticClass: "engagements-top" }, [
               _c("div", { staticClass: "engagement " }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-euro-true",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "right",
-                      title: "",
-                      "data-original-title":
-                        "Nous nous engageons à vous proposer des\n                tarifs abordables et compétitifs."
-                    }
-                  })
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-euro-true" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v(
+                      "Nous nous engageons à vous proposer des\n                tarifs abordables et compétitifs."
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
@@ -68519,17 +68571,14 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-badge",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "bottom",
-                      title: "",
-                      "data-original-title":
-                        "Nous garantissons que notre travail sera parfaitement réalisé"
-                    }
-                  })
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-badge" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v(
+                      "Nous garantissons que notre travail sera parfaitement réalisé"
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
@@ -68540,36 +68589,30 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-delivery-time",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "bottom",
-                      title: "",
-                      "data-original-title":
-                        "Nos délais sont optimum et toujours respectés"
-                    }
-                  })
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-delivery-time" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v("Nos délais sont optimum et toujours respectés")
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v("RÉACTIVITÉ\n                    ")
+                  _vm._v(
+                    "\n                        RÉACTIVITÉ\n                    "
+                  )
                 ])
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-holding-hands",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "bottom",
-                      title: "",
-                      "data-original-title":
-                        "Main dans la main, du commencement jusqu’à la finalisation et au suivi de votre projet"
-                    }
-                  })
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-holding-hands" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v(
+                      "Main dans la main, du commencement jusqu’à la finalisation et au suivi de votre projet"
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
@@ -68578,40 +68621,32 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "engagement green" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-chart-growth",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "bottom",
-                      title: "",
-                      "data-original-title":
-                        "Nous détectons vos besoins et vous conseillons au mieux pour vous faire grandir"
-                    }
-                  })
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-chart-growth" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v(
+                      "Nous détectons vos besoins et vous conseillons au mieux pour vous faire grandir"
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v("DÉVELOPPEMENT\n                    ")
+                  _vm._v("DÉVELOPPEMENT")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "engagement green" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("i", {
-                    staticClass: "icofont-business-man-alt-3",
-                    attrs: {
-                      "data-toggle": "tooltip",
-                      "data-placement": "bottom",
-                      title: "",
-                      "data-original-title":
-                        "Plus de 5 ans d’expérience à votre service"
-                    }
-                  })
+              _c("div", { staticClass: "engagement green " }, [
+                _c("div", { staticClass: "icon tooltip-container" }, [
+                  _c("i", { staticClass: "icofont-business-man-alt-3" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "tooltip" }, [
+                    _vm._v("Plus de 5 ans d’expérience à votre service !")
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-engagement" }, [
-                  _vm._v("PROFESSIONNALISME\n                    ")
+                  _vm._v("PROFESSIONNALISME")
                 ])
               ])
             ])
@@ -68836,15 +68871,7 @@ var render = function() {
       "div",
       { staticClass: "row main_wrapper" },
       [
-        _c(
-          "div",
-          {
-            staticClass: "col-lg-2 recap",
-            staticStyle: { "min-height": "100vh" }
-          },
-          [_c("order-summary")],
-          1
-        ),
+        _c("div", { staticClass: "col-lg-2 recap" }, [_c("order-summary")], 1),
         _vm._v(" "),
         _c(
           "div",
