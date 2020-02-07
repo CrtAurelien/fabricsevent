@@ -159,8 +159,8 @@
     }
 
     .clients {
-        padding: 75px 20px 75px 20px;
-        margin-top: 25px;
+        padding: 125px 20px 55px 20px;
+        margin-top: 55px;
         box-shadow: 20px 20px 0px 2px #285a53, -20px -20px 0px 2px #4aa492;
         background: #237e72;
     }

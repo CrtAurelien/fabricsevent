@@ -2493,6 +2493,110 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -2533,6 +2637,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -35889,7 +35994,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slide.slick-slide.slick-cloned[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide.slick-active[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide[data-v-63a32926]{\n    max-width: 100px;\n}\n.slick-slider[data-v-63a32926]\n{\n\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding: 75px 20px 75px 20px;\n    margin-top: 25px;\n    box-shadow: 20px 20px 0px 2px #285a53, -20px -20px 0px 2px #4aa492;\n    background: #237e72;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n.separate[data-v-63a32926]{\n    margin-top:0;\n}\n\n/* Slider */\n.slick-slide[data-v-63a32926] {\n    margin: 0px 20px;\n}\n.slick-slide img[data-v-63a32926] {\n    width: 100%;\n}\n.slide.slick-slide.slick-cloned[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide.slick-active[data-v-63a32926] {\n    max-width: 100px;\n}\n.slide.slick-slide[data-v-63a32926]{\n    max-width: 100px;\n}\n.slick-slider[data-v-63a32926]\n{\n\n    overflow:hidden;\n    position: relative;\n    display: block;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-touch-callout: none;\n    -khtml-user-select: none;\n    touch-action: pan-y;\n    -webkit-tap-highlight-color: transparent;\n}\n.slick-list[data-v-63a32926]\n{\n    position: relative;\n    display: block;\n    overflow: hidden;\n    margin: 0;\n    padding: 0;\n}\n.slick-list[data-v-63a32926]:focus\n{\n    outline: none;\n}\n.slick-list.dragging[data-v-63a32926]\n{\n    cursor: pointer;\n    cursor: hand;\n}\n.slick-slider .slick-track[data-v-63a32926],\n.slick-slider .slick-list[data-v-63a32926]\n{\n    transform: translate3d(0, 0, 0);\n}\n.slick-track[data-v-63a32926]\n{\n    position: relative;\n    top: 0;\n    left: 0;\n    display: block;\n}\n.slick-track[data-v-63a32926]:before,\n.slick-track[data-v-63a32926]:after\n{\n    display: table;\n    content: '';\n}\n.slick-track[data-v-63a32926]:after\n{\n    clear: both;\n}\n.slick-loading .slick-track[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-slide[data-v-63a32926]\n{\n    display: none;\n    float: left;\n    height: 100%;\n    min-height: 1px;\n}\n[dir='rtl'] .slick-slide[data-v-63a32926]\n{\n    float: right;\n}\n.slick-slide img[data-v-63a32926]\n{\n    display: block;\n}\n.slick-slide.slick-loading img[data-v-63a32926]\n{\n    display: none;\n}\n.slick-slide.dragging img[data-v-63a32926]\n{\n    pointer-events: none;\n}\n.slick-initialized .slick-slide[data-v-63a32926]\n{\n    display: block;\n}\n.slick-loading .slick-slide[data-v-63a32926]\n{\n    visibility: hidden;\n}\n.slick-vertical .slick-slide[data-v-63a32926]\n{\n    display: block;\n    height: auto;\n    border: 1px solid transparent;\n}\n.slick-arrow.slick-hidden[data-v-63a32926] {\n    display: none;\n}\n.clients[data-v-63a32926] {\n    padding: 125px 20px 55px 20px;\n    margin-top: 55px;\n    box-shadow: 20px 20px 0px 2px #285a53, -20px -20px 0px 2px #4aa492;\n    background: #237e72;\n}\n#exampleSlider .MS-content[data-v-63a32926] {\n    overflow: hidden;\n    white-space: nowrap;\n}\n#exampleSlider .MS-content .item[data-v-63a32926] {\n    display: inline-block;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    vertical-align: top;\n    border-right: none;\n    width: auto;\n    min-width: 18%;\n}\n#exampleSlider .MS-content .item p[data-v-63a32926] {\n    font-size: 30px;\n    text-align: center;\n    line-height: 1;\n    vertical-align: middle;\n    margin: 0;\n    padding: 20px 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -35946,7 +36051,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.ourclients[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 18px;\n}\n.separate[data-v-9f1a96e8]{\n    margin-top: 40px;\n    margin-bottom: 0px;\n    width: 60px;\n    border: 0;\n    border-top: 1px solid #285a53;\n}\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 35px;\n}\n.devis[data-v-9f1a96e8]{\n    padding:80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
+exports.push([module.i, "\n.ribbon-wrapper[data-v-9f1a96e8] {\n    position: relative;z-index:998;\n}\n.ribbon-front[data-v-9f1a96e8] {\n    background: #4aa492;\n    height: 50px;\n    width: 30%;\n    position: relative;\n    top:130px;\n    left: -10px;\n    z-index: 2;\n    font: 20px/50px bold Verdana, Geneva, sans-serif;\n    color: #f8f8f8;\n    text-align: center;\n    border: 1px solid #237e72;\n}\n.ribbon-front[data-v-9f1a96e8],\n.ribbon-back-left[data-v-9f1a96e8],\n.ribbon-back-right[data-v-9f1a96e8]\n{\n    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);\n    -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);\n    -webkit-box-shadow: 1px -1px 3px 0px rgb(40, 90, 83);\n    -o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);\n}\n.ribbon-edge-topleft[data-v-9f1a96e8],\n.ribbon-edge-topright[data-v-9f1a96e8],\n.ribbon-edge-bottomleft[data-v-9f1a96e8],\n.ribbon-edge-bottomright[data-v-9f1a96e8] {\n    position: absolute;\n    z-index: 1;\n    border-style:solid;\n    height:0px;\n    width:0px;\n}\n.ribbon-edge-topleft[data-v-9f1a96e8],\n.ribbon-edge-topright[data-v-9f1a96e8] {\n}\n.ribbon-edge-bottomleft[data-v-9f1a96e8],\n.ribbon-edge-bottomright[data-v-9f1a96e8] {\n    top: 50px;\n}\n.ribbon-edge-topleft[data-v-9f1a96e8],\n.ribbon-edge-bottomleft[data-v-9f1a96e8] {\n    left: 5px;\n    border-color: transparent #285a53 transparent transparent;\n}\n.ribbon-edge-topleft[data-v-9f1a96e8] {\n    top: 125px;\n    border-width: 5px 10px 0 0;\n}\n.ribbon-edge-bottomleft[data-v-9f1a96e8] {\n    border-width: 0 10px 0px 0;\n}\n.ribbon-edge-topright[data-v-9f1a96e8],\n.ribbon-edge-bottomright[data-v-9f1a96e8] {\n    right: -10px;\n    top: 180px;\n    border-color: transparent transparent transparent #4aa492;\n}\n.ribbon-edge-topright[data-v-9f1a96e8] {\n    top: 0px;\n    border-width: 0px 0 0 10px;\n}\n.ribbon-edge-bottomright[data-v-9f1a96e8] {\n    border-width: 0 0 5px 10px;\n}\n@-webkit-keyframes flow-data-v-9f1a96e8 {\n0% { left:-20px;opacity: 0;}\n50% {left:100px;opacity: 0.3;}\n100%{ left:180px;opacity: 0;}\n}\n@keyframes flow-data-v-9f1a96e8 {\n0% { left:-20px;opacity: 0;}\n50% {left:100px;opacity: 0.3;}\n100%{ left:180px;opacity: 0;}\n}\n.glow[data-v-9f1a96e8]{ background: rgb(255,255,255); width:40px; height:100%; z-index:999; position:absolute;-webkit-animation: flow-data-v-9f1a96e8 1.5s linear infinite;-moz-animation: flow-data-v-9f1a96e8 1.5s linear infinite;-webkit-transform: skew(20deg);\n    -moz-transform: skew(20deg);\n    -o-transform: skew(20deg); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */\n    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* W3C */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */ border-left:1px solid #fff;}\n.ourclients[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 18px;\n}\n.separate[data-v-9f1a96e8]{\n    margin-top: 40px;\n    margin-bottom: 0px;\n    width: 60px;\n    border: 0;\n    border-top: 1px solid #285a53;\n}\n.askdevis[data-v-9f1a96e8]{\n    text-align:center;\n    margin-top: 65px;\n}\n.devis[data-v-9f1a96e8][data-v-9f1a96e8] {\n    padding: 80px 80px 40px 80px;\n}\n.btn-devis[data-v-9f1a96e8]{\n    width: 280px !important;\n    border-radius: 0;\n    border: 2px solid #333;\n    box-shadow: none !important;\n    color: #333;\n    font-size: 17px !important;\n    font-weight: 600;\n    transition: 0.3s;\n}\nbutton.btn.btn-devis[data-v-9f1a96e8]:hover {\n    color: #f4faf9;\n    border: 2px solid #333333;\n    background: #333333;\n    transition: 0.3s;\n}\n.welcomeon[data-v-9f1a96e8]{\n    text-align: center;\n    font-size: 50px;\n}\ndiv#homeListProducts[data-v-9f1a96e8]:nth-child(n+5){\n    padding-top:30px;\n}\n.middlecolumn[data-v-9f1a96e8]{\n    text-transform: uppercase;\n}\n.main-products[data-v-9f1a96e8]{\n    padding-left: 0;\n    padding-right: 0;\n}\n.home-categories[data-v-9f1a96e8] {\n    height: 100%;\n    align-items: center;\n    display: inline-flex;\n    margin: 0;\n}\n.test-container[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    /*min-height: 332px;*/\n}\n.un[data-v-9f1a96e8], .deux[data-v-9f1a96e8], .trois[data-v-9f1a96e8] {\n    flex: 1\n}\n.un + .deux[data-v-9f1a96e8], .deux + .trois[data-v-9f1a96e8], .deuxA + .deuxB[data-v-9f1a96e8] {\n    margin-left: 15px;\n}\n.deuxAUn + .deuxADeux[data-v-9f1a96e8], .deuxBUn + .deuxBDeux[data-v-9f1a96e8] {\n    margin-top: 15px;\n}\n.deux[data-v-9f1a96e8] {\n    display: flex;\n    flex-direction: row;\n}\n.deuxA[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxAUn[data-v-9f1a96e8], .deuxADeux[data-v-9f1a96e8] {\n    flex: 1;\n}\n.deuxB[data-v-9f1a96e8] {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n}\n.deuxBUn[data-v-9f1a96e8], .deuxBDeux[data-v-9f1a96e8] {\n    flex: 1;\n}\nh3[data-v-9f1a96e8] {\n    text-align: center;\n}\n.content[data-v-9f1a96e8] {\n    background: transparent;\n    box-shadow: 0px 0 20px -6px #a0a0a0;\n}\n", ""]);
 
 // exports
 
@@ -35965,7 +36070,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 18px;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: absolute;\n    margin-top:25px;\n    float: right;\n    height: 0;\n    right: 0;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
+exports.push([module.i, "\n.howitworksbtn[data-v-2c1b2bd2]{\n    padding: 25px 0 8px 0px;\n    border-radius: 0;\n}\n.howitworks-title[data-v-2c1b2bd2] {\n    color: black;\n    text-transform: uppercase;\n    width: 100%;\n    border-radius: 0 !important;\n    font-weight: bold;\n    font-size: 18px;\n}\n.step[data-v-2c1b2bd2] {\n    border-radius: 0;\n    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\n    padding: 15px;\n    margin: 0;\n}\n.last-step[data-v-2c1b2bd2]{\n    background: #4BA593;\n    color:white;\n    font-weight:bold;\n}\n.card[data-v-2c1b2bd2]{\n    border-radius:0;\n}\n.explication[data-v-2c1b2bd2] {\n    margin-left: 45px;\n}\n.last-explication[data-v-2c1b2bd2] {\n    padding: 15px;\n    text-align:center;\n}\n.number[id=\"1\"][data-v-2c1b2bd2]{\n    background-color: #E5A686;\n}\n.number[id=\"2\"][data-v-2c1b2bd2]{\n    background-color: #92A4CF;\n}\n.number[id=\"3\"][data-v-2c1b2bd2]{\n    background-color: #7BD5A2;\n}\n.number[id=\"4\"][data-v-2c1b2bd2]{\n    background-color: #E1EC7E;\n}\n.number[data-v-2c1b2bd2] {\n    margin-right: 15px;\n    float: left;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    padding: 15px;\n    display: inline-block;\n    position: relative;\n}\n.number > span[data-v-2c1b2bd2] {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    color: white;\n    text-align: center;\n    top: 6px;\n    height: auto;\n}\n*[class^=\"step\"][data-v-2c1b2bd2] {\n    background: white;\n}\n.howItWorks h3[data-v-2c1b2bd2] {\n    letter-spacing: 0;\n    text-align: center;\n    margin: 0;\n    background: transparent;\n}\n.howItWorks[data-v-2c1b2bd2] {\n    position: absolute;\n    margin-top:25px;\n    float: right;\n    height: 0;\n    right: 0;\n    right: 0;\n}\nimg.question[data-v-2c1b2bd2] {\n    top: -30px;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n}\n", ""]);
 
 // exports
 
@@ -69076,7 +69181,17 @@ var render = function() {
           _c(
             "div",
             { staticClass: "col-lg-8 col-lg-offset-2" },
-            [_c("clients")],
+            [
+              _c("div", { staticClass: "ribbon-front" }, [
+                _vm._v(
+                  "\n                Ils nous font confiance\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ribbon-edge-topleft" }),
+              _vm._v(" "),
+              _c("clients")
+            ],
             1
           ),
           _vm._v(" "),

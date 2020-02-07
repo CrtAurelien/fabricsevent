@@ -146,6 +146,7 @@
         float: right;
         height: 0;
         right: 0;
+        right: 0;
     }
 
     img.question {
