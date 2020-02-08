@@ -1,3 +1,6 @@
+@import 'printMethods';
+@import 'homeListProduct';
+
 html {
   height: 100%;
 }
@@ -8,8 +11,7 @@ body {
   padding: 0 !important;
 }
 
-/* PRODUITS */
-@import 'printMethods';
+
 .un {
   display: flex;
   justify-content: center;
