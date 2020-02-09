@@ -4,15 +4,15 @@
             <div class="col-lg-2 recap">
                 <order-summary></order-summary>
             </div>
+
             <div class="col-lg-8 middlecolumn">
+                <h3 class="productslist">Nos produits phares</h3>
                 <div class="col-lg-12 main-products">
-
-
                     <div class="col-lg-4">
                         <figure class="imghvr-shutter-out-diag-2 shadowBox">
                             <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                             <figcaption>
-                                <h3 class="home-categories"><span>{{firstCateg.name}}</span></h3>
+                                <h3 class="home-categories">{{firstCateg.name}}</h3>
                             </figcaption>
                             <router-link :to="{path: '/hkjhk'}"></router-link>
                         </figure>
@@ -24,7 +24,7 @@
                                 <figure class="imghvr-shutter-out-diag-2 shadowBox"><img
                                         :src="'./images/fabrics-img/autre-fabrics.png'" alt="example-image">
                                     <figcaption>
-                                        <h3 class="home-categories"><span>{{category.name}}</span></h3>
+                                        <h3 class="home-categories">{{category.name}}</h3>
                                     </figcaption>
                                     <router-link :to="{path: '/hkjhk'}"></router-link>
                                 </figure>
@@ -35,7 +35,7 @@
                                 <figure class="imghvr-shutter-out-diag-2 shadowBox"><img
                                         :src="'./images/fabrics-img/autre-fabrics.png'" alt="example-image">
                                     <figcaption>
-                                        <h3 class="home-categories"><span>{{category.name}}</span></h3>
+                                        <h3 class="home-categories">{{category.name}}</h3>
                                     </figcaption>
                                     <router-link :to="{path: '/hkjhk'}"></router-link>
                                 </figure>
@@ -48,7 +48,7 @@
                         <figure class="imghvr-shutter-out-diag-2 shadowBox">
                             <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                             <figcaption>
-                                <h3 class="home-categories"><span>{{lastCateg.name}}</span></h3>
+                                <h3 class="home-categories">{{lastCateg.name}}</h3>
                             </figcaption>
                             <router-link :to="{path: '/hkjhk'}"></router-link>
                         </figure>
@@ -70,7 +70,7 @@
                     <div class="ribbon-edge-topleft"></div>
                     <clients></clients>
                 </div>
-                <div class="col-lg-6 col-lg-offset-3 askdevis">
+                <div class="col-lg-12 askdevis">
                     <button class="btn btn-devis waves">DEMANDER UN DEVIS GRATUIT</button>
                 </div>
             </div>
@@ -81,7 +81,25 @@
 
 <style scoped>
 
+    h3.productslist:before {
+        content: '';
+        height: 15px;
+        margin-right: 15px;
+        width: 15px;
+        background: #4ba593;
+        display: block;
+        z-index: -1;
+        float:left;
+        box-shadow: 8px 8px #285952;
+    }
 
+    .productslist {
+        letter-spacing: 0;
+        padding-bottom: 10px;
+        text-align: left;
+        color: #285a53;
+        padding-left: 15px;
+    }
 
     .ribbon-wrapper {
         position: relative;z-index:998;
@@ -197,11 +215,12 @@
 
     .askdevis{
         text-align:center;
-        margin-top: 65px;
+        margin: 95px 0 35px 0;
     }
 
     .devis[data-v-9f1a96e8] {
         padding: 80px 80px 40px 80px;
+        background: linear-gradient(#ffffff, #b4dce8a6);
     }
 
     .btn-devis{

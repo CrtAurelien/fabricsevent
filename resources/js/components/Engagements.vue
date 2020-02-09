@@ -68,6 +68,7 @@
 
     .stickengagements{
         transform: rotatey(180deg);
+        font-size: 45px;
     }
 
     .tooltip-container {

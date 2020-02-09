@@ -1,8 +1,9 @@
 <template>
     <div class="howItWorks col-lg-2">
-        <img :src="'./images/question.png'" alt="" class="question">
         <b-button class="howitworksbtn" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
-            <span class="howitworks-title">Comment ça marche ?</span>
+            <img :src="'./images/question.png'" @click="nopulse" alt="" class="question" :class="{pulsed: !isClicked}">
+            <span class="howitworkstitle">Comment ça marche ?</span>
+
         </b-button>
 
         <!-- Elements to collapse -->
@@ -51,25 +52,62 @@
 
 <style scoped>
 
+    .howitworksbtn.collapsed{
+        box-shadow:none !important;
+        border: 2px solid #4ba593;
+        background: white;
+    }
+
+    .howitworksbtn{
+        background: white !important;
+        box-shadow:none !important;
+        border-left: 2px solid #4ba593;
+        border-right: 2px solid #4ba593;
+        border-top: 2px solid #4ba593;
+        border-bottom: 0;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+    .pulsed{
+        transform: scale(1);
+        border-radius: 50%;
+        animation: pulse 3s infinite;
+    }
+
     .howitworksbtn{
         padding: 25px 0 8px 0px;
         border-radius: 0;
     }
 
-    .howitworks-title {
-        color: black;
+    span.howitworkstitle {
+        font-size: 19px;
         text-transform: uppercase;
-        width: 100%;
-        border-radius: 0 !important;
-        font-weight: bold;
-        font-size: 18px;
+        font-weight: 600;
+        color:#285a53;
     }
 
     .step {
         border-radius: 0;
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
         padding: 15px;
         margin: 0;
+        border-left: 2px solid #4ba593;
+        border-right: 2px solid #4ba593;
     }
 
     .last-step{
@@ -80,6 +118,7 @@
 
     .card{
         border-radius:0;
+        box-shadow:none;
     }
 
     .explication {
@@ -164,6 +203,15 @@
         data: function () {
             return{
                 showCollapse: true,
+                isClicked: false
+            };
+        },
+        methods: {
+            nopulse: function(){
+                console.log(this.isClicked);
+                if (this.isClicked !== true) {
+                    this.isClicked = !this.isClicked
+                }
             }
         },
         created() {

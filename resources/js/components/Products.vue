@@ -142,6 +142,7 @@
     import HowItWorks from "./HowItWorks";
     import store from './ProductsStore';
     import Vuex from 'vuex';
+    import axios from 'axios'
 
     global.v = Vuex;
 

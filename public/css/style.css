@@ -2530,7 +2530,7 @@ section.content {
   /* border: none; */
   font-size: 13px;
   width: 100%;
-  background: #f4faf9;
+  background: transparent;
   outline: none;
 }
 .btn:not(.btn-link):not(.btn-circle):hover {
