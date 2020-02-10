@@ -1,0 +1,26 @@
+.logo-footer{
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 90px;
+  box-shadow: 0px 0px 7px 0px black;
+  border: 1px solid #285852;
+}
+
+footer#bottomFabrics {
+  background: url(https://i.ibb.co/McJ0539/bgfabrics.png);
+  background-size: contain;
+  background-position: bottom;
+  height: 240px;
+}
+
+.footer {
+  line-height:25px;
+  padding: 15px 0 0 0;
+}
+
+span {
+  color: white;
+}
