@@ -12,9 +12,9 @@
                         <figure class="imghvr-shutter-out-diag-2 shadowBox">
                             <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                             <figcaption>
-                                <h3 class="home-categories">{{firstCateg.name}}</h3>
+                                <h3 class="home-categories">Sweat</h3>
                             </figcaption>
-                            <router-link :to="{path: '/hkjhk'}"></router-link>
+                            <router-link :to="{path: '/sweats'}"></router-link>
                         </figure>
                     </div>
 
@@ -26,7 +26,7 @@
                                     <figcaption>
                                         <h3 class="home-categories">{{category.name}}</h3>
                                     </figcaption>
-                                    <router-link :to="{path: '/hkjhk'}"></router-link>
+                                    <router-link :to="{path: '/' + category.name}"></router-link>
                                 </figure>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                                     <figcaption>
                                         <h3 class="home-categories">{{category.name}}</h3>
                                     </figcaption>
-                                    <router-link :to="{path: '/hkjhk'}"></router-link>
+                                    <router-link :to="{path: '/' + category.name}"></router-link>
                                 </figure>
                             </div>
                         </div>
@@ -48,9 +48,9 @@
                         <figure class="imghvr-shutter-out-diag-2 shadowBox">
                             <img :src="'./images/fabrics-img/tee-shirt-fabrics.jpg'" alt="example-image">
                             <figcaption>
-                                <h3 class="home-categories">{{lastCateg.name}}</h3>
+                                <h3 class="home-categories">Autres</h3>
                             </figcaption>
-                            <router-link :to="{path: '/hkjhk'}"></router-link>
+                            <router-link :to="{path: '/autres'}"></router-link>
                         </figure>
                     </div>
 
@@ -81,6 +81,8 @@
 
 <style scoped>
 
+
+
 </style>
 
 <script>
@@ -94,45 +96,36 @@
         data() {
             return {
                 categories: {},
-                lCategoriesOne : [],
-                lCategoriesTwo : [],
-                firstCateg: {},
-                lastCateg: {}
+                lCategoriesOne : [
+                    {
+                        type: 1,
+                        name: 'Casquettes',
+                        color: '#EDA2C1'
+                    },
+                    {
+                    type: 1,
+                    name: 'Bonnets',
+                    color: '#F6A54C'
+                }],
+                lCategoriesTwo : [
+                    {
+                        type: 1,
+                        name: 'Tote bag',
+                        color: '#EDA2C1'
+                    },
+                    {
+                        type: 1,
+                        name: 'Polos',
+                        color: '#F6A54C'
+                    }
+                ],
             }
         },
         methods:  {
-            getCategoriesPhares : function (categ) {
-                for(let i = 0; i<categ.length; i++) {
-                    if(categ[i].type !== 1) {
-                        categ.splice(i, 1);
-                    }
-                }
-                this.spliceCateg(this.categories)
-            },
-            spliceCateg: function(categ) {
-                this.firstCateg = categ[0];
-                categ.splice(0, 1);
-                let length = categ.length - 1;
-                this.lastCateg = categ[length];
-                categ.splice(length, 1);
 
-                for(let i =0; i < categ.length; i++) {
-                    if(i === 0 || i === 1) {
-                        this.lCategoriesOne.push(categ[i]);
-                    } else {
-                        this.lCategoriesTwo.push(categ[i]);
-                    }
-                }
-
-            }
         },
         beforeCreate(){
-            axios.get('http://localhost/fabricsevent/public/api/categories/')
-                .then((response) => this.categories = response.data)
-                .catch((error) => console.log(error))
-                .finally(() =>
-                    this.getCategoriesPhares(this.categories)
-                )
+
 
         },
         components: {
@@ -145,3 +138,4 @@
 
     }
 </script>
+

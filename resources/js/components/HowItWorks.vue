@@ -1,9 +1,12 @@
 <template>
     <div class="howItWorks col-lg-2">
-        <b-button class="howitworksbtn" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
+        <b-button class="howitworksbtn how-desktop" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
             <img :src="'./images/question.png'" @click="nopulse" alt="" class="question" :class="{pulsed: !isClicked}">
             <span class="howitworkstitle">Comment ça marche ?</span>
+        </b-button>
 
+        <b-button class="how-mobile" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapse-a.collapse-b>
+            <img :src="'./images/question.png'" @click="nopulse" alt="" class="question" :class="{pulsed: !isClicked}">
         </b-button>
 
         <!-- Elements to collapse -->

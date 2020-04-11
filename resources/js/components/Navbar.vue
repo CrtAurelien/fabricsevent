@@ -38,6 +38,40 @@
 
 
 <style scoped>
+    .dropdown-navbar{
+        padding: 10px;
+        font-size: 17px;
+        transition: none !important;
+        transform: skew(20deg) !important;
+        height: auto;
+        border: 3px solid #285a53;
+        margin-left: 20px;
+        background: #4ba593;
+        margin-top: 0 !important;
+        min-width: 135px !important;
+    }
+
+    .dropdown-navbar > a{
+        width: 100%;
+        display:block;
+    }
+
+    .devis{
+        cursor: initial;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .container-fluid {
+        flex-wrap: initial;
+    }
+
+    .navbar {
+        padding:0;
+    }
+
 
 </style>
 
@@ -48,7 +82,7 @@
                 categories: {}
             }
         },
-        created(){
+        beforeCreate(){
             axios.get('http://localhost/fabricsevent/public/api/categories/')
                 .then((response) => this.categories = response.data)
                 .catch((error) => console.log(error));
